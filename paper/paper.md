@@ -11,6 +11,9 @@ authors:
   - name: Kazumichi Fujiwara
     affiliation: 1
     role: Conceptualization, Investigation, Software, Writing – original draft
+  - name: Yosuke Kawai
+    affiliation: 1
+    role: Writing – review & editing
 affiliations:
   - name: National Institute of Genetics
     index: 1
@@ -25,8 +28,9 @@ group: BH26
 git_url: https://github.com/KingsField1226/BH26
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: Kazumichi Fujiwara
+authors_short: Kazumichi Fujiwara \emph{et al.}
 ---
+
 
 # Introduction
 
