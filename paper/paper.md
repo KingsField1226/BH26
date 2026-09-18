@@ -1,6 +1,6 @@
 ---
-title: 'Local graph complexity as a predictor of Giraffe indexing failure and mapping accuracy in a human pangenome graph'
-title_short: 'BioHack26: complexity and mapping accuracy in pangenome graphs'
+title: 'Distinct predictors of indexing failure and mapping accuracy in a human pangenome graph'
+title_short: 'BioHack26: predictors of failure and accuracy in pangenome graphs'
 tags:
   - pangenome graphs
   - PGGB
@@ -34,49 +34,48 @@ authors_short: Kazumichi Fujiwara \emph{et al.}
 
 # Introduction
 
-Pangenome graphs replace a single linear reference with a structure built from
-many haplotypes at once, so that mapping and variant calling no longer force
-every sample toward one arbitrary genome. The Human Pangenome Reference
-Consortium (HPRC) draft pangenome combines 47 phased, diploid assemblies with
-GRCh38 and CHM13 into graphs of this kind [@Liao2023HPRC], and the PanGenome
-Graph Builder (PGGB) constructs them without designating any single input as
-the reference, aligning all haplotypes to one another and building a graph
-from the resulting alignment [@Garrison2024PGGB]. `vg giraffe` is the
-short-read mapper built for these graphs, using haplotype-constrained seed
-extension to map reads quickly against a large collection of paths threaded
-through a single sequence graph [@Siren2021Giraffe].
+A pangenome graph represents many haplotypes at once, rather than forcing
+every sample onto one linear reference. The PanGenome Graph Builder (PGGB)
+builds such graphs without designating any input as privileged, aligning
+all haplotypes to one another and constructing the graph directly from that
+all-to-all alignment [@Garrison2024PGGB], and it is one of the methods used
+by the Human Pangenome Reference Consortium (HPRC) to assemble a
+population-scale pangenome from long-read haplotype assemblies
+[@Liao2023HPRC; @Lucas2026HPRC2]. `vg giraffe` was introduced as a
+short-read mapper for graphs of this kind, seeding against a curated set of
+haplotype paths rather than the whole graph, which is what makes mapping to
+a graph with hundreds of haplotypes tractable at all [@Siren2021Giraffe];
+long-read mapping was added subsequently [@Chang2025Giraffe].
 
-Whether this combination scales to a full chromosome or genome is not
-settled. In their most recent description of Giraffe, Chang and colleagues
-state plainly that they have not been able to build genome-scale Giraffe
-indexes for PGGB graphs, and that PGGB's reference-free construction gives an
-unbiased view of homology at the cost of a topology that has so far resisted
-indexing [@Chang2025Giraffe]. That statement is not accompanied by a
-quantitative, per-region measure of what "complex" means or by data on how
-often, and where, that complexity actually breaks the pipeline.
+Whether that combination scales past a single locus is still an open
+question. Chang and colleagues, describing the current state of Giraffe,
+report that they "have not been able to construct indexes for Giraffe" for
+PGGB graphs at genome scale, and attribute this directly to PGGB's
+reference-free topology [@Chang2025Giraffe]. That is a statement about
+outcome, not mechanism: it does not say what fraction of a genome would be
+affected, whether difficulty is concentrated in particular kinds of
+sequence, or whether topological difficulty and mapping inaccuracy are the
+same failure mode or two different ones.
 
-Other groups have approached the difficulty of pangenome regions from
-different angles. Li defines a set of sample-agnostic "easy" regions for
-short-read variant calling from hundreds of haplotype assemblies, using
-k-mer uniqueness rather than any property of a constructed graph
-[@Li2025EasyRegions]. Andreace and colleagues compare pangenome graphs built
-by different construction methods at the level of whole-graph and per-locus
-statistics [@Andreace2023Comparing], and Dubois and colleagues define a
-pairwise edit distance between graphs built by different methods from the
-same genomes, which highlights local "hotspots" of disagreement, many of
-them coinciding with tandem repeats and other low-complexity sequence
-[@Dubois2025EditDistance]. All of this work compares graphs to each other or
-scores regions from the input sequence directly; none of it asks whether a
-graph's own local topology, measured on the graph a mapper will actually
-index, predicts whether indexing and mapping succeed and how accurate the
-result is.
+Existing work on pangenome region difficulty answers adjacent questions.
+Li defines sample-agnostic "easy" regions for short-read variant calling by
+k-mer uniqueness across hundreds of assemblies, entirely independent of any
+graph [@Li2025EasyRegions]. Andreace and colleagues, and Dubois and
+colleagues, compare graphs built from the same genomes by different
+construction methods, and both find that the resulting structural
+disagreement concentrates in tandem repeats and other low-complexity
+sequence [@Andreace2023Comparing; @Dubois2025EditDistance]. None of these
+studies asks whether a single graph's own local topology predicts what
+happens when that graph is indexed and mapped against.
 
-We address that question directly, at a scale small enough to test
-exhaustively: 100 kb windows on a single human chromosome. We ask whether a
-simple, explicit complexity score computed from local graph topology
-predicts (i) whether `vg autoindex` and `vg giraffe`/`vg surject` complete
-at all for a window, and (ii) how accurate the resulting short-read mapping
-is once they do.
+We tested this directly on chromosome 21 of the HPRC release 2 PGGB graph,
+at a scale small enough to screen exhaustively: every 100 kb window on the
+chromosome. For each window we computed an explicit topology-based
+complexity score, and separately annotated known problem sequence classes
+(segmental duplications, large tandem repeats) from public UCSC tracks. We
+then asked which of the two, if either, predicts whether `vg autoindex` and
+`vg giraffe`/`vg surject` complete for a region, and which predicts the
+accuracy of the resulting short-read alignments once they do.
 
 # Methods
 
@@ -85,7 +84,9 @@ is once they do.
 We used the HPRC release 2 PGGB pangenome graph for chromosome 21
 (parameters `p98-k311`), which contains GRCh38 and CHM13 as reference paths
 alongside 464 HPRC year-2 haplotypes (466 haplotype/reference paths in
-total) [@Liao2023HPRC; @Garrison2024PGGB]. Chromosome 21 was chosen as the
+total) [@Lucas2026HPRC2; @Garrison2024PGGB]. HPRC release 2 is roughly a
+fivefold expansion, in genome number, over the original draft pangenome
+[@Liao2023HPRC; @Lucas2026HPRC2]. Chromosome 21 was chosen as the
 smallest human autosome, to keep chromosome-scale extraction and screening
 tractable on a single workstation. An independent GRCh38 chromosome 21
 FASTA (UCSC `hg38`) was used for N-content screening and as a
@@ -122,10 +123,9 @@ kilobase of reference sequence), the edge-to-node ratio, sequence inflation
 (total graph sequence relative to the reference interval), and maximum node
 degree. Each statistic was log10-transformed and z-scored across the
 326-window population, and the four z-scores were averaged into a single,
-unitless local complexity score. This score is intentionally a description
-of graph shape rather than of any biological property of the underlying
-sequence; how well it tracks biologically meaningful difficulty is exactly
-the question this report addresses.
+unitless local complexity score. The score is a purely topological
+summary: it carries no information about sequence identity or content,
+which is what distinguishes it from the hazard annotation described next.
 
 ## Known-hazard annotation
 
@@ -139,8 +139,9 @@ chromosome and intersected locally rather than queried per window
 a segmental duplication at 90% identity or higher, or a tandem-repeat array
 spanning 1.4 kb or more; these thresholds were chosen because they
 correctly flagged every problem window identified during preliminary,
-hand-picked testing of this pipeline (a genuine inter-chromosomal segmental
-duplication and three large tandem-repeat/NUMT-containing windows). Under
+hand-picked testing of this pipeline: two segmental duplications (one
+inter-chromosomal, one intra-chromosomal) and two large tandem-repeat or
+NUMT-containing windows. Under
 this definition, 77 of the 326 windows (23.6%) carry a hazard flag. Crossing
 the hazard flag with a complexity tier (above or below the population
 median complexity score) gives a 2x2 design with four strata.
@@ -173,131 +174,149 @@ single machine (Apple Silicon, 16 cores, 128 GB memory); a region that had
 not produced a result within that budget was recorded as a pipeline
 failure. Two genes flagged as biologically notable in this analysis
 (the ribosomal RNA gene `RNA5-8SN3` and the `MIR6724` microRNA cluster
-overlapping the single most complex window screened, which sits outside
-the final 326-window pool) were identified by looking up their coordinates
+overlapping the single most complex of the 345 scored windows, which was
+later excluded from the final 326-window pool by the haplotype-
+representativeness filter) were identified by looking up their coordinates
 against Ensembl gene annotation [@Dyer2025Ensembl]. All downstream
 tabulation and the figures in this report were produced with pandas
 [@McKinney2010Pandas] and matplotlib [@Hunter2007Matplotlib].
 
 # Results
 
-Of the 50 sampled regions, 46 completed the full pipeline and 4 did not
-finish within the 30-minute budget. All four incomplete regions fell in the
-above-median complexity tier: 0 of 25 low-complexity regions failed to
-complete, against 4 of 25 high-complexity regions (16%). Splitting instead
-by hazard status gives a much weaker separation on this same outcome — 1 of
-25 hazard-free regions failed, against 3 of 25 hazard-flagged regions (4%
-versus 12%) — so complexity tier, not hazard status, is what tracks
-whether the pipeline finishes at all.
+Forty-six of the 50 sampled regions completed indexing, mapping and
+surjection within the 30-minute budget; four did not. All four failures
+fell in the above-median complexity tier, giving a failure rate of 16%
+(4/25, 95% exact binomial CI 5-36%) in the high-complexity tier against 0%
+(0/25, CI 0-14%) in the low tier. Hazard status separates this same outcome
+far less sharply: 12% (3/25, CI 3-31%) of hazard-flagged regions failed
+against 4% (1/25, CI 0-20%) of regions with no known hazard, intervals that
+overlap almost entirely. Complexity tier, not hazard status, is what
+distinguishes regions that finish from regions that do not.
 
-Mapping accuracy among the 46 regions that did complete shows the opposite
-pattern. Split by complexity tier, minimum accuracy was 98.7% in the low
-tier and 99.3% in the high tier — complexity tier does not identify the
-worst-mapping region. Split by hazard status, the separation is clean: mean
-accuracy was 99.92% without a hazard flag and 99.84% with one, and minimum
-accuracy was 99.53% without a flag against 98.69% with one. The single
-worst-accuracy region in the entire sample, at 98.69%, is also the single
-lowest-complexity region in the whole 326-window population
-(complexity score -2.17). It carries a hazard flag: `genomicSuperDups`
-lists 41 segmental-duplication entries overlapping this window at 90-97%
-identity, matching paralogous sequence on six other chromosomes. A
-complexity score built entirely from one local subgraph has no way to see
-that this locus is, in effect, duplicated elsewhere in the genome, and so
-it scores this window as the simplest in the whole population.
+Mapping accuracy among the 46 completed regions inverts this pattern.
+Complexity tier separates it poorly: minimum accuracy was 98.7% in the low
+tier and 99.3% in the high tier, so the worst-mapping region is not the
+most complex one. Hazard status separates it cleanly: mean accuracy was
+99.92% with no hazard flag against 99.84% with one, and minimum accuracy
+99.53% against 98.69%. The single worst-performing region in the entire
+sample — 98.69% accuracy — is in fact the single *lowest*-complexity region
+in the whole 326-window population (complexity score -2.17), and it carries
+a hazard flag: `genomicSuperDups` lists 41 segmental-duplication entries
+overlapping this window at 90-97% identity, matching paralogous sequence on
+six other chromosomes. A complexity score computed from one local subgraph
+has no way to detect that the same sequence is duplicated elsewhere in the
+genome, and ranks this window as the simplest one tested.
 
-Figure \ref{fig1} shows why a stratified rather than a uniform sample was
-necessary in the first place: complexity score is heavily right-skewed
-across the 326-window population, with 77.6% of windows sitting within
-half a standard deviation of the median. A sample drawn uniformly, or even
-one rank-sampled across the score's full range without regard to hazard
-status, would rarely land on the rare, extreme, or hazard-flagged windows
-that turn out to carry the interesting outcomes.
+The complexity score distribution across the 326-window population is
+strongly right-skewed (Fig. \ref{fig1}): 77.6% of windows fall within half
+a standard deviation of the median, with a long tail of rare extremes. A
+sample drawn uniformly across this distribution, or even rank-sampled
+across its full range without regard to hazard status, would rarely include
+the rare, extreme, or hazard-flagged windows that carry the outcomes
+reported above — which is why we sampled within complexity-tier-by-hazard
+strata rather than across the pool as a whole.
 
 ![Distribution of local complexity score across the 326 valid 100 kb windows on chromosome 21, with the 50 sampled regions marked by dashed lines \label{fig1}](./figure1_complexity_score_distribution.png)
 
-Figure \ref{fig2} summarizes the full result. Panel a plots complexity
-score against mapping accuracy for all 50 regions, colored by hazard
-status, with the four incomplete regions marked at the bottom of the axis
-rather than omitted; panel b shows the failure-rate split by complexity
-tier; panel c shows mean and minimum accuracy split by hazard status. Read
-together, the three panels make the same point three different ways:
-complexity score and hazard status are each doing real, and different,
-work.
+Figure \ref{fig2} lays out the full result. Panel a plots complexity score
+against accuracy for all 50 regions, colored by hazard status, with the
+four incomplete regions plotted at the foot of the axis rather than
+omitted; the lowest-accuracy points are disproportionately hazard-flagged
+(red), while the four failures (black triangles) cluster toward high
+complexity regardless of hazard status. Panel b isolates the failure-rate
+contrast by complexity tier; panel c isolates the accuracy contrast by
+hazard status. No single panel makes the case on its own — together they
+show that the two axes of difficulty are orthogonal.
 
 ![Complexity score, pipeline completion, and mapping accuracy across the 50 sampled regions. (a) complexity score versus accuracy, colored by known-hazard status, with pipeline failures marked at the bottom of the axis; (b) pipeline failure rate by complexity tier; (c) mean and minimum accuracy among completed regions, by hazard status \label{fig2}](./figure2_hazard_vs_complexity_2x2.png)
 
-Two qualifications matter for how these numbers should be read. First, "did
-not complete" here means no result within a fixed 30-minute, single-machine
-budget, not a proof that a region is impossible to index or map. Two
-regions encountered during preliminary testing of this pipeline, evaluated
-under a shorter 10-minute budget at the time, looked like failures and then
-completed successfully once given 30 minutes; one of them is in fact part
-of this sample, the single highest-complexity region tested
-(complexity score 2.89), and it completed here in about 26 minutes at
-99.78% accuracy. The 16% failure rate among high-complexity regions is
-therefore better read as an upper bound under this specific compute budget
-than as a fixed property of the graph. Second, that 16% rests on four
-failure events out of 25 regions, and the hazard-versus-failure comparison
-on even fewer; the direction of both effects is clear, but the exact
-percentages carry real sampling uncertainty and should not be treated as
-precise population parameters.
+Two considerations qualify how far these numbers should be pushed. First,
+"failed to complete" means no result within a fixed 30-minute,
+single-machine budget, not proof that a region cannot be indexed at all.
+Two regions encountered during preliminary testing of this pipeline were
+initially killed as failures under a shorter 10-minute budget and later
+completed successfully once given 30 minutes; one of them is part of this
+sample — the single highest-complexity region tested (score 2.89) — and it
+completed here at 99.78% accuracy after roughly 26 minutes of total
+wall-clock time, almost all of it spent in mapping and surjection rather
+than indexing (index construction itself took 36 seconds, the value
+reported in the per-region results table). The 16% failure
+rate we report for the high-complexity tier is therefore an upper bound
+under this specific compute budget, not a fixed property of the graph.
+Second, that figure and its counterparts rest on four, three, and one
+events out of 25 regions, respectively; the 95% confidence intervals above
+are correspondingly wide, and the *direction* of each effect should be
+trusted well before its exact magnitude.
 
 # Discussion
 
-Two properties of a 100 kb pangenome window, measured independently of one
-another, predict two different things. A complexity score built purely
-from local graph topology — node density, branching, and how much the
-graph's sequence content is inflated relative to the reference — predicts
-whether the indexing and mapping pipeline completes at all within a fixed
-compute budget. It does not predict how accurate the mapping is once the
-pipeline does complete. A separate annotation for known problematic
-sequence classes, segmental duplications and large tandem repeats, drawn
-from two long-established UCSC tracks, predicts accuracy degradation among
-completed regions cleanly, and does not predict whether the pipeline
-completes. Neither measure substitutes for the other, and a screen that
-used only one of them would miss real, quantifiable risk of the kind the
-other one catches.
+Local graph topology and known sequence hazard are not two measures of the
+same thing; they govern different stages of the pipeline. Complexity score
+tracks whether indexing and mapping complete at all, and is blind to
+accuracy among the regions that do complete. Hazard status tracks accuracy
+among completed regions, and is blind to which regions fail outright. A
+screen built on either measure alone would miss exactly the risk the other
+one catches — a complexity-only screen would have called our worst-mapping
+region the safest one in the sample.
 
-This result sits alongside Chang and colleagues' report that Giraffe
-indexing has not yet been made to work at genome scale for PGGB graphs
-[@Chang2025Giraffe]. Our result does not resolve that problem; it probes a
-smaller version of it directly. At the 100 kb scale we tested, indexing and
-mapping are tractable most of the time, and the cases where they are not
-are not confined to the single most extreme window on the chromosome.
-Instead, a meaningful minority of
-above-median-complexity windows fail outright under an ordinary compute
-budget, in a way a genome-wide extension of this pipeline would need to
-budget for as an outcome in its own right rather than an occasional,
-ignorable exception.
+Chang and colleagues report that Giraffe indexing has not been made to work
+at genome scale for PGGB graphs [@Chang2025Giraffe]; we do not resolve that
+problem, but our results sharpen what it looks like below genome scale.
+Tractability failure at 100 kb is not confined to the single most extreme
+window on the chromosome: it is a property of the upper half of the
+complexity distribution generally, affecting a double-digit percentage of
+windows tested under an ordinary compute budget. A genome-wide extension of
+Giraffe indexing will need to treat outright failure as an expected outcome
+to be measured and reported, not an edge case to be debugged away.
 
-The most direct, practical recommendation this analysis supports is that a
-genome-wide screen built on this approach should not rely on a
-topology-only complexity score as its only filter. Checking candidate
-regions against existing, cheaply computed sequence-hazard annotation
-before trusting a complexity ranking would have caught the worst
-accuracy result in our own sample, which a complexity score alone
-positively misclassified as the simplest region tested. A generous,
-resource-aware per-region timeout matters for the same reason: at least two
-regions in this project that first looked like hard failures under a
-short timeout turned out to be merely slow, and a screen that gives up too
-quickly will overstate its own failure rate.
+Two consequences follow directly for anyone screening candidate regions at
+scale. Existing, cheaply computed sequence annotation — segmental
+duplication and tandem-repeat tracks that already exist for the human
+genome — should be checked alongside any topology-based complexity score,
+because the two are not substitutes and a complexity ranking alone will
+misclassify a subset of the worst regions as the safest. And because at
+least two regions in this study that looked like outright failures under a
+short timeout turned out simply to be slow, whatever timeout a larger
+screen adopts should be generous enough that "failed" means something more
+than "ran out of patience."
 
-Several limitations bound how far these results generalize. Reads were
-simulated error-free from the linear reference, so this measures graph and
-mapper behaviour under idealized input, not real Illumina sequencing. This
-analysis covers a single chromosome, the smallest human autosome, and we
-did not test whether the specific failure and hazard rates reported here
-hold on chromosomes with a different balance of segmental duplication,
-tandem repeat, and acrocentric or pericentromeric content. All compute ran
-on a single workstation with a fixed timeout, which sets a
-concrete but arbitrary ceiling on what counts as "failure" in the results
-above. And a truth model based on a single simulated coordinate per read
-cannot distinguish a genuine mapping error from a read placed, correctly,
-at one of several biologically valid locations in a duplicated region —
-exactly the situation a hazard-flagged window is most likely to create.
-Extending this analysis to more chromosomes, real sequencing reads, and a
-repeat-aware evaluation of mapping correctness would each address one of
-these limitations directly.
+Most of the limitations below trace back to a single cause: this work was
+carried out during one BioHackathon, under a fixed and fairly short window
+of both time and compute, and that constraint shaped the scope of the
+study as much as any scientific choice did. All extraction, indexing, and
+mapping ran on one workstation rather than a cluster or cloud allocation,
+because no other compute was available during the event. The 30-minute
+per-region timeout was set to let the full 50-region pipeline finish
+inside the time remaining in the hackathon, not derived from any property
+of the graph itself; a more patient budget, or more machines run in
+parallel, would plausibly change the specific failure counts reported
+above, as the two regions discussed earlier already demonstrate. Screening
+was limited to chromosome 21, chosen as the smallest human autosome
+specifically so that exhaustive 100 kb screening would finish in the
+available time, so we did not test whether the failure and hazard rates
+reported here hold on larger, more repeat-rich chromosomes with a
+different balance of segmental duplication, tandem repeat, and
+pericentromeric content. Reads were simulated error-free from the linear
+reference rather than drawn from a real sequencing run, again because
+acquiring and processing real short-read data at this scale was not
+feasible inside the hackathon's time budget; this reports graph and mapper
+behaviour under idealized input, not real Illumina sequencing performance.
+And the sample of 50 regions, while stratified to guarantee coverage of
+rare hazard-by-complexity combinations, has a size set by how many regions
+could be carried through the full pipeline before time ran out, not by a
+power calculation — the 95% confidence intervals in the Results section
+are the direct, quantitative consequence of that constraint.
+
+One further limitation is not a matter of time or compute. A truth model
+built from a single simulated coordinate per read cannot distinguish a
+genuine mapping error from a read placed correctly at one of several
+biologically valid locations in a duplicated region — precisely the
+situation a hazard-flagged window is most likely to create — which would
+bias our accuracy numbers downward rather than up. Real sequencing reads,
+additional and larger chromosomes, a longer or resource-scaled timeout,
+and a repeat-aware definition of mapping correctness would each remove one
+of the constraints above; none of them calls for a different pipeline,
+only for more time and compute than a single hackathon provides.
 
 ## Acknowledgements
 
