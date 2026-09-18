@@ -1,0 +1,21 @@
+=== [1/9] cand_chr21_165 (chr21:25334199-25434199) at 03:48:55 ===
+  -> status=success elapsed=135s
+=== [2/9] cand_chr21_352 (chr21:44234199-44334199) at 03:51:10 ===
+  -> status=success elapsed=136s
+=== [3/9] cand_chr21_238 (chr21:32634199-32734199) at 03:53:26 ===
+  -> status=success elapsed=195s
+=== [4/9] cand_chr21_163 (chr21:25134199-25234199) at 03:56:41 ===
+  -> status=success elapsed=135s
+=== [5/9] cand_chr21_061 (chr21:14934199-15034199) at 03:58:56 ===
+  -> status=success elapsed=1561s
+=== [6/9] cand_chr21_263 (chr21:35134199-35234199) at 04:24:57 ===
+  -> status=success elapsed=135s
+=== [7/9] cand_chr21_000 (chr21:5034199-5134199) at 04:27:12 ===
+TIMEOUT: cand_chr21_000 exceeded 1800s, killing
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/scripts/shell/run_full_pipeline_batch_safe.sh: line 163: 85831 Killed: 9               run_one_region "${region_id}" "${chrom}" "${start}" "${end}"
+  -> status=timeout_or_crash elapsed=1801s
+=== [8/9] cand_chr21_052 (chr21:14034199-14134199) at 04:57:13 ===
+  -> status=success elapsed=135s
+=== [9/9] cand_chr21_081 (chr21:16934199-17034199) at 04:59:28 ===
+  -> status=success elapsed=150s
+=== batch100 complete ===

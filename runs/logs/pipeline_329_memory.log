@@ -1,0 +1,17 @@
+=== monitor_resources.sh started 2026-09-17T13:12:54Z ===
+tracking tmux session 'pipeline_329', process pattern 'vg', RSS stop limit 100GB
+2026-09-17T13:12:55Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 110G used (5019M wired, 3544M compressor), 17G unused.
+2026-09-17T13:13:16Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 110G used (5518M wired, 3544M compressor), 16G unused.
+2026-09-17T13:13:37Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 110G used (5483M wired, 3544M compressor), 16G unused.
+2026-09-17T13:13:58Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 111G used (5502M wired, 3544M compressor), 16G unused.
+2026-09-17T13:14:19Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 111G used (5331M wired, 3544M compressor), 16G unused.
+2026-09-17T13:14:40Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 110G used (5730M wired, 3544M compressor), 16G unused.
+2026-09-17T13:15:01Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (5679M wired, 3544M compressor), 41G unused.
+2026-09-17T13:15:22Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (5885M wired, 3544M compressor), 40G unused.
+2026-09-17T13:15:43Z tracked_rss_gb=79 unused_mb=19 PhysMem: 127G used (5459M wired, 7898M compressor), 19M unused.
+2026-09-17T13:16:04Z tracked_rss_gb=65 unused_mb=62 PhysMem: 127G used (5296M wired, 20G compressor), 62M unused.
+2026-09-17T13:16:26Z tracked_rss_gb=60 unused_mb=167 PhysMem: 127G used (5674M wired, 24G compressor), 167M unused.
+2026-09-17T13:16:47Z tracked_rss_gb=61 unused_mb=65 PhysMem: 127G used (5654M wired, 24G compressor), 65M unused.
+2026-09-17T13:17:09Z tracked_rss_gb=61 unused_mb=90 PhysMem: 127G used (5624M wired, 24G compressor), 90M unused.
+2026-09-17T13:17:09Z STOP CONDITION: system unused memory < 1GB for 5 consecutive checks. Killing tmux session pipeline_329.
+=== monitor_resources.sh exiting 2026-09-17T13:17:10Z (session pipeline_329 no longer running) ===

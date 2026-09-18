@@ -1,0 +1,15 @@
+=== [1/7] cand_chr21_256 (chr21:34434199-34534199) at 02:39:57 ===
+  -> status=success elapsed=135s
+=== [2/7] cand_chr21_123 (chr21:21134199-21234199) at 02:42:12 ===
+  -> status=success elapsed=135s
+=== [3/7] cand_chr21_096 (chr21:18434199-18534199) at 02:44:27 ===
+  -> status=success elapsed=135s
+=== [4/7] cand_chr21_137 (chr21:22534199-22634199) at 02:46:42 ===
+  -> status=success elapsed=180s
+=== [5/7] cand_chr21_138 (chr21:22634199-22734199) at 02:49:42 ===
+  -> status=success elapsed=135s
+=== [6/7] cand_chr21_358 (chr21:44834199-44934199) at 02:51:57 ===
+  -> status=success elapsed=135s
+=== [7/7] cand_chr21_347 (chr21:43734199-43834199) at 02:54:12 ===
+  -> status=success elapsed=1561s
+=== batch100 complete ===

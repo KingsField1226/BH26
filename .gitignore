@@ -1,0 +1,24 @@
+# Raw + derived pangenome graph data (tens of GB). Re-downloadable /
+# re-buildable from metadata/input_files.tsv and the Methods section of
+# README.md.
+data/
+
+# vg built from source (~4GB, includes its own nested .git with large pack
+# files). Reproducible via logs/vg_build_summary.txt.
+software/
+
+# Per-region intermediate pipeline artifacts. Removed once each stage's
+# final results are captured in results/*.tsv (see README's "Project
+# structure"); ignored here in case a future run recreates them.
+runs/work/
+
+# Read-simulation truth tables: large (100MB+), regenerable via wgsim +
+# scripts/python/process_wgsim_output.py, and over GitHub's 100MB
+# per-file push limit.
+runs/metadata/truth*.tsv
+
+# OS / editor / tooling artifacts.
+.DS_Store
+.claude/
+__pycache__/
+*.pyc

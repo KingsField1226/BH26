@@ -1,0 +1,25 @@
+# Software versions - recorded 2026-09-16T02:19:39Z
+## System
+arm64
+ProductName:		macOS
+ProductVersion:		26.6.2
+BuildVersion:		25G83
+
+## Conda
+CONDA_DEFAULT_ENV=bh26
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/python
+Python 3.11.16
+
+## Tools
+odgi: v0.9.4-0-g5e58a324
+samtools: samtools 1.24
+seqkit: seqkit v2.13.0
+vg: v1.77.0-3-g4ee955ca3 "Ruby" (built from source at software/vg/bin/vg)
+  Compiled with Apple clang version 21.0.0 (clang-2100.3.34.2) on Darwin
+  Linked against libc++ 220106
+  Using HTSlib headers 101990, library 1.19.1-29-g3cfe8769
+  Built natively on macOS (bh26 conda env used as HOMEBREW_PREFIX substitute); see logs/vg_build_summary.txt for build details/fixes applied
+wgsim: 0.3.1-r13 (bioconda)
+
+Full package list: results/conda_list_bh26.txt
+Full environment spec: results/bh26_environment.yml (exact) / results/bh26_environment_from_history.yml (explicit installs only)

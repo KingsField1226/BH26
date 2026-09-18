@@ -1,0 +1,1059 @@
+BUILD_START=2026-09-16T02:35:59Z
+LDFLAGS=-Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib 
+CXXFLAGS=-D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION 
+OS is Mac
+Compiler c++ is Clang
+OMP source is Homebrew libomp global install
+CXXFLAGS are -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp
+LDFLAGS are -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib
+Check Git
+rm -f deps/vcflib/contrib/WFA2-lib/VERSION
+env
+CLAUDE_CODE_EMIT_TOOL_USE_SUMMARIES=false
+CLAUDE_CODE_ENABLE_ASK_USER_QUESTION_TOOL=true
+CLAUDE_CODE_MESSAGING_TOKEN=d2c2badab7e71dffaa0bbbc86c10b842
+MANPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:
+LDFLAGS=-Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib
+NoDefaultCurrentDirectoryInExePath=1
+CLAUDE_EFFORT=high
+TERM_PROGRAM=tmux
+CLAUDE_CODE_ENTRYPOINT=claude-desktop
+TERM=tmux-256color
+CLAUDE_PREVIEW_CLASSIFIER_FLOOR=1
+CLAUDE_CODE_OAUTH_SCOPES=user:inference user:file_upload user:profile user:sessions:claude_code user:plugins
+BAGGAGE=sentry-environment=production,sentry-release=Claude%402.110.0,sentry-public_key=2f98127cbffe4740b1f767a2de77d23b,sentry-trace_id=71df2423c4d7454f82afc38f0e6335e2,sentry-org_id=1158394
+CLAUDE_CODE_HOST_SESSION_ID=local_107626e6-e81f-4192-a8f3-af1fdf7edfcd
+SHELL=/bin/zsh
+MAKEFLAGS= --jobserver-fds=3,4 -j
+CLAUDE_PID=35360
+TMPDIR=/var/folders/pz/5tn89wkn7dbgwbpgzxbz726h0000gn/T/
+CLAUDE_CODE_CHILD_SESSION=1
+CLAUDE_CODE_EAGER_FLUSH=1
+CONDA_SHLVL=1
+TERM_PROGRAM_VERSION=3.7c
+CONDA_PROMPT_MODIFIER=(bh26) 
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+MallocNanoZone=0
+CLAUDE_AGENT_SDK_VERSION=0.3.271
+USE_LOCAL_OAUTH=
+CLAUDE_CODE_SDK_HAS_OAUTH_REFRESH=1
+AI_AGENT=claude-code_2-1-271_agent
+GIT_EDITOR=true
+CLAUDE_CODE_DISABLE_TERMINAL_TITLE=1
+USER=kazumichi
+_CONDA_EXE=/opt/homebrew/Caskroom/miniforge/base/bin/conda
+COMMAND_MODE=unix2003
+API_TIMEOUT_MS=900000
+CONDA_EXE=/opt/homebrew/Caskroom/miniforge/base/bin/conda
+SSH_AUTH_SOCK=/var/run/com.apple.launchd.S3LNXIr75Y/Listeners
+__CF_USER_TEXT_ENCODING=0x1F5:0x1:0xE
+MAKELEVEL=1
+CXXFLAGS=-std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp
+PAGER=less
+TMUX=/private/tmp/tmux-501/default,67297,0
+MFLAGS=- --jobserver-fds=3,4 -j
+CLAUDE_CODE_DESKTOP_APP_VERSION=2.110.0
+_CE_CONDA=
+CLAUDE_CODE_REPORT_FINDINGS=1
+PATH=/opt/homebrew/Caskroom/miniforge/base/envs/bh26/opt/bison/bin:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/opt/coreutils/libexec/gnubin:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin:/opt/homebrew/Caskroom/miniforge/base/condabin:/opt/homebrew/opt/openjdk/bin:/opt/homebrew/Caskroom/miniforge/base/bin:/opt/homebrew/Caskroom/miniforge/base/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/opt/homebrew/Caskroom/miniforge/base/envs/pymc/bin:/Users/kazumichi/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/4d91d4c8-5efa-44d2-9eed-404ef4e06d98/725db521-fc3d-4887-966c-da9f74cf119c/bin
+MCP_CONNECTION_NONBLOCKING=true
+GSETTINGS_SCHEMA_DIR=/opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/glib-2.0/schemas
+_=/usr/bin/env
+CONDA_PREFIX=/opt/homebrew/Caskroom/miniforge/base/envs/bh26
+__CFBundleIdentifier=com.anthropic.claudefordesktop
+PWD=/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg
+EDITOR=nano
+LANG=en_US.UTF-8
+XPC_FLAGS=0x0
+TMUX_PANE=%0
+NODE_USE_SYSTEM_CA=1
+CLAUDE_CODE_SESSION_ATTENDED=1
+_CE_M=
+CXX=c++
+_CONDA_ROOT=/opt/homebrew/Caskroom/miniforge/base
+XPC_SERVICE_NAME=0
+CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING=true
+SHLVL=3
+HOME=/Users/kazumichi
+CLAUDE_CODE_DISABLE_CRON=
+ANTHROPIC_BASE_URL=https://api.anthropic.com
+CLAUDE_CODE_EXECPATH=/Users/kazumichi/Library/Application Support/Claude/claude-code/2.1.271/claude.app/Contents/MacOS/claude
+HOMEBREW_PREFIX=/opt/homebrew/Caskroom/miniforge/base/envs/bh26
+DISABLE_MICROCOMPACT=1
+MCP_SERVER_CONNECTION_BATCH_SIZE=8
+CONDA_PYTHON_EXE=/opt/homebrew/Caskroom/miniforge/base/bin/python
+LESS=-g -i -M -R -S -w -X -z-4
+LOGNAME=kazumichi
+VISUAL=nano
+COREPACK_ENABLE_AUTO_PIN=0
+CONDA_DEFAULT_ENV=bh26
+PKG_CONFIG_PATH=/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/pkgconfig:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/pkgconfig
+CLAUDE_CODE_SDK_HAS_HOST_AUTH_REFRESH=1
+BROWSER=open
+DISABLE_AUTOUPDATER=1
+CLAUDE_CODE_SESSION_ID=62d2a331-62f2-41d3-a01e-6ecae08b92c2
+CC=cc
+OSLogRateLimit=64
+CLAUDE_CODE_MESSAGING_SOCKET=/tmp/cc-socks/35360.sock
+CLAUDECODE=1
+COLORTERM=truecolor
+USE_STAGING_OAUTH=
+cd deps/vcflib && rm -Rf build && mkdir build && cd build && PKG_CONFIG_PATH="/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib/pkgconfig:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/pkgconfig:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/pkgconfig" cmake -DCMAKE_C_COMPILER="cc" -DCMAKE_CXX_COMPILER="c++" -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DZIG=OFF -DCMAKE_C_FLAGS="" -DCMAKE_CXX_FLAGS="-std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg -DCMAKE_PREFIX_PATH="/usr;/;/opt/homebrew/Caskroom/miniforge/base/envs/bh26" -DOpenMP_C_FLAGS="-Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include" -DOpenMP_C_LIB_NAMES="omp" -DOpenMP_CXX_FLAGS="-Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include" -DOpenMP_CXX_LIB_NAMES="omp" -DOpenMP_omp_LIBRARY="/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/libomp.dylib" -DPYTHON_EXECUTABLE="/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/python3" -DBUILD_STATIC=ON -DWFA_GITMODULE=ON .. && cmake --build . --target vcflib wfa2_static
+rm -f /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/vg.pb.h /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/vg/vg.pb.h
+rm -Rf /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/vg/io/
+export CXXFLAGS="-std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp" && export LDFLAGS="-L/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib" && cd deps/libvgio && rm -Rf CMakeCache.txt CMakeFiles *.cmake install_manifest.txt *.pb.cc *.pb.h *.a && rm -rf build-vg && mkdir build-vg && cd build-vg && PKG_CONFIG_PATH=/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib/pkgconfig:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/pkgconfig:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/pkgconfig cmake -DCMAKE_C_COMPILER="cc" -DCMAKE_CXX_COMPILER="c++" -DCMAKE_CXX_STANDARD=20 -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_PREFIX_PATH="/usr;/;/opt/homebrew/Caskroom/miniforge/base/envs/bh26" -DCMAKE_INSTALL_PREFIX=/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg -DCMAKE_INSTALL_LIBDIR=lib -DUSE_INSTALLED_LIBHANDLEGRAPH_ONLY=ON .. 2>&1 | python3 /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/scripts/filter-noisy-assembler-warnings.py && /Library/Developer/CommandLineTools/usr/bin/make clean && VERBOSE=1 /Library/Developer/CommandLineTools/usr/bin/make 2>&1 | python3 /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/scripts/filter-noisy-assembler-warnings.py && /Library/Developer/CommandLineTools/usr/bin/make install
+-- The C compiler identification is AppleClang 21.0.0.21000334
+-- The CXX compiler identification is AppleClang 21.0.0.21000334
+-- Detecting CXX compiler ABI info
+-- The CXX compiler identification is AppleClang 21.0.0.21000334
+-- Detecting C compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found BZip2: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/libbz2.dylib (found version "1.0.8")
+-- Looking for BZ2_bzCompressInit
+-- Looking for BZ2_bzCompressInit - found
+-- Looking for lzma_auto_decoder in /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib
+-- Found OpenMP_CXX: -Xclang -fopenmp (found version "5.1")
+-- Found OpenMP: TRUE (found version "5.1")
+Building libvgio for C++ 20
+-- Found PkgConfig: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/pkg-config (found version "0.29.2")
+-- Looking for lzma_auto_decoder in /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib - found
+-- Looking for lzma_easy_encoder in /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib
+-- Found ZLIB: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd (found version "1.2.12")
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Looking for lzma_easy_encoder in /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib - found
+-- Looking for lzma_lzma_preset in /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+Found Protobuf using its own protobuf-config.cmake
+Using real Threads library
+-- Checking for module 'htslib'
+--   Package 'zlib', required by 'htslib', not found
+CMake Error at /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake-4.4/Modules/FindPkgConfig.cmake:1093 (message):
+  The following required packages were not found:
+
+   - htslib
+
+Call Stack (most recent call first):
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake-4.4/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)
+  CMakeLists.txt:100 (pkg_check_modules)
+
+
+-- Configuring incomplete, errors occurred!
+make: *** [lib/libvgio.a] Error 1
+make: *** Waiting for unfinished jobs....
+-- Looking for lzma_lzma_preset in /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib - found
+-- Found LibLZMA: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib (found version "5.8.3")
+-- Found PkgConfig: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/pkg-config (found version "0.29.2")
+-- Found ZLIB: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd (found version "1.2.12")
+CMake Warning (author) at /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/FindPythonLibsNew.cmake:101 (message):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning, or
+  preferably upgrade to using FindPython, either by calling it explicitly
+  before pybind11, or by setting PYBIND11_FINDPYTHON ON before pybind11.
+Call Stack (most recent call first):
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/pybind11Common.cmake:243 (include)
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/pybind11Config.cmake:257 (include)
+  CMakeLists.txt:23 (find_package)
+This warning is for project developers.  Use -Wno-author to suppress it.
+
+CMake Warning (deprecated) at /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/FindPythonLibsNew.cmake:110 (cmake_policy):
+  The OLD behavior for policy CMP0148 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+Call Stack (most recent call first):
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/pybind11Common.cmake:243 (include)
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/pybind11Config.cmake:257 (include)
+  CMakeLists.txt:23 (find_package)
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+-- Found PythonInterp: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/python3 (found suitable version "3.11.16", minimum required is "3.9")
+-- Found PythonLibs: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/libpython3.11.dylib
+-- Performing Test HAS_FLTO_THIN
+-- Performing Test HAS_FLTO_THIN - Success
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- Found pybind11: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/include (found version "3.1.0")
+-- 
+
+-- Found OpenMP_C: -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include (found version "5.1")
+-- Found OpenMP_CXX: -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include (found version "5.1")
+-- Found OpenMP: TRUE (found version "5.1")
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Checking for module 'htslib'
+--   Package 'zlib', required by 'htslib', not found
+-- Checking for module 'tabixpp'
+--   Found tabixpp, version 1.0
+-- Using included htslib
+-- Could NOT find CURL (missing: CURL_LIBRARY) (found version "8.22.0")
+-- Using included tabixpp
+-- Using included libwfa
+-- 
+
+-- Found OpenMP_C: -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include (found version "5.1")
+-- Found OpenMP_CXX: -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include (found version "5.1")
+-- WFA using include contrib/WFA2-lib
+Pandoc needs to be installed to generate the man pages
+-- Configuring done (5.9s)
+-- Generating done (0.3s)
+-- Build files have been written to: /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build
+Change Dir: '/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build'
+
+Run Build Command(s): /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile vcflib wfa2_static
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -S/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib -B/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build --check-build-system CMakeFiles/Makefile.cmake 0
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/Makefile2 vcflib
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -S/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib -B/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build --check-build-system CMakeFiles/Makefile.cmake 0
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E cmake_progress_start /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/CMakeFiles 10
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/Makefile2 CMakeFiles/vcflib.dir/all
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/htslib-EXT.dir/build.make CMakeFiles/htslib-EXT.dir/depend
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build && /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E cmake_depends "Unix Makefiles" /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/CMakeFiles/htslib-EXT.dir/DependInfo.cmake "--color=" htslib-EXT
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/htslib-EXT.dir/build.make CMakeFiles/htslib-EXT.dir/build
+[ 10%] Creating directories for 'htslib-EXT'
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -Dcfgdir= -P /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/htslib-EXT-prefix/tmp/htslib-EXT-mkdirs.cmake
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E touch /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/htslib-EXT-prefix/src/htslib-EXT-stamp/htslib-EXT-mkdir
+[ 10%] No download step for 'htslib-EXT'
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E echo_append
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E touch /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/htslib-EXT-prefix/src/htslib-EXT-stamp/htslib-EXT-download
+[ 10%] Performing update step for 'htslib-EXT'
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib && autoreconf -i
+[ 10%] No patch step for 'htslib-EXT'
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E echo_append
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E touch /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/htslib-EXT-prefix/src/htslib-EXT-stamp/htslib-EXT-patch
+[ 20%] Performing configure step for 'htslib-EXT'
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib && ./configure --disable-s3
+checking for gcc... cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether cc accepts -g... yes
+checking for cc option to enable C11 features... none needed
+checking for ranlib... ranlib
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for C compiler warning flags... -Wall
+checking whether C compiler accepts -mssse3 -mpopcnt -msse4.1... no
+checking whether C compiler accepts -mavx2... no
+checking whether C compiler accepts -mavx512f... no
+checking whether C compiler supports ARM Neon... yes
+checking for pkg-config... /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for cc option to enable large file support... none needed
+checking shared library type for unknown-Darwin... Darwin dylib
+checking whether the compiler accepts -fvisibility=hidden... yes
+checking build system type... aarch64-apple-darwin25.6.0
+checking host system type... aarch64-apple-darwin25.6.0
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for sys/param.h... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for gmtime_r... yes
+checking for fsync... yes
+checking for drand48... yes
+checking for srand48_deterministic... no
+checking for cc options needed to detect all undeclared functions... none needed
+checking whether fdatasync is declared... no
+checking for library containing log... none required
+checking for zlib.h... yes
+checking for inflate in -lz... yes
+checking for library containing recv... none required
+checking for bzlib.h... yes
+checking for BZ2_bzBuffToBuffCompress in -lbz2... yes
+checking for lzma.h... no
+checking for lzma_easy_buffer_encode in -llzma... yes
+checking whether htscodecs files are present... yes
+checking for libdeflate.h... no
+checking for libdeflate_deflate_compress in -ldeflate... yes
+checking for curl/curl.h... yes
+checking for curl_easy_pause in -lcurl... yes
+checking for library containing regcomp... none required
+checking whether PTHREAD_MUTEX_RECURSIVE is declared... yes
+configure: creating ./config.status
+config.status: creating config.mk
+config.status: creating htslib.pc.tmp
+config.status: creating config.h
+config.status: linking htscodecs_bundled.mk to htscodecs.mk
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib && /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E touch /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/htslib-EXT-prefix/src/htslib-EXT-stamp/htslib-EXT-configure
+[ 20%] Performing build step for 'htslib-EXT'
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib && /Library/Developer/CommandLineTools/usr/bin/make "CFLAGS=-O2 -g -fPIC" lib-static
+cc -O2 -g -fPIC  -I.  -c -o kfunc.o kfunc.c
+cc -O2 -g -fPIC  -I.  -c -o kstring.o kstring.c
+cc -O2 -g -fPIC  -I.  -c -o bcf_sr_sort.o bcf_sr_sort.c
+cc -O2 -g -fPIC  -I.  -c -o bgzf.o bgzf.c
+cc -O2 -g -fPIC  -I.  -c -o errmod.o errmod.c
+cc -O2 -g -fPIC  -I.  -c -o faidx.o faidx.c
+cc -O2 -g -fPIC  -I.  -c -o header.o header.c
+cc -O2 -g -fPIC  -I.  -c -o hfile.o hfile.c
+echo '#define HTS_VERSION_TEXT "1.16-39-g53f98082"' > version.h
+printf '#define HTS_CC "%s"\n#define HTS_CPPFLAGS "%s"\n#define HTS_CFLAGS "%s"\n#define HTS_LDFLAGS "%s"\n#define HTS_LIBS "%s"\n' \
+	'cc' \
+	'' \
+	'-O2 -g -fPIC' \
+	'-Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -fvisibility=hidden ' \
+	'-llzma -lbz2 -lz   -lcurl' > config_vars.h
+Updating htscodecs/htscodecs/version.h : #define HTSCODECS_VERSION_TEXT "1.3.0"
+cc -O2 -g -fPIC  -I.  -c -o hts.o hts.c
+cc -O2 -g -fPIC  -I.  -c -o hts_expr.o hts_expr.c
+cc -O2 -g -fPIC  -I.  -c -o hts_os.o hts_os.c
+cc -O2 -g -fPIC  -I.  -c -o md5.o md5.c
+cc -O2 -g -fPIC  -I.  -c -o multipart.o multipart.c
+cc -O2 -g -fPIC  -I.  -c -o probaln.o probaln.c
+cc -O2 -g -fPIC  -I.  -c -o realn.o realn.c
+cc -O2 -g -fPIC  -I.  -c -o regidx.o regidx.c
+cc -O2 -g -fPIC  -I.  -c -o region.o region.c
+cc -O2 -g -fPIC  -I.  -c -o sam.o sam.c
+cc -O2 -g -fPIC  -I.  -c -o synced_bcf_reader.o synced_bcf_reader.c
+cc -O2 -g -fPIC  -I.  -c -o vcf_sweep.o vcf_sweep.c
+cc -O2 -g -fPIC  -I.  -c -o tbx.o tbx.c
+cc -O2 -g -fPIC  -I.  -c -o textutils.o textutils.c
+cc -O2 -g -fPIC  -I.  -c -o thread_pool.o thread_pool.c
+cc -O2 -g -fPIC  -I.  -c -o vcf.o vcf.c
+cc -O2 -g -fPIC  -I.  -c -o vcfutils.o vcfutils.c
+cc -O2 -g -fPIC  -I.  -c -o cram/cram_codecs.o cram/cram_codecs.c
+cc -O2 -g -fPIC  -I.  -c -o cram/cram_decode.o cram/cram_decode.c
+cc -O2 -g -fPIC  -I.  -c -o cram/cram_encode.o cram/cram_encode.c
+cc -O2 -g -fPIC  -I.  -c -o cram/cram_external.o cram/cram_external.c
+cc -O2 -g -fPIC  -I.  -c -o cram/cram_index.o cram/cram_index.c
+cc -O2 -g -fPIC  -I.  -c -o cram/cram_io.o cram/cram_io.c
+cc -O2 -g -fPIC  -I.  -c -o cram/cram_stats.o cram/cram_stats.c
+cc -O2 -g -fPIC  -I.  -c -o cram/mFILE.o cram/mFILE.c
+cc -O2 -g -fPIC  -I.  -c -o cram/open_trace_file.o cram/open_trace_file.c
+cc -O2 -g -fPIC  -I.  -c -o cram/pooled_alloc.o cram/pooled_alloc.c
+cc -O2 -g -fPIC  -I.  -c -o cram/string_alloc.o cram/string_alloc.c
+cc -O2 -g -fPIC  -I.  -c -o htscodecs/htscodecs/arith_dynamic.o htscodecs/htscodecs/arith_dynamic.c
+cc -O2 -g -fPIC  -I.  -c -o htscodecs/htscodecs/fqzcomp_qual.o htscodecs/htscodecs/fqzcomp_qual.c
+cc -O2 -g -fPIC  -I.  -c -o htscodecs/htscodecs/htscodecs.o htscodecs/htscodecs/htscodecs.c
+cc -O2 -g -fPIC  -I.  -c -o htscodecs/htscodecs/pack.o htscodecs/htscodecs/pack.c
+cc -O2 -g -fPIC  -I.  -c -o htscodecs/htscodecs/rANS_static4x16pr.o htscodecs/htscodecs/rANS_static4x16pr.c
+cc -O2 -g -fPIC  -I.  -c -o htscodecs/htscodecs/rANS_static32x16pr_neon.o htscodecs/htscodecs/rANS_static32x16pr_neon.c
+cc -O2 -g -fPIC  -I.  -c -o htscodecs/htscodecs/rANS_static32x16pr.o htscodecs/htscodecs/rANS_static32x16pr.c
+cc -O2 -g -fPIC  -I.  -c -o htscodecs/htscodecs/rANS_static.o htscodecs/htscodecs/rANS_static.c
+cc -O2 -g -fPIC  -I.  -c -o htscodecs/htscodecs/rle.o htscodecs/htscodecs/rle.c
+cc -O2 -g -fPIC  -I.  -c -o htscodecs/htscodecs/tokenise_name3.o htscodecs/htscodecs/tokenise_name3.c
+cc -O2 -g -fPIC  -I.  -c -o htscodecs/htscodecs/utils.o htscodecs/htscodecs/utils.c
+cc -O2 -g -fPIC  -I.  -c -o hfile_libcurl.o hfile_libcurl.c
+cc -O2 -g -fPIC  -I.  -c -o hfile_gcs.o hfile_gcs.c
+ar -rc libhts.a kfunc.o kstring.o bcf_sr_sort.o bgzf.o errmod.o faidx.o header.o hfile.o hts.o hts_expr.o hts_os.o md5.o multipart.o probaln.o realn.o regidx.o region.o sam.o synced_bcf_reader.o vcf_sweep.o tbx.o textutils.o thread_pool.o vcf.o vcfutils.o cram/cram_codecs.o cram/cram_decode.o cram/cram_encode.o cram/cram_external.o cram/cram_index.o cram/cram_io.o cram/cram_stats.o cram/mFILE.o cram/open_trace_file.o cram/pooled_alloc.o cram/string_alloc.o htscodecs/htscodecs/arith_dynamic.o htscodecs/htscodecs/fqzcomp_qual.o htscodecs/htscodecs/htscodecs.o htscodecs/htscodecs/pack.o htscodecs/htscodecs/rANS_static4x16pr.o htscodecs/htscodecs/rANS_static32x16pr_neon.o htscodecs/htscodecs/rANS_static32x16pr.o htscodecs/htscodecs/rANS_static.o htscodecs/htscodecs/rle.o htscodecs/htscodecs/tokenise_name3.o htscodecs/htscodecs/utils.o   hfile_libcurl.o hfile_gcs.o
+ranlib libhts.a
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib && /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E touch /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/htslib-EXT-prefix/src/htslib-EXT-stamp/htslib-EXT-build
+[ 20%] No install step for 'htslib-EXT'
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib && /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E echo_append
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib && /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E touch /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/htslib-EXT-prefix/src/htslib-EXT-stamp/htslib-EXT-install
+[ 20%] Completed 'htslib-EXT'
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E make_directory /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/CMakeFiles
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E touch /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/CMakeFiles/htslib-EXT-complete
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E touch /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/htslib-EXT-prefix/src/htslib-EXT-stamp/htslib-EXT-done
+[ 20%] Built target htslib-EXT
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/vcflib.dir/build.make CMakeFiles/vcflib.dir/depend
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build && /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E cmake_depends "Unix Makefiles" /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/CMakeFiles/vcflib.dir/DependInfo.cmake "--color=" vcflib
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/vcflib.dir/build.make CMakeFiles/vcflib.dir/build
+[ 30%] Building CXX object CMakeFiles/vcflib.dir/src/legacy.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/legacy.cpp.o -MF CMakeFiles/vcflib.dir/src/legacy.cpp.o.d -o CMakeFiles/vcflib.dir/src/legacy.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/legacy.cpp
+[ 30%] Building CXX object CMakeFiles/vcflib.dir/src/vcf-wfa.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/vcf-wfa.cpp.o -MF CMakeFiles/vcflib.dir/src/vcf-wfa.cpp.o.d -o CMakeFiles/vcflib.dir/src/vcf-wfa.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/vcf-wfa.cpp
+[ 30%] Building CXX object CMakeFiles/vcflib.dir/src/vcf-c-api.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/vcf-c-api.cpp.o -MF CMakeFiles/vcflib.dir/src/vcf-c-api.cpp.o.d -o CMakeFiles/vcflib.dir/src/vcf-c-api.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/vcf-c-api.cpp
+[ 30%] Building CXX object CMakeFiles/vcflib.dir/src/Variant.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/Variant.cpp.o -MF CMakeFiles/vcflib.dir/src/Variant.cpp.o.d -o CMakeFiles/vcflib.dir/src/Variant.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/Variant.cpp
+[ 40%] Building CXX object CMakeFiles/vcflib.dir/src/rnglib.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/rnglib.cpp.o -MF CMakeFiles/vcflib.dir/src/rnglib.cpp.o.d -o CMakeFiles/vcflib.dir/src/rnglib.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/rnglib.cpp
+[ 40%] Building CXX object CMakeFiles/vcflib.dir/src/var.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/var.cpp.o -MF CMakeFiles/vcflib.dir/src/var.cpp.o.d -o CMakeFiles/vcflib.dir/src/var.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/var.cpp
+[ 40%] Building CXX object CMakeFiles/vcflib.dir/src/pdflib.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/pdflib.cpp.o -MF CMakeFiles/vcflib.dir/src/pdflib.cpp.o.d -o CMakeFiles/vcflib.dir/src/pdflib.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/pdflib.cpp
+[ 50%] Building CXX object CMakeFiles/vcflib.dir/src/cdflib.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/cdflib.cpp.o -MF CMakeFiles/vcflib.dir/src/cdflib.cpp.o.d -o CMakeFiles/vcflib.dir/src/cdflib.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/cdflib.cpp
+[ 50%] Building CXX object CMakeFiles/vcflib.dir/src/split.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/split.cpp.o -MF CMakeFiles/vcflib.dir/src/split.cpp.o.d -o CMakeFiles/vcflib.dir/src/split.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/split.cpp
+[ 50%] Building CXX object CMakeFiles/vcflib.dir/src/stats.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/stats.cpp.o -MF CMakeFiles/vcflib.dir/src/stats.cpp.o.d -o CMakeFiles/vcflib.dir/src/stats.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/stats.cpp
+[ 50%] Building CXX object CMakeFiles/vcflib.dir/src/index.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/index.cpp.o -MF CMakeFiles/vcflib.dir/src/index.cpp.o.d -o CMakeFiles/vcflib.dir/src/index.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/index.cpp
+[ 60%] Building CXX object CMakeFiles/vcflib.dir/src/phase.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/phase.cpp.o -MF CMakeFiles/vcflib.dir/src/phase.cpp.o.d -o CMakeFiles/vcflib.dir/src/phase.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/phase.cpp
+[ 60%] Building CXX object CMakeFiles/vcflib.dir/src/rkmh.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/rkmh.cpp.o -MF CMakeFiles/vcflib.dir/src/rkmh.cpp.o.d -o CMakeFiles/vcflib.dir/src/rkmh.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/rkmh.cpp
+[ 60%] Building CXX object CMakeFiles/vcflib.dir/src/murmur3.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/murmur3.cpp.o -MF CMakeFiles/vcflib.dir/src/murmur3.cpp.o.d -o CMakeFiles/vcflib.dir/src/murmur3.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/murmur3.cpp
+[ 70%] Building CXX object CMakeFiles/vcflib.dir/src/LeftAlign.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/LeftAlign.cpp.o -MF CMakeFiles/vcflib.dir/src/LeftAlign.cpp.o.d -o CMakeFiles/vcflib.dir/src/LeftAlign.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/LeftAlign.cpp
+[ 70%] Building CXX object CMakeFiles/vcflib.dir/src/cigar.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/cigar.cpp.o -MF CMakeFiles/vcflib.dir/src/cigar.cpp.o.d -o CMakeFiles/vcflib.dir/src/cigar.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/cigar.cpp
+[ 70%] Building CXX object CMakeFiles/vcflib.dir/src/allele.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/src/allele.cpp.o -MF CMakeFiles/vcflib.dir/src/allele.cpp.o.d -o CMakeFiles/vcflib.dir/src/allele.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/src/allele.cpp
+[ 70%] Building CXX object CMakeFiles/vcflib.dir/contrib/fastahack/Fasta.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/contrib/fastahack/Fasta.cpp.o -MF CMakeFiles/vcflib.dir/contrib/fastahack/Fasta.cpp.o.d -o CMakeFiles/vcflib.dir/contrib/fastahack/Fasta.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack/Fasta.cpp
+[ 80%] Building CXX object CMakeFiles/vcflib.dir/contrib/smithwaterman/SmithWatermanGotoh.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/contrib/smithwaterman/SmithWatermanGotoh.cpp.o -MF CMakeFiles/vcflib.dir/contrib/smithwaterman/SmithWatermanGotoh.cpp.o.d -o CMakeFiles/vcflib.dir/contrib/smithwaterman/SmithWatermanGotoh.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman/SmithWatermanGotoh.cpp
+[ 80%] Building CXX object CMakeFiles/vcflib.dir/contrib/smithwaterman/Repeats.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/contrib/smithwaterman/Repeats.cpp.o -MF CMakeFiles/vcflib.dir/contrib/smithwaterman/Repeats.cpp.o.d -o CMakeFiles/vcflib.dir/contrib/smithwaterman/Repeats.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman/Repeats.cpp
+[ 80%] Building CXX object CMakeFiles/vcflib.dir/contrib/smithwaterman/IndelAllele.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/contrib/smithwaterman/IndelAllele.cpp.o -MF CMakeFiles/vcflib.dir/contrib/smithwaterman/IndelAllele.cpp.o.d -o CMakeFiles/vcflib.dir/contrib/smithwaterman/IndelAllele.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman/IndelAllele.cpp
+[ 90%] Building CXX object CMakeFiles/vcflib.dir/contrib/smithwaterman/disorder.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/contrib/smithwaterman/disorder.cpp.o -MF CMakeFiles/vcflib.dir/contrib/smithwaterman/disorder.cpp.o.d -o CMakeFiles/vcflib.dir/contrib/smithwaterman/disorder.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman/disorder.cpp
+[ 90%] Building CXX object CMakeFiles/vcflib.dir/contrib/smithwaterman/LeftAlign.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/contrib/smithwaterman/LeftAlign.cpp.o -MF CMakeFiles/vcflib.dir/contrib/smithwaterman/LeftAlign.cpp.o.d -o CMakeFiles/vcflib.dir/contrib/smithwaterman/LeftAlign.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman/LeftAlign.cpp
+[ 90%] Building C object CMakeFiles/vcflib.dir/contrib/fsom/fsom.c.o
+/usr/bin/cc -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -O2 -g -DNDEBUG -flto=thin -arch arm64 -MD -MT CMakeFiles/vcflib.dir/contrib/fsom/fsom.c.o -MF CMakeFiles/vcflib.dir/contrib/fsom/fsom.c.o.d -o CMakeFiles/vcflib.dir/contrib/fsom/fsom.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fsom/fsom.c
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fsom/fsom.c:594:12: warning: taking the absolute value of unsigned type 'size_t' (aka 'unsigned long') has no effect [-Wabsolute-value]
+  594 |                 dist_i = abs( x - i );
+      |                          ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fsom/fsom.c:594:12: note: remove the call to 'abs' since unsigned values cannot be negative
+  594 |                 dist_i = abs( x - i );
+      |                          ^~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fsom/fsom.c:597:29: warning: taking the absolute value of unsigned type 'size_t' (aka 'unsigned long') has no effect [-Wabsolute-value]
+  597 |                         dist     = pow( dist_i + abs ( y - j ), 4 );
+      |                                                  ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fsom/fsom.c:597:29: note: remove the call to 'abs' since unsigned values cannot be negative
+  597 |                         dist     = pow( dist_i + abs ( y - j ), 4 );
+      |                                                  ^~~
+2 warnings generated.
+[100%] Building C object CMakeFiles/vcflib.dir/contrib/filevercmp/filevercmp.c.o
+/usr/bin/cc -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -O2 -g -DNDEBUG -flto=thin -arch arm64 -MD -MT CMakeFiles/vcflib.dir/contrib/filevercmp/filevercmp.c.o -MF CMakeFiles/vcflib.dir/contrib/filevercmp/filevercmp.c.o.d -o CMakeFiles/vcflib.dir/contrib/filevercmp/filevercmp.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp/filevercmp.c
+[100%] Building C object CMakeFiles/vcflib.dir/contrib/c-progress-bar/progress.c.o
+/usr/bin/cc -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -O2 -g -DNDEBUG -flto=thin -arch arm64 -MD -MT CMakeFiles/vcflib.dir/contrib/c-progress-bar/progress.c.o -MF CMakeFiles/vcflib.dir/contrib/c-progress-bar/progress.c.o.d -o CMakeFiles/vcflib.dir/contrib/c-progress-bar/progress.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar/progress.c
+[100%] Building CXX object CMakeFiles/vcflib.dir/contrib/tabixpp/tabix.cpp.o
+/usr/bin/c++ -DNO_ZIG=1 -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp   -O2 -g -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT CMakeFiles/vcflib.dir/contrib/tabixpp/tabix.cpp.o -MF CMakeFiles/vcflib.dir/contrib/tabixpp/tabix.cpp.o.d -o CMakeFiles/vcflib.dir/contrib/tabixpp/tabix.cpp.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/tabix.cpp
+[100%] Linking CXX static library libvcflib.a
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -P CMakeFiles/vcflib.dir/cmake_clean_target.cmake
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E cmake_link_script CMakeFiles/vcflib.dir/link.txt --verbose=1
+"/usr/bin/ar" qc libvcflib.a CMakeFiles/vcflib.dir/src/legacy.cpp.o "CMakeFiles/vcflib.dir/src/vcf-wfa.cpp.o" "CMakeFiles/vcflib.dir/src/vcf-c-api.cpp.o" CMakeFiles/vcflib.dir/src/Variant.cpp.o CMakeFiles/vcflib.dir/src/rnglib.cpp.o CMakeFiles/vcflib.dir/src/var.cpp.o CMakeFiles/vcflib.dir/src/pdflib.cpp.o CMakeFiles/vcflib.dir/src/cdflib.cpp.o CMakeFiles/vcflib.dir/src/split.cpp.o CMakeFiles/vcflib.dir/src/stats.cpp.o CMakeFiles/vcflib.dir/src/index.cpp.o CMakeFiles/vcflib.dir/src/phase.cpp.o CMakeFiles/vcflib.dir/src/rkmh.cpp.o CMakeFiles/vcflib.dir/src/murmur3.cpp.o CMakeFiles/vcflib.dir/src/LeftAlign.cpp.o CMakeFiles/vcflib.dir/src/cigar.cpp.o CMakeFiles/vcflib.dir/src/allele.cpp.o CMakeFiles/vcflib.dir/contrib/fastahack/Fasta.cpp.o CMakeFiles/vcflib.dir/contrib/smithwaterman/SmithWatermanGotoh.cpp.o CMakeFiles/vcflib.dir/contrib/smithwaterman/Repeats.cpp.o CMakeFiles/vcflib.dir/contrib/smithwaterman/IndelAllele.cpp.o CMakeFiles/vcflib.dir/contrib/smithwaterman/disorder.cpp.o CMakeFiles/vcflib.dir/contrib/smithwaterman/LeftAlign.cpp.o CMakeFiles/vcflib.dir/contrib/fsom/fsom.c.o CMakeFiles/vcflib.dir/contrib/filevercmp/filevercmp.c.o "CMakeFiles/vcflib.dir/contrib/c-progress-bar/progress.c.o" CMakeFiles/vcflib.dir/contrib/tabixpp/tabix.cpp.o
+"/usr/bin/ranlib" libvcflib.a
+[100%] Built target vcflib
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E cmake_progress_start /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/CMakeFiles 0
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/Makefile2 wfa2_static
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -S/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib -B/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build --check-build-system CMakeFiles/Makefile.cmake 0
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E cmake_progress_start /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/CMakeFiles 13
+/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/Makefile2 contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/all
+/Library/Developer/CommandLineTools/usr/bin/make  -f contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/build.make contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/depend
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build && /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E cmake_depends "Unix Makefiles" /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/DependInfo.cmake "--color=" wfa2_static
+/Library/Developer/CommandLineTools/usr/bin/make  -f contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/build.make contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/build
+[  7%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_align.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_align.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_align.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_align.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_align.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[  7%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_aligner.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_aligner.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_aligner.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_aligner.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_aligner.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[  7%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_attributes.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_attributes.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_attributes.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_attributes.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_attributes.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 15%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace_buffer.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace_buffer.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace_buffer.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace_buffer.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_backtrace_buffer.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 15%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_backtrace.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 15%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace_offload.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace_offload.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace_offload.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace_offload.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_backtrace_offload.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 23%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_bialign.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_bialign.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_bialign.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_bialign.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_bialign.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_bialign.c:1240:23: warning: implicit conversion from enumeration type 'affine_matrix_type' to different enumeration type 'affine2p_matrix_type' [-Wimplicit-enum-enum-cast]
+ 1238 |   const int align_status = wavefront_bialign_find_breakpoint(wf_aligner->bialigner,
+      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1239 |       wf_aligner->penalties.distance_metric,&wf_aligner->alignment_form,
+ 1240 |       affine_matrix_M,affine_matrix_M,&breakpoint,0);
+      |                       ^~~~~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_bialign.c:1240:7: warning: implicit conversion from enumeration type 'affine_matrix_type' to different enumeration type 'affine2p_matrix_type' [-Wimplicit-enum-enum-cast]
+ 1238 |   const int align_status = wavefront_bialign_find_breakpoint(wf_aligner->bialigner,
+      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1239 |       wf_aligner->penalties.distance_metric,&wf_aligner->alignment_form,
+ 1240 |       affine_matrix_M,affine_matrix_M,&breakpoint,0);
+      |       ^~~~~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_bialign.c:1283:25: warning: implicit conversion from enumeration type 'affine_matrix_type' to different enumeration type 'affine2p_matrix_type' [-Wimplicit-enum-enum-cast]
+ 1281 |     align_status = wavefront_bialign_alignment(wf_aligner,
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1282 |         &wf_aligner->alignment_form,
+ 1283 |         affine_matrix_M,affine_matrix_M,
+      |                         ^~~~~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_bialign.c:1283:9: warning: implicit conversion from enumeration type 'affine_matrix_type' to different enumeration type 'affine2p_matrix_type' [-Wimplicit-enum-enum-cast]
+ 1281 |     align_status = wavefront_bialign_alignment(wf_aligner,
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1282 |         &wf_aligner->alignment_form,
+ 1283 |         affine_matrix_M,affine_matrix_M,
+      |         ^~~~~~~~~~~~~~~
+5 warnings generated.
+[ 23%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_bialigner.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_bialigner.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_bialigner.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_bialigner.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_bialigner.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 23%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 23%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_components.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_components.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_components.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_components.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_components.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 30%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_affine2p.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_affine2p.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_affine2p.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_affine2p.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_compute_affine2p.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 30%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_affine.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_affine.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_affine.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_affine.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_compute_affine.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 30%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_compute.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 38%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_edit.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_edit.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_edit.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_edit.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_compute_edit.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 38%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_linear.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_linear.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_linear.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_linear.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_compute_linear.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 38%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_debug.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_debug.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_debug.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_debug.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_debug.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_debug.c:170:32: warning: format specifies type 'unsigned long' but the argument has type 'uint64_t' (aka 'unsigned long long') [-Wformat]
+  170 |     fprintf(stream,"\t%luMB\t",CONVERT_B_TO_MB(memory_used));
+      |                       ~~~      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                       %llu
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/./utils/commons.h:150:33: note: expanded from macro 'CONVERT_B_TO_MB'
+  150 | #define CONVERT_B_TO_MB(number) ((number)/(1024*1024))
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[ 38%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_display.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_display.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_display.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_display.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_display.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 46%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_extend.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 46%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_heuristic.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_heuristic.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_heuristic.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_heuristic.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_heuristic.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 46%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_pcigar.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_pcigar.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_pcigar.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_pcigar.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_pcigar.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 53%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_penalties.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_penalties.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_penalties.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_penalties.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_penalties.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 53%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_plot.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_plot.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_plot.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_plot.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_plot.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 53%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_sequences.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_sequences.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_sequences.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_sequences.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_sequences.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 53%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_slab.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_slab.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_slab.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_slab.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_slab.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 61%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_unialign.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_unialign.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_unialign.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_unialign.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_unialign.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_unialign.c:321:7: warning: format specifies type 'unsigned long' but the argument has type 'uint64_t' (aka 'unsigned long long') [-Wformat]
+  315 |       "MemoryUsed(WF-Slab,BT-buffer)=(%lu MB,%lu MB). "
+      |                                       ~~~
+      |                                       %llu
+  316 |       "Wavefronts ~ %2.3f Moffsets\n",
+  317 |       pattern_length,
+  318 |       text_length,
+  319 |       score,
+  320 |       aligned_progress,
+  321 |       CONVERT_B_TO_MB(slab_size),
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/./utils/commons.h:150:33: note: expanded from macro 'CONVERT_B_TO_MB'
+  150 | #define CONVERT_B_TO_MB(number) ((number)/(1024*1024))
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_unialign.c:322:7: warning: format specifies type 'unsigned long' but the argument has type 'uint64_t' (aka 'unsigned long long') [-Wformat]
+  315 |       "MemoryUsed(WF-Slab,BT-buffer)=(%lu MB,%lu MB). "
+      |                                              ~~~
+      |                                              %llu
+  316 |       "Wavefronts ~ %2.3f Moffsets\n",
+  317 |       pattern_length,
+  318 |       text_length,
+  319 |       score,
+  320 |       aligned_progress,
+  321 |       CONVERT_B_TO_MB(slab_size),
+  322 |       CONVERT_B_TO_MB(bt_buffer_used),
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/./utils/commons.h:150:33: note: expanded from macro 'CONVERT_B_TO_MB'
+  150 | #define CONVERT_B_TO_MB(number) ((number)/(1024*1024))
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+[ 61%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_termination.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_termination.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_termination.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_termination.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_termination.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 61%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend_kernels_avx.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend_kernels_avx.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend_kernels_avx.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend_kernels_avx.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_extend_kernels_avx.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 69%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend_kernels.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend_kernels.c.o -MF CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend_kernels.c.o.d -o CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend_kernels.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront/wavefront_extend_kernels.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 69%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/system/mm_stack.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/system/mm_stack.c.o -MF CMakeFiles/wfa2_static.dir/system/mm_stack.c.o.d -o CMakeFiles/wfa2_static.dir/system/mm_stack.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/system/mm_stack.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 69%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/system/mm_allocator.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/system/mm_allocator.c.o -MF CMakeFiles/wfa2_static.dir/system/mm_allocator.c.o.d -o CMakeFiles/wfa2_static.dir/system/mm_allocator.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/system/mm_allocator.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 76%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/system/profiler_counter.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/system/profiler_counter.c.o -MF CMakeFiles/wfa2_static.dir/system/profiler_counter.c.o.d -o CMakeFiles/wfa2_static.dir/system/profiler_counter.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/system/profiler_counter.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 76%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/system/profiler_timer.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/system/profiler_timer.c.o -MF CMakeFiles/wfa2_static.dir/system/profiler_timer.c.o.d -o CMakeFiles/wfa2_static.dir/system/profiler_timer.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/system/profiler_timer.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 76%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/utils/bitmap.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/utils/bitmap.c.o -MF CMakeFiles/wfa2_static.dir/utils/bitmap.c.o.d -o CMakeFiles/wfa2_static.dir/utils/bitmap.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils/bitmap.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 76%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/utils/dna_text.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/utils/dna_text.c.o -MF CMakeFiles/wfa2_static.dir/utils/dna_text.c.o.d -o CMakeFiles/wfa2_static.dir/utils/dna_text.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils/dna_text.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 84%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/utils/sequence_buffer.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/utils/sequence_buffer.c.o -MF CMakeFiles/wfa2_static.dir/utils/sequence_buffer.c.o.d -o CMakeFiles/wfa2_static.dir/utils/sequence_buffer.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils/sequence_buffer.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 84%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/utils/vector.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/utils/vector.c.o -MF CMakeFiles/wfa2_static.dir/utils/vector.c.o.d -o CMakeFiles/wfa2_static.dir/utils/vector.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils/vector.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 84%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/utils/commons.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/utils/commons.c.o -MF CMakeFiles/wfa2_static.dir/utils/commons.c.o.d -o CMakeFiles/wfa2_static.dir/utils/commons.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils/commons.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 92%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/utils/heatmap.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/utils/heatmap.c.o -MF CMakeFiles/wfa2_static.dir/utils/heatmap.c.o.d -o CMakeFiles/wfa2_static.dir/utils/heatmap.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils/heatmap.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 92%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/alignment/affine2p_penalties.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/alignment/affine2p_penalties.c.o -MF CMakeFiles/wfa2_static.dir/alignment/affine2p_penalties.c.o.d -o CMakeFiles/wfa2_static.dir/alignment/affine2p_penalties.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/affine2p_penalties.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 92%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/alignment/affine_penalties.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/alignment/affine_penalties.c.o -MF CMakeFiles/wfa2_static.dir/alignment/affine_penalties.c.o.d -o CMakeFiles/wfa2_static.dir/alignment/affine_penalties.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/affine_penalties.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[ 92%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/alignment/cigar.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/alignment/cigar.c.o -MF CMakeFiles/wfa2_static.dir/alignment/cigar.c.o.d -o CMakeFiles/wfa2_static.dir/alignment/cigar.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:50:11: warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+   50 |   ['M'] = SAM_CIGAR_MATCH,
+      |           ^~~~~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:38:26: note: expanded from macro 'SAM_CIGAR_MATCH'
+   38 | #define SAM_CIGAR_MATCH  0
+      |                          ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:49:17: note: previous initialization is here
+   49 |   [0 ... 255] = SAM_CIGAR_NA,
+      |                 ^~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:45:25: note: expanded from macro 'SAM_CIGAR_NA'
+   45 | #define SAM_CIGAR_NA    15
+      |                         ^~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:51:11: warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+   51 |   ['I'] = SAM_CIGAR_INS,
+      |           ^~~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:39:26: note: expanded from macro 'SAM_CIGAR_INS'
+   39 | #define SAM_CIGAR_INS    1
+      |                          ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:49:17: note: previous initialization is here
+   49 |   [0 ... 255] = SAM_CIGAR_NA,
+      |                 ^~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:45:25: note: expanded from macro 'SAM_CIGAR_NA'
+   45 | #define SAM_CIGAR_NA    15
+      |                         ^~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:52:11: warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+   52 |   ['D'] = SAM_CIGAR_DEL,
+      |           ^~~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:40:26: note: expanded from macro 'SAM_CIGAR_DEL'
+   40 | #define SAM_CIGAR_DEL    2
+      |                          ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:49:17: note: previous initialization is here
+   49 |   [0 ... 255] = SAM_CIGAR_NA,
+      |                 ^~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:45:25: note: expanded from macro 'SAM_CIGAR_NA'
+   45 | #define SAM_CIGAR_NA    15
+      |                         ^~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:53:11: warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+   53 |   ['N'] = SAM_CIGAR_N_SKIP,
+      |           ^~~~~~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:41:26: note: expanded from macro 'SAM_CIGAR_N_SKIP'
+   41 | #define SAM_CIGAR_N_SKIP 3
+      |                          ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:49:17: note: previous initialization is here
+   49 |   [0 ... 255] = SAM_CIGAR_NA,
+      |                 ^~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:45:25: note: expanded from macro 'SAM_CIGAR_NA'
+   45 | #define SAM_CIGAR_NA    15
+      |                         ^~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:54:11: warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+   54 |   ['='] = SAM_CIGAR_EQ,
+      |           ^~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:42:26: note: expanded from macro 'SAM_CIGAR_EQ'
+   42 | #define SAM_CIGAR_EQ     7
+      |                          ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:49:17: note: previous initialization is here
+   49 |   [0 ... 255] = SAM_CIGAR_NA,
+      |                 ^~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:45:25: note: expanded from macro 'SAM_CIGAR_NA'
+   45 | #define SAM_CIGAR_NA    15
+      |                         ^~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:55:11: warning: initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+   55 |   ['X'] = SAM_CIGAR_X,
+      |           ^~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:43:26: note: expanded from macro 'SAM_CIGAR_X'
+   43 | #define SAM_CIGAR_X      8
+      |                          ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:49:17: note: previous initialization is here
+   49 |   [0 ... 255] = SAM_CIGAR_NA,
+      |                 ^~~~~~~~~~~~
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar.c:45:25: note: expanded from macro 'SAM_CIGAR_NA'
+   45 | #define SAM_CIGAR_NA    15
+      |                         ^~
+7 warnings generated.
+[100%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/alignment/cigar_utils.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/alignment/cigar_utils.c.o -MF CMakeFiles/wfa2_static.dir/alignment/cigar_utils.c.o.d -o CMakeFiles/wfa2_static.dir/alignment/cigar_utils.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/cigar_utils.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[100%] Building C object contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/alignment/score_matrix.c.o
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /usr/bin/cc -DVCFLIB_VERSION=\"1.0.15\" -DVERSION=\"1.0.15\" -DVERSION=\"v2.3\" -DWFA2LIB_VERSION=\"v2.3\" -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/fastahack -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/intervaltree -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/smithwaterman -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/filevercmp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/c-progress-bar -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/tabixpp/htslib -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/wavefront -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/utils -DWFA_PARALLEL   -O2 -g -DNDEBUG -flto=thin -arch arm64 -fPIC -Xpreprocessor -fopenmp -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -MD -MT contrib/WFA2-lib/CMakeFiles/wfa2_static.dir/alignment/score_matrix.c.o -MF CMakeFiles/wfa2_static.dir/alignment/score_matrix.c.o.d -o CMakeFiles/wfa2_static.dir/alignment/score_matrix.c.o -c /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/contrib/WFA2-lib/alignment/score_matrix.c
+In file included from <built-in>:485:
+<command line>:3:9: warning: 'VERSION' macro redefined [-Wmacro-redefined]
+    3 | #define VERSION "v2.3"
+      |         ^
+<command line>:2:9: note: previous definition is here
+    2 | #define VERSION "1.0.15"
+      |         ^
+1 warning generated.
+[100%] Linking C static library libwfa2.a
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -P CMakeFiles/wfa2_static.dir/cmake_clean_target.cmake
+cd /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/contrib/WFA2-lib && /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E cmake_link_script CMakeFiles/wfa2_static.dir/link.txt --verbose=1
+"/usr/bin/ar" qc libwfa2.a CMakeFiles/wfa2_static.dir/wavefront/wavefront_align.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_aligner.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_attributes.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace_buffer.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_backtrace_offload.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_bialign.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_bialigner.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_components.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_affine2p.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_affine.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_edit.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_compute_linear.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_debug.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_display.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_heuristic.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_pcigar.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_penalties.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_plot.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_sequences.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_slab.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_unialign.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_termination.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend_kernels_avx.c.o CMakeFiles/wfa2_static.dir/wavefront/wavefront_extend_kernels.c.o CMakeFiles/wfa2_static.dir/system/mm_stack.c.o CMakeFiles/wfa2_static.dir/system/mm_allocator.c.o CMakeFiles/wfa2_static.dir/system/profiler_counter.c.o CMakeFiles/wfa2_static.dir/system/profiler_timer.c.o CMakeFiles/wfa2_static.dir/utils/bitmap.c.o CMakeFiles/wfa2_static.dir/utils/dna_text.c.o CMakeFiles/wfa2_static.dir/utils/sequence_buffer.c.o CMakeFiles/wfa2_static.dir/utils/vector.c.o CMakeFiles/wfa2_static.dir/utils/commons.c.o CMakeFiles/wfa2_static.dir/utils/heatmap.c.o CMakeFiles/wfa2_static.dir/alignment/affine2p_penalties.c.o CMakeFiles/wfa2_static.dir/alignment/affine_penalties.c.o CMakeFiles/wfa2_static.dir/alignment/cigar.c.o CMakeFiles/wfa2_static.dir/alignment/cigar_utils.c.o CMakeFiles/wfa2_static.dir/alignment/score_matrix.c.o
+"/usr/bin/ranlib" libwfa2.a
+[100%] Built target wfa2_static
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/cmake -E cmake_progress_start /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/deps/vcflib/build/CMakeFiles 0
+
+cp deps/vcflib/contrib/filevercmp/*.h* include
+cp deps/vcflib/contrib/fastahack/*.h* include
+cp deps/vcflib/contrib/smithwaterman/*.h* include
+cp deps/vcflib/contrib/intervaltree/IntervalTree.h include
+cp deps/vcflib/contrib/multichoose/*.h* include
+cp deps/vcflib/src/*.h* include
+cp deps/vcflib/build/libvcflib.a lib
+cp deps/vcflib/build/contrib/WFA2-lib/libwfa2.a lib
+       41.38 real        20.80 user        10.55 sys
+           310411264  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1908658  page reclaims
+               38237  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                 476  signals received
+                2805  voluntary context switches
+              213388  involuntary context switches
+           763755561  instructions retired
+           252171960  cycles elapsed
+             6815960  peak memory footprint
+EXIT_CODE=2
+BUILD_END=2026-09-16T02:36:40Z

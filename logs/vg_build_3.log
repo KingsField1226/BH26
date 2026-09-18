@@ -1,0 +1,539 @@
+BUILD_START=2026-09-16T02:33:35Z
+LDFLAGS=-Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib 
+CXXFLAGS=-D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION 
+OS is Mac
+Compiler c++ is Clang
+OMP source is Homebrew libomp global install
+CXXFLAGS are -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp
+LDFLAGS are -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib
+Check Git
+cp -r deps/gbwtgraph/include/gbwtgraph /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/ && cd deps/gbwtgraph && /Library/Developer/CommandLineTools/usr/bin/make clean && CFLAGS="-fPIC " CXXFLAGS="-fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp" AS_INTEGRATED_ASSEMBLER=1 /Library/Developer/CommandLineTools/usr/bin/make 2>&1 | python3 /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/scripts/filter-noisy-assembler-warnings.py && mv lib/libgbwtgraph.a /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib
+rm -f deps/vcflib/contrib/WFA2-lib/VERSION
+rm -Rf /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/bdsg && cd deps/libbdsg && /Library/Developer/CommandLineTools/usr/bin/make clean && CPLUS_INCLUDE_PATH=/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include:/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic: CXXFLAGS="-I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp" /Library/Developer/CommandLineTools/usr/bin/make 2>&1 | python3 /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/scripts/filter-noisy-assembler-warnings.py && cp lib/libbdsg.a /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib && cp -r bdsg/include/* /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include
+env
+CLAUDE_CODE_EMIT_TOOL_USE_SUMMARIES=false
+CLAUDE_CODE_ENABLE_ASK_USER_QUESTION_TOOL=true
+CLAUDE_CODE_MESSAGING_TOKEN=d2c2badab7e71dffaa0bbbc86c10b842
+MANPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:
+LDFLAGS=-Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib
+NoDefaultCurrentDirectoryInExePath=1
+CLAUDE_EFFORT=high
+TERM_PROGRAM=tmux
+CLAUDE_CODE_ENTRYPOINT=claude-desktop
+TERM=tmux-256color
+CLAUDE_PREVIEW_CLASSIFIER_FLOOR=1
+CLAUDE_CODE_OAUTH_SCOPES=user:inference user:file_upload user:profile user:sessions:claude_code user:plugins
+BAGGAGE=sentry-environment=production,sentry-release=Claude%402.110.0,sentry-public_key=2f98127cbffe4740b1f767a2de77d23b,sentry-trace_id=71df2423c4d7454f82afc38f0e6335e2,sentry-org_id=1158394
+CLAUDE_CODE_HOST_SESSION_ID=local_107626e6-e81f-4192-a8f3-af1fdf7edfcd
+SHELL=/bin/zsh
+MAKEFLAGS= --jobserver-fds=3,4 -j
+CLAUDE_PID=35360
+TMPDIR=/var/folders/pz/5tn89wkn7dbgwbpgzxbz726h0000gn/T/
+CLAUDE_CODE_CHILD_SESSION=1
+CLAUDE_CODE_EAGER_FLUSH=1
+CONDA_SHLVL=1
+TERM_PROGRAM_VERSION=3.7c
+CONDA_PROMPT_MODIFIER=(bh26) 
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+MallocNanoZone=0
+CLAUDE_AGENT_SDK_VERSION=0.3.271
+USE_LOCAL_OAUTH=
+CLAUDE_CODE_SDK_HAS_OAUTH_REFRESH=1
+AI_AGENT=claude-code_2-1-271_agent
+GIT_EDITOR=true
+CLAUDE_CODE_DISABLE_TERMINAL_TITLE=1
+USER=kazumichi
+_CONDA_EXE=/opt/homebrew/Caskroom/miniforge/base/bin/conda
+COMMAND_MODE=unix2003
+API_TIMEOUT_MS=900000
+CONDA_EXE=/opt/homebrew/Caskroom/miniforge/base/bin/conda
+SSH_AUTH_SOCK=/var/run/com.apple.launchd.S3LNXIr75Y/Listeners
+__CF_USER_TEXT_ENCODING=0x1F5:0x1:0xE
+MAKELEVEL=1
+CXXFLAGS=-std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp
+PAGER=less
+TMUX=/private/tmp/tmux-501/default,63570,0
+MFLAGS=- --jobserver-fds=3,4 -j
+CLAUDE_CODE_DESKTOP_APP_VERSION=2.110.0
+_CE_CONDA=
+CLAUDE_CODE_REPORT_FINDINGS=1
+PATH=/opt/homebrew/Caskroom/miniforge/base/envs/bh26/opt/bison/bin:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/opt/coreutils/libexec/gnubin:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin:/opt/homebrew/Caskroom/miniforge/base/condabin:/opt/homebrew/opt/openjdk/bin:/opt/homebrew/Caskroom/miniforge/base/bin:/opt/homebrew/Caskroom/miniforge/base/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/opt/homebrew/Caskroom/miniforge/base/envs/pymc/bin:/Users/kazumichi/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/4d91d4c8-5efa-44d2-9eed-404ef4e06d98/725db521-fc3d-4887-966c-da9f74cf119c/bin
+MCP_CONNECTION_NONBLOCKING=true
+GSETTINGS_SCHEMA_DIR=/opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/glib-2.0/schemas
+_=/usr/bin/env
+CONDA_PREFIX=/opt/homebrew/Caskroom/miniforge/base/envs/bh26
+__CFBundleIdentifier=com.anthropic.claudefordesktop
+PWD=/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg
+EDITOR=nano
+LANG=en_US.UTF-8
+XPC_FLAGS=0x0
+TMUX_PANE=%0
+NODE_USE_SYSTEM_CA=1
+CLAUDE_CODE_SESSION_ATTENDED=1
+_CE_M=
+CXX=c++
+_CONDA_ROOT=/opt/homebrew/Caskroom/miniforge/base
+XPC_SERVICE_NAME=0
+CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING=true
+SHLVL=3
+HOME=/Users/kazumichi
+CLAUDE_CODE_DISABLE_CRON=
+ANTHROPIC_BASE_URL=https://api.anthropic.com
+CLAUDE_CODE_EXECPATH=/Users/kazumichi/Library/Application Support/Claude/claude-code/2.1.271/claude.app/Contents/MacOS/claude
+HOMEBREW_PREFIX=/opt/homebrew/Caskroom/miniforge/base/envs/bh26
+DISABLE_MICROCOMPACT=1
+MCP_SERVER_CONNECTION_BATCH_SIZE=8
+CONDA_PYTHON_EXE=/opt/homebrew/Caskroom/miniforge/base/bin/python
+LESS=-g -i -M -R -S -w -X -z-4
+LOGNAME=kazumichi
+VISUAL=nano
+COREPACK_ENABLE_AUTO_PIN=0
+CONDA_DEFAULT_ENV=bh26
+PKG_CONFIG_PATH=/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/pkgconfig:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/pkgconfig
+CLAUDE_CODE_SDK_HAS_HOST_AUTH_REFRESH=1
+BROWSER=open
+DISABLE_AUTOUPDATER=1
+CLAUDE_CODE_SESSION_ID=62d2a331-62f2-41d3-a01e-6ecae08b92c2
+CC=cc
+OSLogRateLimit=64
+CLAUDE_CODE_MESSAGING_SOCKET=/tmp/cc-socks/35360.sock
+CLAUDECODE=1
+COLORTERM=truecolor
+USE_STAGING_OAUTH=
+cd deps/vcflib && rm -Rf build && mkdir build && cd build && PKG_CONFIG_PATH="/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib/pkgconfig:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/pkgconfig:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/pkgconfig" cmake -DCMAKE_C_COMPILER="cc" -DCMAKE_CXX_COMPILER="c++" -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DZIG=OFF -DCMAKE_C_FLAGS="" -DCMAKE_CXX_FLAGS="-std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg -DCMAKE_PREFIX_PATH="/usr;/;/opt/homebrew/Caskroom/miniforge/base/envs/bh26" -DPYTHON_EXECUTABLE="/opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/python3" -DBUILD_STATIC=ON -DWFA_GITMODULE=ON .. && cmake --build . --target vcflib wfa2_static
+[ ! -e bdsg/obj ] || rm -r bdsg/obj
+Found libcrypto and libzstd.
+[ ! -e lib ] || rm -r lib
+[ ! -e bin ] || rm -r bin
+The compiler is Apple Clang that needs libomp for OpenMP support.
+Found libomp installed by Homebrew and linked to /opt/homebrew/Caskroom/miniforge/base/envs/bh26.
+rm -rf bin lib obj
+rm -f /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/vg.pb.h /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/vg/vg.pb.h
+rm -f *.o *.a gfa2gbwt
+rm -Rf /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/vg/io/
+cd tests && /Library/Developer/CommandLineTools/usr/bin/make clean
+export CXXFLAGS="-std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp" && export LDFLAGS="-L/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib" && cd deps/libvgio && rm -Rf CMakeCache.txt CMakeFiles *.cmake install_manifest.txt *.pb.cc *.pb.h *.a && rm -rf build-vg && mkdir build-vg && cd build-vg && PKG_CONFIG_PATH=/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib/pkgconfig:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/pkgconfig:/opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/pkgconfig cmake -DCMAKE_C_COMPILER="cc" -DCMAKE_CXX_COMPILER="c++" -DCMAKE_CXX_STANDARD=20 -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_PREFIX_PATH="/usr;/;/opt/homebrew/Caskroom/miniforge/base/envs/bh26" -DCMAKE_INSTALL_PREFIX=/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg -DCMAKE_INSTALL_LIBDIR=lib -DUSE_INSTALLED_LIBHANDLEGRAPH_ONLY=ON .. 2>&1 | python3 /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/scripts/filter-noisy-assembler-warnings.py && /Library/Developer/CommandLineTools/usr/bin/make clean && VERBOSE=1 /Library/Developer/CommandLineTools/usr/bin/make 2>&1 | python3 /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/scripts/filter-noisy-assembler-warnings.py && /Library/Developer/CommandLineTools/usr/bin/make install
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/eades_algorithm.cpp -o bdsg/obj/eades_algorithm.o
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/hash_graph.cpp -o bdsg/obj/hash_graph.o
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/is_single_stranded.cpp -o bdsg/obj/is_single_stranded.o
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/mapped_structs.cpp -o bdsg/obj/mapped_structs.o
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/packed_graph.cpp -o bdsg/obj/packed_graph.o
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/path_position_overlays.cpp -o bdsg/obj/path_position_overlays.o
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/packed_path_position_overlay.cpp -o bdsg/obj/packed_path_position_overlay.o
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/reference_path_overlay.cpp -o bdsg/obj/reference_path_overlay.o
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/packed_reference_path_overlay.cpp -o bdsg/obj/packed_reference_path_overlay.o
+Ignoring incompatible output option "--exists"
+Found libcrypto and libzstd.
+The compiler is Apple Clang that needs libomp for OpenMP support.
+Found libomp installed by Homebrew and linked to /opt/homebrew/Caskroom/miniforge/base/envs/bh26.
+rm -f test_utils test_gbwtgraph test_cached_gbwtgraph test_gfa test_gbz test_minimizer test_index test_algorithms test_path_cover test_subgraph test_naive_graph *.o
+Found libcrypto and libzstd.
+The compiler is Apple Clang that needs libomp for OpenMP support.
+Found libomp installed by Homebrew and linked to /opt/homebrew/Caskroom/miniforge/base/envs/bh26.
+mkdir -p bin
+mkdir -p lib
+mkdir -p obj
+-- The CXX compiler identification is AppleClang 21.0.0.21000334
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/algorithms.o src/algorithms.cpp
+-- The C compiler identification is AppleClang 21.0.0.21000334
+-- Detecting CXX compiler ABI info
+-- The CXX compiler identification is AppleClang 21.0.0.21000334
+-- Detecting C compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/path_subgraph_overlay.cpp -o bdsg/obj/path_subgraph_overlay.o
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/subgraph_overlay.cpp -o bdsg/obj/subgraph_overlay.o
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found BZip2: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/libbz2.dylib (found version "1.0.8")
+-- Looking for BZ2_bzCompressInit
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/vectorizable_overlays.cpp -o bdsg/obj/vectorizable_overlays.o
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/cached_gbwtgraph.o src/cached_gbwtgraph.cpp
+-- Looking for BZ2_bzCompressInit - found
+-- Looking for lzma_auto_decoder in /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/gbwtgraph.o src/gbwtgraph.cpp
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/packed_subgraph_overlay.cpp -o bdsg/obj/packed_subgraph_overlay.o
+-- Found OpenMP_CXX: -Xclang -fopenmp (found version "5.1")
+-- Found OpenMP: TRUE (found version "5.1")
+Building libvgio for C++ 20
+-- Found PkgConfig: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/pkg-config (found version "0.29.2")
+-- Found ZLIB: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd (found version "1.2.12")
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Looking for lzma_auto_decoder in /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib - found
+-- Looking for lzma_easy_encoder in /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib
+-- Looking for lzma_easy_encoder in /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib - found
+-- Looking for lzma_lzma_preset in /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/gbz.o src/gbz.cpp
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+Found Protobuf using its own protobuf-config.cmake
+Using real Threads library
+-- Checking for module 'htslib'
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/ch.cpp -o bdsg/obj/ch.o
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/snarl_distance_index.cpp -o bdsg/obj/snarl_distance_index.o
+--   Package 'zlib', required by 'htslib', not found
+CMake Error at /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake-4.4/Modules/FindPkgConfig.cmake:1093 (message):
+  The following required packages were not found:
+
+   - htslib
+
+Call Stack (most recent call first):
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake-4.4/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)
+  CMakeLists.txt:100 (pkg_check_modules)
+
+
+-- Configuring incomplete, errors occurred!
+make: *** [lib/libvgio.a] Error 1
+make: *** Waiting for unfinished jobs....
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/gfa.o src/gfa.cpp
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/strand_split_overlay.cpp -o bdsg/obj/strand_split_overlay.o
+In file included from bdsg/src/vectorizable_overlays.cpp:1:
+In file included from bdsg/include/bdsg/overlays/vectorizable_overlays.hpp:22:
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/BooPHF.h:45:37: warning: 'iterator<std::forward_iterator_tag, std::pair<std::pair<long long, bool>, std::pair<long long, bool>>>' is deprecated [-Wdeprecated-declarations]
+   45 |         class bfile_iterator : public std::iterator<std::forward_iterator_tag, basetype>{
+      |                                            ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/BooPHF.h:1427:105: note: in instantiation of template class 'boomphf::bfile_iterator<std::pair<std::pair<long long, bool>, std::pair<long long, bool>>>' requested here
+ 1427 |                                 t_arg.it_p = std::static_pointer_cast<void>(std::make_shared<disklevel_it_type>(data_iterator_level.begin()));
+      |                                                                                                                                     ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/BooPHF.h:945:5: note: in instantiation of function template specialization 'boomphf::mphf<std::pair<std::pair<long long, bool>, std::pair<long long, bool>>, bdsg::VectorizableOverlay::boomph_pair_pair_hash<long long, bool, long long, bool>>::processLevel<std::vector<std::pair<std::pair<long long, bool>, std::pair<long long, bool>>>>' requested here
+  945 |                                 processLevel(input_range,ii);
+      |                                 ^
+bdsg/src/vectorizable_overlays.cpp:185:28: note: in instantiation of function template specialization 'boomphf::mphf<std::pair<std::pair<long long, bool>, std::pair<long long, bool>>, bdsg::VectorizableOverlay::boomph_pair_pair_hash<long long, bool, long long, bool>>::mphf<std::vector<std::pair<std::pair<long long, bool>, std::pair<long long, bool>>>>' requested here
+  185 |     edge_to_rank.reset(new boomphf::mphf<pair<pair<nid_t, bool>, pair<nid_t, bool>>, boomph_pair_pair_hash<nid_t, bool, nid_t, bool>>(
+      |                            ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator.h:23:8: note: 'iterator<std::forward_iterator_tag, std::pair<std::pair<long long, bool>, std::pair<long long, bool>>>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX17 iterator {
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:540:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'
+  540 | #    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+      |                                         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from bdsg/src/vectorizable_overlays.cpp:1:
+In file included from bdsg/include/bdsg/overlays/vectorizable_overlays.hpp:22:
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/BooPHF.h:45:37: warning: 'iterator<std::forward_iterator_tag, long long>' is deprecated [-Wdeprecated-declarations]
+   45 |         class bfile_iterator : public std::iterator<std::forward_iterator_tag, basetype>{
+      |                                            ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/BooPHF.h:1427:105: note: in instantiation of template class 'boomphf::bfile_iterator<long long>' requested here
+ 1427 |                                 t_arg.it_p = std::static_pointer_cast<void>(std::make_shared<disklevel_it_type>(data_iterator_level.begin()));
+      |                                                                                                                                     ^
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/BooPHF.h:945:5: note: in instantiation of function template specialization 'boomphf::mphf<long long, boomphf::SingleHashFunctor<long long>>::processLevel<std::vector<long long>>' requested here
+  945 |                                 processLevel(input_range,ii);
+      |                                 ^
+bdsg/src/vectorizable_overlays.cpp:191:28: note: in instantiation of function template specialization 'boomphf::mphf<long long, boomphf::SingleHashFunctor<long long>>::mphf<std::vector<long long>>' requested here
+  191 |     node_to_rank.reset(new boomphf::mphf<nid_t, boomphf::SingleHashFunctor<nid_t>>(rank_to_node.size(), rank_to_node,
+      |                            ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator.h:23:8: note: 'iterator<std::forward_iterator_tag, long long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX17 iterator {
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:540:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'
+  540 | #    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+      |                                         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -MMD -MP -O3 -Werror=return-type -std=c++17 -ggdb -g -Ibdsg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/GFAz -I. -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/unittest/support -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/src/subcommand -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/dynamic -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/cairo -DPROTOBUF_USE_DLLS -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -Wno-unused-command-line-argument -DNOMINMAX -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include  -isystem /usr/local/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -Xpreprocessor -fopenmp -c bdsg/src/utility.cpp -o bdsg/obj/utility.o
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/index.o src/index.cpp
+-- Looking for lzma_lzma_preset in /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib - found
+-- Found LibLZMA: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/liblzma.dylib (found version "5.8.3")
+-- Found PkgConfig: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/pkg-config (found version "0.29.2")
+-- Found ZLIB: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd (found version "1.2.12")
+CMake Warning (author) at /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/FindPythonLibsNew.cmake:101 (message):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning, or
+  preferably upgrade to using FindPython, either by calling it explicitly
+  before pybind11, or by setting PYBIND11_FINDPYTHON ON before pybind11.
+Call Stack (most recent call first):
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/pybind11Common.cmake:243 (include)
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/pybind11Config.cmake:257 (include)
+  CMakeLists.txt:23 (find_package)
+This warning is for project developers.  Use -Wno-author to suppress it.
+
+CMake Warning (deprecated) at /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/FindPythonLibsNew.cmake:110 (cmake_policy):
+  The OLD behavior for policy CMP0148 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+Call Stack (most recent call first):
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/pybind11Common.cmake:243 (include)
+  /opt/homebrew/Caskroom/miniforge/base/envs/bh26/share/cmake/pybind11/pybind11Config.cmake:257 (include)
+  CMakeLists.txt:23 (find_package)
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+-- Found PythonInterp: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/bin/python3 (found suitable version "3.11.16", minimum required is "3.9")
+-- Found PythonLibs: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib/libpython3.11.dylib
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/internal.o src/internal.cpp
+-- Performing Test HAS_FLTO_THIN
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/minimizer.o src/minimizer.cpp
+-- Performing Test HAS_FLTO_THIN - Success
+-- Performing Test HAS_FLTO
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/naive_graph.o src/naive_graph.cpp
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/path_cover.o src/path_cover.cpp
+-- Performing Test HAS_FLTO - Success
+-- Found pybind11: /opt/homebrew/Caskroom/miniforge/base/envs/bh26/include (found version "3.1.0")
+-- 
+
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/subgraph.o src/subgraph.cpp
+2 warnings generated.
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/utils.o src/utils.cpp
+In file included from bdsg/src/snarl_distance_index.cpp:7:
+In file included from bdsg/include/bdsg/snarl_distance_index.hpp:7:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/snarl_decomposition.hpp:8:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/types.hpp:9:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/utility:325:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:112:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/fstream.h:13:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:45:41: warning: 'char_traits<unsigned char>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+   45 | template <class _CharT, class _Traits = char_traits<_CharT>, class _Allocator = allocator<_CharT> >
+      |                                         ^
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include/boost/xpressive/traits/cpp_regex_traits.hpp:321:18: note: in instantiation of default argument for 'basic_string<char_type>' required here
+  321 |     typedef std::basic_string<char_type> string_type;
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include/boost/xpressive/traits/cpp_regex_traits.hpp:673:22: note: in instantiation of template class 'boost::xpressive::cpp_regex_traits<unsigned char>' requested here
+  673 | inline unsigned char cpp_regex_traits<unsigned char>::hash(unsigned char ch)
+      |                      ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<unsigned char>' has been explicitly marked deprecated here
+   24 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:505:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  505 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from bdsg/src/snarl_distance_index.cpp:7:
+In file included from bdsg/include/bdsg/snarl_distance_index.hpp:7:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/snarl_decomposition.hpp:8:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/types.hpp:9:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/utility:325:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:112:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/fstream.h:13:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:45:41: warning: 'char_traits<signed char>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+   45 | template <class _CharT, class _Traits = char_traits<_CharT>, class _Allocator = allocator<_CharT> >
+      |                                         ^
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include/boost/xpressive/traits/cpp_regex_traits.hpp:321:18: note: in instantiation of default argument for 'basic_string<char_type>' required here
+  321 |     typedef std::basic_string<char_type> string_type;
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include/boost/xpressive/traits/cpp_regex_traits.hpp:685:22: note: in instantiation of template class 'boost::xpressive::cpp_regex_traits<signed char>' requested here
+  685 | inline unsigned char cpp_regex_traits<signed char>::hash(signed char ch)
+      |                      ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<signed char>' has been explicitly marked deprecated here
+   24 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:505:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  505 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from bdsg/src/ch.cpp:4:
+In file included from bdsg/include/bdsg/ch.hpp:7:
+In file included from bdsg/include/bdsg/hash_graph.hpp:11:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/mutable_path_deletable_handle_graph.hpp:8:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/mutable_path_mutable_handle_graph.hpp:8:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/mutable_path_handle_graph.hpp:8:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/path_handle_graph.hpp:8:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/handle_graph.hpp:8:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/types.hpp:9:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/utility:325:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:112:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/fstream.h:13:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:45:41: warning: 'char_traits<unsigned char>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+   45 | template <class _CharT, class _Traits = char_traits<_CharT>, class _Allocator = allocator<_CharT> >
+      |                                         ^
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include/boost/xpressive/traits/cpp_regex_traits.hpp:321:18: note: in instantiation of default argument for 'basic_string<char_type>' required here
+  321 |     typedef std::basic_string<char_type> string_type;
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include/boost/xpressive/traits/cpp_regex_traits.hpp:673:22: note: in instantiation of template class 'boost::xpressive::cpp_regex_traits<unsigned char>' requested here
+  673 | inline unsigned char cpp_regex_traits<unsigned char>::hash(unsigned char ch)
+      |                      ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<unsigned char>' has been explicitly marked deprecated here
+   24 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:505:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  505 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from bdsg/src/ch.cpp:4:
+In file included from bdsg/include/bdsg/ch.hpp:7:
+In file included from bdsg/include/bdsg/hash_graph.hpp:11:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/mutable_path_deletable_handle_graph.hpp:8:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/mutable_path_mutable_handle_graph.hpp:8:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/mutable_path_handle_graph.hpp:8:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/path_handle_graph.hpp:8:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/handle_graph.hpp:8:
+In file included from /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include/handlegraph/types.hpp:9:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/utility:325:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:112:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/fstream.h:13:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:45:41: warning: 'char_traits<signed char>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+   45 | template <class _CharT, class _Traits = char_traits<_CharT>, class _Allocator = allocator<_CharT> >
+      |                                         ^
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include/boost/xpressive/traits/cpp_regex_traits.hpp:321:18: note: in instantiation of default argument for 'basic_string<char_type>' required here
+  321 |     typedef std::basic_string<char_type> string_type;
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~
+/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include/boost/xpressive/traits/cpp_regex_traits.hpp:685:22: note: in instantiation of template class 'boost::xpressive::cpp_regex_traits<signed char>' requested here
+  685 | inline unsigned char cpp_regex_traits<signed char>::hash(signed char ch)
+      |                      ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<signed char>' has been explicitly marked deprecated here
+   24 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:505:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  505 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/canonical_gfa.o src/canonical_gfa.cpp
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/chunk_gbz.o src/chunk_gbz.cpp
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/gfa2gbwt.o src/gfa2gbwt.cpp
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/gbz_extract.o src/gbz_extract.cpp
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/gbz_find.o src/gbz_find.cpp
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/gbz_stats.o src/gbz_stats.cpp
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/kmer_freq.o src/kmer_freq.cpp
+-- Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES) 
+-- Could NOT find OpenMP_CXX (missing: OpenMP_CXX_FLAGS OpenMP_CXX_LIB_NAMES) 
+-- Could NOT find OpenMP (missing: OpenMP_C_FOUND OpenMP_CXX_FOUND) 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+/usr/bin/c++  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -c -o obj/subgraph_query.o src/subgraph_query.cpp
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Checking for module 'htslib'
+--   Package 'zlib', required by 'htslib', not found
+-- Checking for module 'tabixpp'
+2 warnings generated.
+--   Found tabixpp, version 1.0
+-- Using included htslib
+2 warnings generated.
+rm -f lib/libbdsg.a
+ar rs lib/libbdsg.a bdsg/obj/eades_algorithm.o  bdsg/obj/hash_graph.o  bdsg/obj/is_single_stranded.o  bdsg/obj/mapped_structs.o  bdsg/obj/packed_graph.o  bdsg/obj/path_position_overlays.o  bdsg/obj/packed_path_position_overlay.o bdsg/obj/reference_path_overlay.o bdsg/obj/packed_reference_path_overlay.o bdsg/obj/path_subgraph_overlay.o bdsg/obj/subgraph_overlay.o bdsg/obj/vectorizable_overlays.o  bdsg/obj/packed_subgraph_overlay.o  bdsg/obj/ch.o bdsg/obj/snarl_distance_index.o bdsg/obj/strand_split_overlay.o  bdsg/obj/utility.o
+ar: creating archive lib/libbdsg.a
+ar rcs lib/libgbwtgraph.a obj/algorithms.o obj/cached_gbwtgraph.o obj/gbwtgraph.o obj/gbz.o obj/gfa.o obj/index.o obj/internal.o obj/minimizer.o obj/naive_graph.o obj/path_cover.o obj/subgraph.o obj/utils.o
+-- Could NOT find CURL (missing: CURL_LIBRARY) (found version "8.22.0")
+-- Using included tabixpp
+-- Using included libwfa
+-- 
+
+/usr/bin/c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -o bin/canonical_gfa obj/canonical_gfa.o lib/libgbwtgraph.a -L/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib -lgbwt -lhandlegraph -lsdsl -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lcrypto -lzstd -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lomp
+/usr/bin/c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -o bin/chunk_gbz obj/chunk_gbz.o lib/libgbwtgraph.a -L/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib -lgbwt -lhandlegraph -lsdsl -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lcrypto -lzstd -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lomp
+/usr/bin/c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -o bin/gfa2gbwt obj/gfa2gbwt.o lib/libgbwtgraph.a -L/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib -lgbwt -lhandlegraph -lsdsl -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lcrypto -lzstd -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lomp
+/usr/bin/c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -o bin/gbz_extract obj/gbz_extract.o lib/libgbwtgraph.a -L/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib -lgbwt -lhandlegraph -lsdsl -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lcrypto -lzstd -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lomp
+/usr/bin/c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -o bin/gbz_find obj/gbz_find.o lib/libgbwtgraph.a -L/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib -lgbwt -lhandlegraph -lsdsl -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lcrypto -lzstd -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lomp
+-- Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES) 
+-- Could NOT find OpenMP_CXX (missing: OpenMP_CXX_FLAGS OpenMP_CXX_LIB_NAMES) 
+-- Could NOT find OpenMP (missing: OpenMP_C_FOUND OpenMP_CXX_FOUND) 
+-- WFA using include contrib/WFA2-lib
+Pandoc needs to be installed to generate the man pages
+-- Configuring done (8.4s)
+/usr/bin/c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -o bin/gbz_stats obj/gbz_stats.o lib/libgbwtgraph.a -L/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib -lgbwt -lhandlegraph -lsdsl -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lcrypto -lzstd -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lomp
+/usr/bin/c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -o bin/kmer_freq obj/kmer_freq.o lib/libgbwtgraph.a -L/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib -lgbwt -lhandlegraph -lsdsl -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lcrypto -lzstd -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lomp
+/usr/bin/c++ -Wl,-rpath,/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -L/usr/local/lib -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib  -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION   -Xpreprocessor -fopenmp -fPIC -std=c++20 -O3 -Werror=return-type -ggdb -g   -Xpreprocessor -fopenmp -std=c++17 -DNDEBUG -stdlib=libc++  -Xpreprocessor -fopenmp -pthread -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline"  -Iinclude -I/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -I/opt/homebrew/Caskroom/miniforge/base/envs/bh26/include -o bin/subgraph_query obj/subgraph_query.o lib/libgbwtgraph.a -L/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/lib -lgbwt -lhandlegraph -lsdsl -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lcrypto -lzstd -L/opt/homebrew/Caskroom/miniforge/base/envs/bh26/lib -lomp
+CMake Error at CMakeLists.txt:443 (target_link_libraries):
+  Target "vcflib" links to:
+
+    OpenMP::OpenMP_CXX
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at contrib/WFA2-lib/CMakeLists.txt:159 (target_link_libraries):
+  Target "wfa2_static" links to:
+
+    OpenMP::OpenMP_C
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at contrib/WFA2-lib/CMakeLists.txt:160 (target_link_libraries):
+  Target "wfa2" links to:
+
+    OpenMP::OpenMP_C
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at contrib/WFA2-lib/CMakeLists.txt:181 (target_link_libraries):
+  Target "wfa2cpp_static" links to:
+
+    OpenMP::OpenMP_CXX
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at contrib/WFA2-lib/CMakeLists.txt:182 (target_link_libraries):
+  Target "wfa2cpp" links to:
+
+    OpenMP::OpenMP_CXX
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at contrib/WFA2-lib/CMakeLists.txt:238 (target_link_libraries):
+  Target "align_benchmark" links to:
+
+    OpenMP::OpenMP_C
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+rm obj/chunk_gbz.o obj/gfa2gbwt.o obj/gbz_stats.o obj/kmer_freq.o obj/gbz_find.o obj/canonical_gfa.o obj/subgraph_query.o obj/gbz_extract.o
+-- Generating done (0.4s)
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [lib/libvcflib.a] Error 1
+        9.65 real        68.92 user        13.66 sys
+           573685760  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1533083  page reclaims
+               16408  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                 455  signals received
+                2901  voluntary context switches
+              713170  involuntary context switches
+           754239298  instructions retired
+           243466234  cycles elapsed
+             6668504  peak memory footprint
+EXIT_CODE=2
+BUILD_END=2026-09-16T02:33:45Z

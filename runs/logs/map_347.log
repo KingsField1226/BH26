@@ -1,0 +1,189 @@
+=== run_giraffe_mapping.sh ===
+date: 2026-09-17T11:51:17Z
+region_id=cand_chr21_347 gbz=runs/full_scan_367windows/work/indexes/cand_chr21_347/cand_chr21_347.giraffe.gbz r1=runs/full_scan_367windows/work/reads/cand_chr21_347_R1.fastq.gz r2=runs/full_scan_367windows/work/reads/cand_chr21_347_R2.fastq.gz path_prefix=GRCh38#0#chr21 threads=12
+resolved_path_name=GRCh38#0#chr21:43734185-43834285#0
+--- vg giraffe ---
+[vg giraffe] Guessing that runs/full_scan_367windows/work/indexes/cand_chr21_347/cand_chr21_347.shortread.zipcodes is Short Read Zipcodes
+[vg giraffe] Guessing that runs/full_scan_367windows/work/indexes/cand_chr21_347/cand_chr21_347.shortread.withzip.min is Short Read Minimizers
+[vg giraffe] Guessing that runs/full_scan_367windows/work/indexes/cand_chr21_347/cand_chr21_347.dist is Giraffe Distance Index
+[vg giraffe] Preparing Indexes
+[vg giraffe] Loading Minimizer Index
+[vg giraffe] Loading Zipcodes
+[vg giraffe] Loading GBZ
+[vg giraffe] Loading Distance Index
+[vg giraffe] Paging in Distance Index
+[vg giraffe] Initializing MinimizerMapper
+[vg giraffe] Loading and initialization: 0.005875 seconds
+[vg giraffe] Of which Distance Index paging: 0.000121 seconds
+[vg giraffe] Mapping reads to "-" (GAM)
+--watchdog-timeout 10
+--batch-size 512
+--match 1
+--mismatch 4
+--gap-open 6
+--gap-extend 1
+--full-l-bonus 5
+--max-multimaps 1
+--hit-cap 10
+--hard-hit-cap 500
+--score-fraction 0.9
+--max-min 500
+--min-coverage-flank 250
+--num-bp-per-min 1000
+--downsample-window-length 18446744073709551615
+--downsample-window-count 0
+--distance-limit 200
+--min-extensions 2
+--max-extensions 800
+--max-alignments 8
+--cluster-score 50
+--pad-cluster-score 20
+--cluster-coverage 0.3
+--max-extension-mismatches 4
+--extension-score 1
+--extension-set 20
+--rescue-attempts 15
+--max-fragment-length 2000
+--paired-distance-limit 2
+--rescue-subgraph-size 4
+--rescue-seed-limit 100
+--mapq-score-window 0
+--mapq-score-scale 1
+--min-mapq0-score 0
+--zipcode-tree-score-threshold 50
+--pad-zipcode-tree-score-threshold 20
+--zipcode-tree-coverage-threshold 0.3
+--zipcode-tree-scale 2
+--gapless-extension-limit 0
+--min-chaining-problems 1
+--max-chaining-problems 2147483647
+--max-graph-lookback-bases 3000
+--max-graph-lookback-bases-per-base 0.3
+--max-read-lookback-bases 18446744073709551615
+--max-read-lookback-bases-per-base 1
+--max-indel-bases 2000
+--max-indel-bases-per-base 0.2
+--item-bonus 0
+--gap-scale 1
+--rec-penalty 0
+--rec-consistency-bonus 0
+--chain-score-threshold 100
+--target-alignment-attempts 4
+--min-chain-score-per-base 0.01
+--max-min-chain-score 200
+--min-indel-avoid-bases 0
+--max-skipped-bases 0
+--max-chains-per-tree 1
+--max-chain-connection 100
+--max-tail-length 100
+--max-dp-cells 18446744073709551615
+--max-tail-gap 18446744073709551615
+--max-middle-gap 18446744073709551615
+--max-tail-dp-length 30000
+--max-middle-dp-length 2147483647
+--wfa-max-mismatches 2
+--wfa-max-mismatches-per-base 0.1
+--wfa-max-max-mismatches 20
+--wfa-distance 10
+--wfa-distance-per-base 0.1
+--wfa-max-distance 200
+--rec-penalty-aln 0
+--softclip-penalty 0
+--min-unique-node-fraction 0
+--rescue-algorithm dozeu
+warning[vg::Watchdog]: Thread 3 has been checked in for 10 seconds processing: cand_chr21_347_36/1, cand_chr21_347_36/2
+warning[vg::Watchdog]: Thread 3 finally checked out after 23 seconds and 5537792 kb memory growth processing: cand_chr21_347_36/1, cand_chr21_347_36/2
+warning[vg::Watchdog]: Thread 3 has been checked in for 10 seconds processing: cand_chr21_347_198/1, cand_chr21_347_198/2
+warning[vg::Watchdog]: Thread 3 finally checked out after 10 seconds and 557056 kb memory growth processing: cand_chr21_347_198/1, cand_chr21_347_198/2
+warning[vg::Watchdog]: Thread 3 has been checked in for 10 seconds processing: cand_chr21_347_2a6/1, cand_chr21_347_2a6/2
+warning[vg::Watchdog]: Thread 3 finally checked out after 38 seconds and 2293760 kb memory growth processing: cand_chr21_347_2a6/1, cand_chr21_347_2a6/2
+warning[vg::Watchdog]: Thread 3 has been checked in for 10 seconds processing: cand_chr21_347_30b/1, cand_chr21_347_30b/2
+warning[vg::Watchdog]: Thread 3 finally checked out after 41 seconds and 180224 kb memory growth processing: cand_chr21_347_30b/1, cand_chr21_347_30b/2
+warning[vg::Watchdog]: Thread 3 has been checked in for 10 seconds processing: cand_chr21_347_36b/1, cand_chr21_347_36b/2
+warning[vg::Watchdog]: Thread 3 finally checked out after 49 seconds and 327680 kb memory growth processing: cand_chr21_347_36b/1, cand_chr21_347_36b/2
+warning[vg::Watchdog]: Thread 3 has been checked in for 10 seconds processing: cand_chr21_347_4f3/1, cand_chr21_347_4f3/2
+warning[vg::Watchdog]: Thread 3 finally checked out after 77 seconds and 2686976 kb memory growth processing: cand_chr21_347_4f3/1, cand_chr21_347_4f3/2
+warning[vg::Watchdog]: Thread 3 has been checked in for 10 seconds processing: cand_chr21_347_55e/1, cand_chr21_347_55e/2
+warning[vg::Watchdog]: Thread 3 finally checked out after 90 seconds and 409600 kb memory growth processing: cand_chr21_347_55e/1, cand_chr21_347_55e/2
+warning[vg::Watchdog]: Thread 3 has been checked in for 10 seconds processing: cand_chr21_347_5a4/1, cand_chr21_347_5a4/2
+warning[vg::Watchdog]: Thread 3 finally checked out after 42 seconds and 81920 kb memory growth processing: cand_chr21_347_5a4/1, cand_chr21_347_5a4/2
+[vg giraffe] Using fragment length estimate: 347.056 +/- 34.783
+warning[vg::Watchdog]: Thread 0 has been checked in for 10 seconds processing: cand_chr21_347_e88/1, cand_chr21_347_e88/2
+warning[vg::Watchdog]: Thread 1 has been checked in for 10 seconds processing: cand_chr21_347_1c27/1, cand_chr21_347_1c27/2
+warning[vg::Watchdog]: Thread 2 has been checked in for 10 seconds processing: cand_chr21_347_160a/1, cand_chr21_347_160a/2
+warning[vg::Watchdog]: Thread 3 has been checked in for 10 seconds processing: cand_chr21_347_7225/1, cand_chr21_347_7225/2
+warning[vg::Watchdog]: Thread 4 has been checked in for 10 seconds processing: cand_chr21_347_1098/1, cand_chr21_347_1098/2
+warning[vg::Watchdog]: Thread 5 has been checked in for 10 seconds processing: cand_chr21_347_801/1, cand_chr21_347_801/2
+warning[vg::Watchdog]: Thread 6 has been checked in for 10 seconds processing: cand_chr21_347_1af9/1, cand_chr21_347_1af9/2
+warning[vg::Watchdog]: Thread 8 has been checked in for 10 seconds processing: cand_chr21_347_a55/1, cand_chr21_347_a55/2
+warning[vg::Watchdog]: Thread 9 has been checked in for 10 seconds processing: cand_chr21_347_1288/1, cand_chr21_347_1288/2
+warning[vg::Watchdog]: Thread 10 has been checked in for 10 seconds processing: cand_chr21_347_c7f/1, cand_chr21_347_c7f/2
+warning[vg::Watchdog]: Thread 11 has been checked in for 10 seconds processing: cand_chr21_347_142c/1, cand_chr21_347_142c/2
+warning[vg::Watchdog]: Thread 7 has been checked in for 10 seconds processing: cand_chr21_347_18a0/1, cand_chr21_347_18a0/2
+warning[vg::Watchdog]: Thread 3 finally checked out after 39 seconds and 62685184 kb memory growth processing: cand_chr21_347_7225/1, cand_chr21_347_7225/2
+warning[vg::Watchdog]: Thread 10 finally checked out after 45 seconds and 63291392 kb memory growth processing: cand_chr21_347_c7f/1, cand_chr21_347_c7f/2
+warning[vg::Watchdog]: Thread 9 finally checked out after 47 seconds and 63733760 kb memory growth processing: cand_chr21_347_1288/1, cand_chr21_347_1288/2
+warning[vg::Watchdog]: Thread 11 finally checked out after 50 seconds and 64323584 kb memory growth processing: cand_chr21_347_142c/1, cand_chr21_347_142c/2
+warning[vg::Watchdog]: Thread 3 has been checked in for 10 seconds processing: cand_chr21_347_7397/1, cand_chr21_347_7397/2
+warning[vg::Watchdog]: Thread 0 finally checked out after 52 seconds and 64520192 kb memory growth processing: cand_chr21_347_e88/1, cand_chr21_347_e88/2
+warning[vg::Watchdog]: Thread 10 has been checked in for 10 seconds processing: cand_chr21_347_cf7/1, cand_chr21_347_cf7/2
+warning[vg::Watchdog]: Thread 8 finally checked out after 55 seconds and 65044480 kb memory growth processing: cand_chr21_347_a55/1, cand_chr21_347_a55/2
+warning[vg::Watchdog]: Thread 7 finally checked out after 55 seconds and 8454144 kb memory growth processing: cand_chr21_347_18a0/1, cand_chr21_347_18a0/2
+warning[vg::Watchdog]: Thread 9 has been checked in for 10 seconds processing: cand_chr21_347_1e4b/1, cand_chr21_347_1e4b/2
+warning[vg::Watchdog]: Thread 9 finally checked out after 10 seconds and 1425408 kb memory growth processing: cand_chr21_347_1e4b/1, cand_chr21_347_1e4b/2
+warning[vg::Watchdog]: Thread 11 has been checked in for 10 seconds processing: cand_chr21_347_148b/1, cand_chr21_347_148b/2
+warning[vg::Watchdog]: Thread 0 has been checked in for 10 seconds processing: cand_chr21_347_e8a/1, cand_chr21_347_e8a/2
+warning[vg::Watchdog]: Thread 1 finally checked out after 63 seconds and 65667072 kb memory growth processing: cand_chr21_347_1c27/1, cand_chr21_347_1c27/2
+warning[vg::Watchdog]: Thread 5 finally checked out after 65 seconds and 65732608 kb memory growth processing: cand_chr21_347_801/1, cand_chr21_347_801/2
+warning[vg::Watchdog]: Thread 8 has been checked in for 10 seconds processing: cand_chr21_347_a5d/1, cand_chr21_347_a5d/2
+warning[vg::Watchdog]: Thread 7 has been checked in for 10 seconds processing: cand_chr21_347_18de/1, cand_chr21_347_18de/2
+warning[vg::Watchdog]: Thread 9 has been checked in for 10 seconds processing: cand_chr21_347_202c/1, cand_chr21_347_202c/2
+warning[vg::Watchdog]: Thread 1 has been checked in for 10 seconds processing: cand_chr21_347_1cec/1, cand_chr21_347_1cec/2
+warning[vg::Watchdog]: Thread 5 has been checked in for 10 seconds processing: cand_chr21_347_82b/1, cand_chr21_347_82b/2
+warning[vg::Watchdog]: Thread 7 finally checked out after 23 seconds and 884736 kb memory growth processing: cand_chr21_347_18de/1, cand_chr21_347_18de/2
+warning[vg::Watchdog]: Thread 7 has been checked in for 10 seconds processing: cand_chr21_347_198a/1, cand_chr21_347_198a/2
+warning[vg::Watchdog]: Thread 6 finally checked out after 104 seconds and 66682880 kb memory growth processing: cand_chr21_347_1af9/1, cand_chr21_347_1af9/2
+warning[vg::Watchdog]: Thread 10 finally checked out after 59 seconds and 3391488 kb memory growth processing: cand_chr21_347_cf7/1, cand_chr21_347_cf7/2
+warning[vg::Watchdog]: Thread 2 finally checked out after 107 seconds and 67665920 kb memory growth processing: cand_chr21_347_160a/1, cand_chr21_347_160a/2
+warning[vg::Watchdog]: Thread 11 finally checked out after 60 seconds and 3833856 kb memory growth processing: cand_chr21_347_148b/1, cand_chr21_347_148b/2
+warning[vg::Watchdog]: Thread 4 finally checked out after 111 seconds and 68452352 kb memory growth processing: cand_chr21_347_1098/1, cand_chr21_347_1098/2
+warning[vg::Watchdog]: Thread 6 has been checked in for 10 seconds processing: cand_chr21_347_236b/1, cand_chr21_347_236b/2
+warning[vg::Watchdog]: Thread 10 has been checked in for 10 seconds processing: cand_chr21_347_d2e/1, cand_chr21_347_d2e/2
+warning[vg::Watchdog]: Thread 2 has been checked in for 10 seconds processing: cand_chr21_347_169a/1, cand_chr21_347_169a/2
+warning[vg::Watchdog]: Thread 4 has been checked in for 10 seconds processing: cand_chr21_347_10f9/1, cand_chr21_347_10f9/2
+warning[vg::Watchdog]: Thread 11 has been checked in for 10 seconds processing: cand_chr21_347_14d2/1, cand_chr21_347_14d2/2
+warning[vg::Watchdog]: Thread 6 finally checked out after 21 seconds and 2244608 kb memory growth processing: cand_chr21_347_236b/1, cand_chr21_347_236b/2
+warning[vg::Watchdog]: Thread 8 finally checked out after 70 seconds and 4096000 kb memory growth processing: cand_chr21_347_a5d/1, cand_chr21_347_a5d/2
+warning[vg::Watchdog]: Thread 9 finally checked out after 73 seconds and 4079616 kb memory growth processing: cand_chr21_347_202c/1, cand_chr21_347_202c/2
+warning[vg::Watchdog]: Thread 8 has been checked in for 10 seconds processing: cand_chr21_347_a88/1, cand_chr21_347_a88/2
+warning[vg::Watchdog]: Thread 7 finally checked out after 57 seconds and 4390912 kb memory growth processing: cand_chr21_347_198a/1, cand_chr21_347_198a/2
+warning[vg::Watchdog]: Thread 1 finally checked out after 79 seconds and 4898816 kb memory growth processing: cand_chr21_347_1cec/1, cand_chr21_347_1cec/2
+warning[vg::Watchdog]: Thread 6 has been checked in for 10 seconds processing: cand_chr21_347_2704/1, cand_chr21_347_2704/2
+warning[vg::Watchdog]: Thread 9 has been checked in for 10 seconds processing: cand_chr21_347_212c/1, cand_chr21_347_212c/2
+warning[vg::Watchdog]: Thread 3 finally checked out after 106 seconds and 7897088 kb memory growth processing: cand_chr21_347_7397/1, cand_chr21_347_7397/2
+warning[vg::Watchdog]: Thread 7 has been checked in for 10 seconds processing: cand_chr21_347_28e9/1, cand_chr21_347_28e9/2
+warning[vg::Watchdog]: Thread 1 has been checked in for 10 seconds processing: cand_chr21_347_1d13/1, cand_chr21_347_1d13/2
+warning[vg::Watchdog]: Thread 3 has been checked in for 10 seconds processing: cand_chr21_347_7112/1, cand_chr21_347_7112/2
+warning[vg::Watchdog]: Thread 5 finally checked out after 95 seconds and 7766016 kb memory growth processing: cand_chr21_347_82b/1, cand_chr21_347_82b/2
+warning[vg::Watchdog]: Thread 0 finally checked out after 115 seconds and 9043968 kb memory growth processing: cand_chr21_347_e8a/1, cand_chr21_347_e8a/2
+warning[vg::Watchdog]: Thread 10 finally checked out after 65 seconds and 7733248 kb memory growth processing: cand_chr21_347_d2e/1, cand_chr21_347_d2e/2
+warning[vg::Watchdog]: Thread 5 has been checked in for 10 seconds processing: cand_chr21_347_880/1, cand_chr21_347_880/2
+warning[vg::Watchdog]: Thread 0 has been checked in for 10 seconds processing: cand_chr21_347_ec7/1, cand_chr21_347_ec7/2
+warning[vg::Watchdog]: Thread 10 has been checked in for 10 seconds processing: cand_chr21_347_2aed/1, cand_chr21_347_2aed/2
+warning[vg::Watchdog]: Thread 11 finally checked out after 74 seconds and 6635520 kb memory growth processing: cand_chr21_347_14d2/1, cand_chr21_347_14d2/2
+warning[vg::Watchdog]: Thread 8 finally checked out after 63 seconds and 5783552 kb memory growth processing: cand_chr21_347_a88/1, cand_chr21_347_a88/2
+warning[vg::Watchdog]: Thread 11 has been checked in for 10 seconds processing: cand_chr21_347_2c2c/1, cand_chr21_347_2c2c/2
+warning[vg::Watchdog]: Thread 7 finally checked out after 58 seconds and 4620288 kb memory growth processing: cand_chr21_347_28e9/1, cand_chr21_347_28e9/2
+warning[vg::Watchdog]: Thread 9 finally checked out after 65 seconds and 5521408 kb memory growth processing: cand_chr21_347_212c/1, cand_chr21_347_212c/2
+warning[vg::Watchdog]: Thread 8 has been checked in for 10 seconds processing: cand_chr21_347_b93/1, cand_chr21_347_b93/2
+warning[vg::Watchdog]: Thread 1 finally checked out after 57 seconds and 5226496 kb memory growth processing: cand_chr21_347_1d13/1, cand_chr21_347_1d13/2
+warning[vg::Watchdog]: Thread 2 finally checked out after 98 seconds and 8126464 kb memory growth processing: cand_chr21_347_169a/1, cand_chr21_347_169a/2
+warning[vg::Watchdog]: Thread 7 has been checked in for 10 seconds processing: cand_chr21_347_2f26/1, cand_chr21_347_2f26/2
+warning[vg::Watchdog]: Thread 3 finally checked out after 63 seconds and 5275648 kb memory growth processing: cand_chr21_347_7112/1, cand_chr21_347_7112/2
+warning[vg::Watchdog]: Thread 9 has been checked in for 10 seconds processing: cand_chr21_347_21ab/1, cand_chr21_347_21ab/2
+warning[vg::Watchdog]: Thread 1 has been checked in for 10 seconds processing: cand_chr21_347_1d4d/1, cand_chr21_347_1d4d/2
+warning[vg::Watchdog]: Thread 1 finally checked out after 13 seconds and 360448 kb memory growth processing: cand_chr21_347_1d4d/1, cand_chr21_347_1d4d/2
+warning[vg::Watchdog]: Thread 2 has been checked in for 10 seconds processing: cand_chr21_347_16ef/1, cand_chr21_347_16ef/2
+warning[vg::Watchdog]: Thread 3 has been checked in for 10 seconds processing: cand_chr21_347_71b6/1, cand_chr21_347_71b6/2
+warning[vg::Watchdog]: Thread 7 finally checked out after 26 seconds and 1392640 kb memory growth processing: cand_chr21_347_2f26/1, cand_chr21_347_2f26/2
+warning[vg::Watchdog]: Thread 4 finally checked out after 111 seconds and 8290304 kb memory growth processing: cand_chr21_347_10f9/1, cand_chr21_347_10f9/2

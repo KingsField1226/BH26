@@ -1,0 +1,42 @@
+=== monitor_resources.sh started 2026-09-17T11:51:28Z ===
+tracking tmux session 'map_347', process pattern 'vg', RSS stop limit 100GB
+2026-09-17T11:51:29Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (6277M wired, 3563M compressor), 40G unused.
+2026-09-17T11:51:44Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (5766M wired, 3562M compressor), 41G unused.
+2026-09-17T11:52:00Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (5312M wired, 3562M compressor), 41G unused.
+2026-09-17T11:52:16Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (5716M wired, 3562M compressor), 41G unused.
+2026-09-17T11:52:31Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (5760M wired, 3562M compressor), 41G unused.
+2026-09-17T11:52:47Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (5528M wired, 3562M compressor), 41G unused.
+2026-09-17T11:53:03Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (6040M wired, 3562M compressor), 41G unused.
+2026-09-17T11:53:19Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (5711M wired, 3562M compressor), 41G unused.
+2026-09-17T11:53:34Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (5731M wired, 3562M compressor), 41G unused.
+2026-09-17T11:53:50Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (6154M wired, 3562M compressor), 41G unused.
+2026-09-17T11:54:06Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (5977M wired, 3562M compressor), 41G unused.
+2026-09-17T11:54:22Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 87G used (7099M wired, 3562M compressor), 40G unused.
+2026-09-17T11:54:37Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4898M wired, 3562M compressor), 41G unused.
+2026-09-17T11:54:53Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4891M wired, 3562M compressor), 41G unused.
+2026-09-17T11:55:09Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4693M wired, 3562M compressor), 41G unused.
+2026-09-17T11:55:24Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4928M wired, 3562M compressor), 41G unused.
+2026-09-17T11:55:40Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4915M wired, 3562M compressor), 41G unused.
+2026-09-17T11:55:56Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4678M wired, 3562M compressor), 41G unused.
+2026-09-17T11:56:12Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4911M wired, 3562M compressor), 41G unused.
+2026-09-17T11:56:27Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4912M wired, 3562M compressor), 41G unused.
+2026-09-17T11:56:43Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4906M wired, 3562M compressor), 41G unused.
+2026-09-17T11:56:59Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4911M wired, 3562M compressor), 41G unused.
+2026-09-17T11:57:14Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4683M wired, 3562M compressor), 41G unused.
+2026-09-17T11:57:30Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4493M wired, 3562M compressor), 41G unused.
+2026-09-17T11:57:46Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4910M wired, 3562M compressor), 41G unused.
+2026-09-17T11:58:01Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (5135M wired, 3562M compressor), 41G unused.
+2026-09-17T11:58:17Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4909M wired, 3562M compressor), 41G unused.
+2026-09-17T11:58:33Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4924M wired, 3562M compressor), 41G unused.
+2026-09-17T11:58:49Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4278M wired, 3562M compressor), 41G unused.
+2026-09-17T11:59:05Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4881M wired, 3562M compressor), 41G unused.
+2026-09-17T11:59:21Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4677M wired, 3562M compressor), 41G unused.
+2026-09-17T11:59:37Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4520M wired, 3562M compressor), 41G unused.
+2026-09-17T11:59:53Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4919M wired, 3562M compressor), 41G unused.
+2026-09-17T12:00:09Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4909M wired, 3562M compressor), 41G unused.
+2026-09-17T12:00:25Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4902M wired, 3562M compressor), 41G unused.
+2026-09-17T12:00:41Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4682M wired, 3562M compressor), 41G unused.
+2026-09-17T12:00:57Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4916M wired, 3562M compressor), 41G unused.
+2026-09-17T12:01:13Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4921M wired, 3562M compressor), 41G unused.
+2026-09-17T12:01:29Z tracked_rss_gb=0 unused_mb=99999 PhysMem: 86G used (4904M wired, 3562M compressor), 41G unused.
+=== monitor_resources.sh exiting 2026-09-17T12:01:45Z (session map_347 no longer running) ===

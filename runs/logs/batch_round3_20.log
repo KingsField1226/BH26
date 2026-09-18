@@ -1,0 +1,43 @@
+=== [1/20] cand_chr21_204 (chr21:29234199-29334199) at 06:52:12 ===
+  -> status=success elapsed=135s
+=== [2/20] cand_chr21_090 (chr21:17834199-17934199) at 06:54:27 ===
+  -> status=success elapsed=225s
+=== [3/20] cand_chr21_127 (chr21:21534199-21634199) at 06:58:12 ===
+  -> status=success elapsed=135s
+=== [4/20] cand_chr21_184 (chr21:27234199-27334199) at 07:00:27 ===
+  -> status=success elapsed=135s
+=== [5/20] cand_chr21_157 (chr21:24534199-24634199) at 07:02:42 ===
+  -> status=success elapsed=136s
+=== [6/20] cand_chr21_366 (chr21:45634199-45734199) at 07:04:58 ===
+  -> status=success elapsed=135s
+=== [7/20] cand_chr21_270 (chr21:35834199-35934199) at 07:07:13 ===
+  -> status=success elapsed=165s
+=== [8/20] cand_chr21_174 (chr21:26234199-26334199) at 07:09:58 ===
+  -> status=success elapsed=135s
+=== [9/20] cand_chr21_047 (chr21:13534199-13634199) at 07:12:13 ===
+  -> status=success elapsed=135s
+=== [10/20] cand_chr21_043 (chr21:13134199-13234199) at 07:14:28 ===
+  -> status=success elapsed=135s
+=== [11/20] cand_chr21_294 (chr21:38234199-38334199) at 07:16:43 ===
+  -> status=success elapsed=165s
+=== [12/20] cand_chr21_332 (chr21:42034199-42134199) at 07:19:28 ===
+  -> status=success elapsed=136s
+=== [13/20] cand_chr21_116 (chr21:20434199-20534199) at 07:21:44 ===
+  -> status=success elapsed=165s
+=== [14/20] cand_chr21_243 (chr21:33134199-33234199) at 07:24:29 ===
+  -> status=success elapsed=135s
+=== [15/20] cand_chr21_195 (chr21:28334199-28434199) at 07:26:44 ===
+  -> status=success elapsed=165s
+=== [16/20] cand_chr21_191 (chr21:27934199-28034199) at 07:29:29 ===
+  -> status=success elapsed=135s
+=== [17/20] cand_chr21_237 (chr21:32534199-32634199) at 07:31:44 ===
+  -> status=success elapsed=135s
+=== [18/20] cand_chr21_192 (chr21:28034199-28134199) at 07:33:59 ===
+  -> status=success elapsed=135s
+=== [19/20] cand_chr21_145 (chr21:23334199-23434199) at 07:36:14 ===
+  -> status=success elapsed=481s
+=== [20/20] cand_chr21_046 (chr21:13434199-13534199) at 07:44:15 ===
+TIMEOUT: cand_chr21_046 exceeded 1800s, killing
+/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/scripts/shell/run_full_pipeline_batch_safe.sh: line 163:   435 Killed: 9               run_one_region "${region_id}" "${chrom}" "${start}" "${end}"
+  -> status=timeout_or_crash elapsed=1801s
+=== batch100 complete ===

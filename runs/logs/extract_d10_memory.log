@@ -1,0 +1,16 @@
+=== monitor_resources.sh started 2026-09-17T10:54:29Z ===
+tracking tmux session 'extract_d10', process pattern 'odgi', RSS stop limit 100GB
+2026-09-17T10:54:29Z tracked_rss_gb=24 unused_mb=99999 PhysMem: 103G used (5447M wired, 3592M compressor), 23G unused.
+2026-09-17T10:54:45Z tracked_rss_gb=24 unused_mb=99999 PhysMem: 104G used (5743M wired, 3591M compressor), 23G unused.
+2026-09-17T10:55:01Z tracked_rss_gb=24 unused_mb=99999 PhysMem: 104G used (5728M wired, 3591M compressor), 23G unused.
+2026-09-17T10:55:17Z tracked_rss_gb=24 unused_mb=99999 PhysMem: 104G used (5714M wired, 3591M compressor), 23G unused.
+2026-09-17T10:55:33Z tracked_rss_gb=24 unused_mb=99999 PhysMem: 104G used (5923M wired, 3591M compressor), 23G unused.
+2026-09-17T10:55:49Z tracked_rss_gb=24 unused_mb=99999 PhysMem: 104G used (5726M wired, 3591M compressor), 23G unused.
+2026-09-17T10:56:05Z tracked_rss_gb=24 unused_mb=99999 PhysMem: 104G used (5720M wired, 3591M compressor), 23G unused.
+2026-09-17T10:56:21Z tracked_rss_gb=24 unused_mb=99999 PhysMem: 104G used (5931M wired, 3591M compressor), 23G unused.
+2026-09-17T10:56:37Z tracked_rss_gb=26 unused_mb=99999 PhysMem: 105G used (5679M wired, 3591M compressor), 21G unused.
+2026-09-17T10:56:53Z tracked_rss_gb=27 unused_mb=99999 PhysMem: 107G used (5949M wired, 3591M compressor), 19G unused.
+2026-09-17T10:57:09Z tracked_rss_gb=28 unused_mb=99999 PhysMem: 108G used (5950M wired, 3591M compressor), 19G unused.
+2026-09-17T10:57:25Z tracked_rss_gb=3 unused_mb=99999 PhysMem: 85G used (5717M wired, 3591M compressor), 41G unused.
+2026-09-17T10:57:41Z tracked_rss_gb=3 unused_mb=99999 PhysMem: 85G used (5941M wired, 3591M compressor), 41G unused.
+=== monitor_resources.sh exiting 2026-09-17T10:57:56Z (session extract_d10 no longer running) ===

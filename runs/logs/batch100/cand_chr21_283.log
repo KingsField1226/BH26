@@ -1,0 +1,299 @@
+=== batch100: cand_chr21_283 (chr21:37134199-37234199) ===
+2026-09-18T05:17:04Z
+--- stage: extract (default merge) ---
+=== extract_region_final.sh (no -E; see script header) ===
+date: 2026-09-18T05:17:04Z
+input_og: /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/../../data/graphs/chr21.og
+path_name: GRCh38#0#chr21
+range: 37134199-37234199 (0-based)
+region_id: cand_chr21_283
+threads: 12
+merge_distance: <default 300000>
+--- odgi extract ---
+[odgi::extract] extracting path ranges  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::extract] extracting path ranges 100.00% @ 2.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6)  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6)  1.71% @ 5.29e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:29[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6)  3.36% @ 5.23e+01 bp/s elapsed: 00:00:00:01 remain: 00:00:00:29[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6)  4.69% @ 4.88e+01 bp/s elapsed: 00:00:00:01 remain: 00:00:00:30[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6)  6.59% @ 5.13e+01 bp/s elapsed: 00:00:00:02 remain: 00:00:00:28[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6)  8.69% @ 5.40e+01 bp/s elapsed: 00:00:00:02 remain: 00:00:00:26[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 10.15% @ 5.25e+01 bp/s elapsed: 00:00:00:03 remain: 00:00:00:26[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 12.24% @ 5.43e+01 bp/s elapsed: 00:00:00:03 remain: 00:00:00:25[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 14.77% @ 5.73e+01 bp/s elapsed: 00:00:00:04 remain: 00:00:00:23[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 16.87% @ 5.82e+01 bp/s elapsed: 00:00:00:04 remain: 00:00:00:22[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 18.45% @ 5.73e+01 bp/s elapsed: 00:00:00:05 remain: 00:00:00:22[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 20.36% @ 5.75e+01 bp/s elapsed: 00:00:00:05 remain: 00:00:00:21[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 22.13% @ 5.73e+01 bp/s elapsed: 00:00:00:06 remain: 00:00:00:21[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 23.78% @ 5.68e+01 bp/s elapsed: 00:00:00:06 remain: 00:00:00:21[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 25.30% @ 5.61e+01 bp/s elapsed: 00:00:00:07 remain: 00:00:00:21[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 26.82% @ 5.55e+01 bp/s elapsed: 00:00:00:07 remain: 00:00:00:20[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 28.79% @ 5.58e+01 bp/s elapsed: 00:00:00:08 remain: 00:00:00:20[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 30.44% @ 5.56e+01 bp/s elapsed: 00:00:00:08 remain: 00:00:00:19[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 32.28% @ 5.57e+01 bp/s elapsed: 00:00:00:09 remain: 00:00:00:19[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 33.35% @ 5.45e+01 bp/s elapsed: 00:00:00:09 remain: 00:00:00:19[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 34.81% @ 5.41e+01 bp/s elapsed: 00:00:00:10 remain: 00:00:00:19[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 35.51% @ 5.25e+01 bp/s elapsed: 00:00:00:10 remain: 00:00:00:19[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 37.35% @ 5.27e+01 bp/s elapsed: 00:00:00:11 remain: 00:00:00:18[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 39.19% @ 5.29e+01 bp/s elapsed: 00:00:00:11 remain: 00:00:00:18[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 40.90% @ 5.29e+01 bp/s elapsed: 00:00:00:12 remain: 00:00:00:17[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 42.30% @ 5.25e+01 bp/s elapsed: 00:00:00:12 remain: 00:00:00:17[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 44.01% @ 5.26e+01 bp/s elapsed: 00:00:00:13 remain: 00:00:00:16[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 45.40% @ 5.22e+01 bp/s elapsed: 00:00:00:13 remain: 00:00:00:16[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 47.43% @ 5.26e+01 bp/s elapsed: 00:00:00:14 remain: 00:00:00:15[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 49.46% @ 5.30e+01 bp/s elapsed: 00:00:00:14 remain: 00:00:00:15[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 50.92% @ 5.27e+01 bp/s elapsed: 00:00:00:15 remain: 00:00:00:14[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 52.57% @ 5.27e+01 bp/s elapsed: 00:00:00:15 remain: 00:00:00:14[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 53.90% @ 5.23e+01 bp/s elapsed: 00:00:00:16 remain: 00:00:00:13[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 56.31% @ 5.30e+01 bp/s elapsed: 00:00:00:16 remain: 00:00:00:13[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 57.39% @ 5.24e+01 bp/s elapsed: 00:00:00:17 remain: 00:00:00:12[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 59.67% @ 5.29e+01 bp/s elapsed: 00:00:00:17 remain: 00:00:00:12[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 60.94% @ 5.26e+01 bp/s elapsed: 00:00:00:18 remain: 00:00:00:11[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 62.21% @ 5.22e+01 bp/s elapsed: 00:00:00:18 remain: 00:00:00:11[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 63.86% @ 5.22e+01 bp/s elapsed: 00:00:00:19 remain: 00:00:00:10[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 65.50% @ 5.21e+01 bp/s elapsed: 00:00:00:19 remain: 00:00:00:10[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 66.84% @ 5.19e+01 bp/s elapsed: 00:00:00:20 remain: 00:00:00:10[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 68.67% @ 5.20e+01 bp/s elapsed: 00:00:00:20 remain: 00:00:00:09[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 69.82% @ 5.16e+01 bp/s elapsed: 00:00:00:21 remain: 00:00:00:09[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 71.21% @ 5.14e+01 bp/s elapsed: 00:00:00:21 remain: 00:00:00:08[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 73.68% @ 5.20e+01 bp/s elapsed: 00:00:00:22 remain: 00:00:00:07[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 74.70% @ 5.15e+01 bp/s elapsed: 00:00:00:22 remain: 00:00:00:07[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 76.60% @ 5.17e+01 bp/s elapsed: 00:00:00:23 remain: 00:00:00:07[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 77.87% @ 5.14e+01 bp/s elapsed: 00:00:00:23 remain: 00:00:00:06[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 80.09% @ 5.18e+01 bp/s elapsed: 00:00:00:24 remain: 00:00:00:06[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 81.99% @ 5.19e+01 bp/s elapsed: 00:00:00:24 remain: 00:00:00:05[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 83.51% @ 5.19e+01 bp/s elapsed: 00:00:00:25 remain: 00:00:00:05[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 84.40% @ 5.14e+01 bp/s elapsed: 00:00:00:25 remain: 00:00:00:04[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 86.62% @ 5.17e+01 bp/s elapsed: 00:00:00:26 remain: 00:00:00:04[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 88.14% @ 5.17e+01 bp/s elapsed: 00:00:00:26 remain: 00:00:00:03[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 90.55% @ 5.21e+01 bp/s elapsed: 00:00:00:27 remain: 00:00:00:02[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 92.52% @ 5.23e+01 bp/s elapsed: 00:00:00:27 remain: 00:00:00:02[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 94.17% @ 5.22e+01 bp/s elapsed: 00:00:00:28 remain: 00:00:00:01[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 95.81% @ 5.22e+01 bp/s elapsed: 00:00:00:28 remain: 00:00:00:01[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 97.78% @ 5.24e+01 bp/s elapsed: 00:00:00:29 remain: 00:00:00:00[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 99.24% @ 5.22e+01 bp/s elapsed: 00:00:00:29 remain: 00:00:00:00[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 99.87% @ 5.17e+01 bp/s elapsed: 00:00:00:30 remain: 00:00:00:00[odgi::extract] merge subpaths closer than 300000 bps - iteration 1 (max 6) 100.00% @ 5.09e+01 bp/s elapsed: 00:00:00:30 remain: 00:00:00:00
+[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6)  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6)  0.06% @ 7.47e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6)  1.71% @ 5.29e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:00:29[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6)  3.23% @ 5.02e+01 bp/s elapsed: 00:00:00:01 remain: 00:00:00:30[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6)  4.50% @ 4.68e+01 bp/s elapsed: 00:00:00:01 remain: 00:00:00:32[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6)  6.34% @ 4.96e+01 bp/s elapsed: 00:00:00:02 remain: 00:00:00:29[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6)  8.50% @ 5.32e+01 bp/s elapsed: 00:00:00:02 remain: 00:00:00:27[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6)  9.89% @ 5.16e+01 bp/s elapsed: 00:00:00:03 remain: 00:00:00:27[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 11.79% @ 5.28e+01 bp/s elapsed: 00:00:00:03 remain: 00:00:00:26[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 14.08% @ 5.51e+01 bp/s elapsed: 00:00:00:04 remain: 00:00:00:24[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 16.36% @ 5.69e+01 bp/s elapsed: 00:00:00:04 remain: 00:00:00:23[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 18.20% @ 5.70e+01 bp/s elapsed: 00:00:00:05 remain: 00:00:00:22[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 19.47% @ 5.54e+01 bp/s elapsed: 00:00:00:05 remain: 00:00:00:22[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 21.69% @ 5.66e+01 bp/s elapsed: 00:00:00:06 remain: 00:00:00:21[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 23.15% @ 5.57e+01 bp/s elapsed: 00:00:00:06 remain: 00:00:00:21[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 24.86% @ 5.56e+01 bp/s elapsed: 00:00:00:07 remain: 00:00:00:21[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 26.63% @ 5.56e+01 bp/s elapsed: 00:00:00:07 remain: 00:00:00:20[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 27.96% @ 5.47e+01 bp/s elapsed: 00:00:00:08 remain: 00:00:00:20[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 29.99% @ 5.52e+01 bp/s elapsed: 00:00:00:08 remain: 00:00:00:19[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 31.77% @ 5.52e+01 bp/s elapsed: 00:00:00:09 remain: 00:00:00:19[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 32.97% @ 5.43e+01 bp/s elapsed: 00:00:00:09 remain: 00:00:00:19[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 34.24% @ 5.36e+01 bp/s elapsed: 00:00:00:10 remain: 00:00:00:19[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 35.32% @ 5.26e+01 bp/s elapsed: 00:00:00:10 remain: 00:00:00:19[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 36.65% @ 5.21e+01 bp/s elapsed: 00:00:00:11 remain: 00:00:00:19[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 38.81% @ 5.28e+01 bp/s elapsed: 00:00:00:11 remain: 00:00:00:18[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 39.76% @ 5.19e+01 bp/s elapsed: 00:00:00:12 remain: 00:00:00:18[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 41.98% @ 5.26e+01 bp/s elapsed: 00:00:00:12 remain: 00:00:00:17[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 43.25% @ 5.21e+01 bp/s elapsed: 00:00:00:13 remain: 00:00:00:17[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 44.90% @ 5.21e+01 bp/s elapsed: 00:00:00:13 remain: 00:00:00:16[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 46.99% @ 5.25e+01 bp/s elapsed: 00:00:00:14 remain: 00:00:00:15[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 48.13% @ 5.20e+01 bp/s elapsed: 00:00:00:14 remain: 00:00:00:15[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 50.03% @ 5.22e+01 bp/s elapsed: 00:00:00:15 remain: 00:00:00:15[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 51.55% @ 5.21e+01 bp/s elapsed: 00:00:00:15 remain: 00:00:00:14[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 53.27% @ 5.21e+01 bp/s elapsed: 00:00:00:16 remain: 00:00:00:14[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 55.10% @ 5.23e+01 bp/s elapsed: 00:00:00:16 remain: 00:00:00:13[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 56.82% @ 5.23e+01 bp/s elapsed: 00:00:00:17 remain: 00:00:00:13[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 58.53% @ 5.23e+01 bp/s elapsed: 00:00:00:17 remain: 00:00:00:12[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 60.43% @ 5.25e+01 bp/s elapsed: 00:00:00:18 remain: 00:00:00:11[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 61.76% @ 5.22e+01 bp/s elapsed: 00:00:00:18 remain: 00:00:00:11[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 62.71% @ 5.17e+01 bp/s elapsed: 00:00:00:19 remain: 00:00:00:11[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 64.74% @ 5.20e+01 bp/s elapsed: 00:00:00:19 remain: 00:00:00:10[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 66.01% @ 5.16e+01 bp/s elapsed: 00:00:00:20 remain: 00:00:00:10[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 67.72% @ 5.17e+01 bp/s elapsed: 00:00:00:20 remain: 00:00:00:09[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 69.31% @ 5.16e+01 bp/s elapsed: 00:00:00:21 remain: 00:00:00:09[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 70.20% @ 5.11e+01 bp/s elapsed: 00:00:00:21 remain: 00:00:00:09[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 72.23% @ 5.14e+01 bp/s elapsed: 00:00:00:22 remain: 00:00:00:08[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 74.25% @ 5.16e+01 bp/s elapsed: 00:00:00:22 remain: 00:00:00:07[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 75.14% @ 5.11e+01 bp/s elapsed: 00:00:00:23 remain: 00:00:00:07[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 77.05% @ 5.13e+01 bp/s elapsed: 00:00:00:23 remain: 00:00:00:07[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 79.01% @ 5.15e+01 bp/s elapsed: 00:00:00:24 remain: 00:00:00:06[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 80.60% @ 5.15e+01 bp/s elapsed: 00:00:00:24 remain: 00:00:00:05[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 82.50% @ 5.16e+01 bp/s elapsed: 00:00:00:25 remain: 00:00:00:05[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 84.21% @ 5.17e+01 bp/s elapsed: 00:00:00:25 remain: 00:00:00:04[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 85.23% @ 5.13e+01 bp/s elapsed: 00:00:00:26 remain: 00:00:00:04[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 87.38% @ 5.16e+01 bp/s elapsed: 00:00:00:26 remain: 00:00:00:03[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 89.09% @ 5.16e+01 bp/s elapsed: 00:00:00:27 remain: 00:00:00:03[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 91.31% @ 5.19e+01 bp/s elapsed: 00:00:00:27 remain: 00:00:00:02[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 93.15% @ 5.20e+01 bp/s elapsed: 00:00:00:28 remain: 00:00:00:02[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 94.93% @ 5.21e+01 bp/s elapsed: 00:00:00:28 remain: 00:00:00:01[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 96.83% @ 5.22e+01 bp/s elapsed: 00:00:00:29 remain: 00:00:00:00[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 98.67% @ 5.23e+01 bp/s elapsed: 00:00:00:29 remain: 00:00:00:00[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 99.43% @ 5.18e+01 bp/s elapsed: 00:00:00:30 remain: 00:00:00:00[odgi::extract] merge subpaths closer than 300000 bps - iteration 2 (max 6) 100.00% @ 5.13e+01 bp/s elapsed: 00:00:00:30 remain: 00:00:00:00
+[odgi::extract] adding connecting edges  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::extract] adding connecting edges 100.00% @ 7.05e+03 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+[odgi::extract] adding subpaths  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::extract] adding subpaths  0.57% @ 5.35e+01 bp/s elapsed: 00:00:00:00 remain: 00:00:01:27[odgi::extract] adding subpaths  1.14% @ 5.35e+01 bp/s elapsed: 00:00:00:01 remain: 00:00:01:27[odgi::extract] adding subpaths  1.59% @ 4.96e+01 bp/s elapsed: 00:00:00:01 remain: 00:00:01:33[odgi::extract] adding subpaths  2.16% @ 5.06e+01 bp/s elapsed: 00:00:00:02 remain: 00:00:01:31[odgi::extract] adding subpaths  2.98% @ 5.59e+01 bp/s elapsed: 00:00:00:02 remain: 00:00:01:22[odgi::extract] adding subpaths  3.36% @ 5.25e+01 bp/s elapsed: 00:00:00:03 remain: 00:00:01:26[odgi::extract] adding subpaths  4.04% @ 5.41e+01 bp/s elapsed: 00:00:00:03 remain: 00:00:01:23[odgi::extract] adding subpaths  4.91% @ 5.76e+01 bp/s elapsed: 00:00:00:04 remain: 00:00:01:18[odgi::extract] adding subpaths  5.65% @ 5.89e+01 bp/s elapsed: 00:00:00:04 remain: 00:00:01:15[odgi::extract] adding subpaths  6.15% @ 5.77e+01 bp/s elapsed: 00:00:00:05 remain: 00:00:01:16[odgi::extract] adding subpaths  6.90% @ 5.88e+01 bp/s elapsed: 00:00:00:05 remain: 00:00:01:14[odgi::extract] adding subpaths  7.45% @ 5.82e+01 bp/s elapsed: 00:00:00:06 remain: 00:00:01:15[odgi::extract] adding subpaths  7.93% @ 5.72e+01 bp/s elapsed: 00:00:00:06 remain: 00:00:01:16[odgi::extract] adding subpaths  8.40% @ 5.62e+01 bp/s elapsed: 00:00:00:07 remain: 00:00:01:17[odgi::extract] adding subpaths  9.09% @ 5.68e+01 bp/s elapsed: 00:00:00:07 remain: 00:00:01:15[odgi::extract] adding subpaths  9.77% @ 5.73e+01 bp/s elapsed: 00:00:00:08 remain: 00:00:01:14[odgi::extract] adding subpaths 10.41% @ 5.74e+01 bp/s elapsed: 00:00:00:08 remain: 00:00:01:13[odgi::extract] adding subpaths 10.87% @ 5.66e+01 bp/s elapsed: 00:00:00:09 remain: 00:00:01:14[odgi::extract] adding subpaths 11.27% @ 5.56e+01 bp/s elapsed: 00:00:00:09 remain: 00:00:01:15[odgi::extract] adding subpaths 11.76% @ 5.51e+01 bp/s elapsed: 00:00:00:10 remain: 00:00:01:15[odgi::extract] adding subpaths 12.08% @ 5.39e+01 bp/s elapsed: 00:00:00:10 remain: 00:00:01:17[odgi::extract] adding subpaths 12.69% @ 5.41e+01 bp/s elapsed: 00:00:00:11 remain: 00:00:01:16[odgi::extract] adding subpaths 13.09% @ 5.34e+01 bp/s elapsed: 00:00:00:11 remain: 00:00:01:16[odgi::extract] adding subpaths 13.83% @ 5.40e+01 bp/s elapsed: 00:00:00:12 remain: 00:00:01:15[odgi::extract] adding subpaths 14.32% @ 5.37e+01 bp/s elapsed: 00:00:00:12 remain: 00:00:01:15[odgi::extract] adding subpaths 14.76% @ 5.32e+01 bp/s elapsed: 00:00:00:13 remain: 00:00:01:15[odgi::extract] adding subpaths 15.48% @ 5.38e+01 bp/s elapsed: 00:00:00:13 remain: 00:00:01:14[odgi::extract] adding subpaths 15.99% @ 5.35e+01 bp/s elapsed: 00:00:00:14 remain: 00:00:01:14[odgi::extract] adding subpaths 16.56% @ 5.36e+01 bp/s elapsed: 00:00:00:14 remain: 00:00:01:13[odgi::extract] adding subpaths 17.05% @ 5.33e+01 bp/s elapsed: 00:00:00:15 remain: 00:00:01:13[odgi::extract] adding subpaths 17.62% @ 5.33e+01 bp/s elapsed: 00:00:00:15 remain: 00:00:01:13[odgi::extract] adding subpaths 18.06% @ 5.29e+01 bp/s elapsed: 00:00:00:16 remain: 00:00:01:13[odgi::extract] adding subpaths 18.78% @ 5.34e+01 bp/s elapsed: 00:00:00:16 remain: 00:00:01:11[odgi::extract] adding subpaths 19.29% @ 5.32e+01 bp/s elapsed: 00:00:00:17 remain: 00:00:01:11[odgi::extract] adding subpaths 19.99% @ 5.36e+01 bp/s elapsed: 00:00:00:17 remain: 00:00:01:10[odgi::extract] adding subpaths 20.49% @ 5.34e+01 bp/s elapsed: 00:00:00:18 remain: 00:00:01:10[odgi::extract] adding subpaths 20.79% @ 5.27e+01 bp/s elapsed: 00:00:00:18 remain: 00:00:01:11[odgi::extract] adding subpaths 21.36% @ 5.27e+01 bp/s elapsed: 00:00:00:19 remain: 00:00:01:10[odgi::extract] adding subpaths 21.79% @ 5.24e+01 bp/s elapsed: 00:00:00:19 remain: 00:00:01:10[odgi::extract] adding subpaths 22.36% @ 5.24e+01 bp/s elapsed: 00:00:00:20 remain: 00:00:01:10[odgi::extract] adding subpaths 22.97% @ 5.25e+01 bp/s elapsed: 00:00:00:20 remain: 00:00:01:09[odgi::extract] adding subpaths 23.29% @ 5.20e+01 bp/s elapsed: 00:00:00:21 remain: 00:00:01:09[odgi::extract] adding subpaths 23.88% @ 5.21e+01 bp/s elapsed: 00:00:00:21 remain: 00:00:01:09[odgi::extract] adding subpaths 24.66% @ 5.26e+01 bp/s elapsed: 00:00:00:22 remain: 00:00:01:07[odgi::extract] adding subpaths 24.94% @ 5.20e+01 bp/s elapsed: 00:00:00:22 remain: 00:00:01:08[odgi::extract] adding subpaths 25.42% @ 5.18e+01 bp/s elapsed: 00:00:00:23 remain: 00:00:01:08[odgi::extract] adding subpaths 26.21% @ 5.23e+01 bp/s elapsed: 00:00:00:23 remain: 00:00:01:06[odgi::extract] adding subpaths 26.67% @ 5.21e+01 bp/s elapsed: 00:00:00:24 remain: 00:00:01:06[odgi::extract] adding subpaths 27.18% @ 5.20e+01 bp/s elapsed: 00:00:00:24 remain: 00:00:01:06[odgi::extract] adding subpaths 27.77% @ 5.21e+01 bp/s elapsed: 00:00:00:25 remain: 00:00:01:05[odgi::extract] adding subpaths 28.17% @ 5.18e+01 bp/s elapsed: 00:00:00:25 remain: 00:00:01:05[odgi::extract] adding subpaths 28.68% @ 5.17e+01 bp/s elapsed: 00:00:00:26 remain: 00:00:01:05[odgi::extract] adding subpaths 29.10% @ 5.15e+01 bp/s elapsed: 00:00:00:26 remain: 00:00:01:05[odgi::extract] adding subpaths 29.84% @ 5.18e+01 bp/s elapsed: 00:00:00:27 remain: 00:00:01:03[odgi::extract] adding subpaths 30.35% @ 5.18e+01 bp/s elapsed: 00:00:00:27 remain: 00:00:01:03[odgi::extract] adding subpaths 31.18% @ 5.22e+01 bp/s elapsed: 00:00:00:28 remain: 00:00:01:02[odgi::extract] adding subpaths 31.68% @ 5.21e+01 bp/s elapsed: 00:00:00:28 remain: 00:00:01:01[odgi::extract] adding subpaths 32.06% @ 5.19e+01 bp/s elapsed: 00:00:00:29 remain: 00:00:01:01[odgi::extract] adding subpaths 32.80% @ 5.21e+01 bp/s elapsed: 00:00:00:29 remain: 00:00:01:00[odgi::extract] adding subpaths 33.19% @ 5.19e+01 bp/s elapsed: 00:00:00:30 remain: 00:00:01:00[odgi::extract] adding subpaths 67.24% @ 1.03e+02 bp/s elapsed: 00:00:00:30 remain: 00:00:00:14[odgi::extract] adding subpaths 68.04% @ 1.01e+02 bp/s elapsed: 00:00:00:31 remain: 00:00:00:14[odgi::extract] adding subpaths 68.85% @ 1.01e+02 bp/s elapsed: 00:00:00:32 remain: 00:00:00:14[odgi::extract] adding subpaths 69.65% @ 1.01e+02 bp/s elapsed: 00:00:00:32 remain: 00:00:00:14[odgi::extract] adding subpaths 70.49% @ 1.00e+02 bp/s elapsed: 00:00:00:33 remain: 00:00:00:13[odgi::extract] adding subpaths 71.45% @ 1.00e+02 bp/s elapsed: 00:00:00:33 remain: 00:00:00:13[odgi::extract] adding subpaths 72.67% @ 1.00e+02 bp/s elapsed: 00:00:00:34 remain: 00:00:00:12[odgi::extract] adding subpaths 73.63% @ 1.00e+02 bp/s elapsed: 00:00:00:34 remain: 00:00:00:12[odgi::extract] adding subpaths 74.13% @ 9.93e+01 bp/s elapsed: 00:00:00:35 remain: 00:00:00:12[odgi::extract] adding subpaths 74.68% @ 9.87e+01 bp/s elapsed: 00:00:00:35 remain: 00:00:00:12[odgi::extract] adding subpaths 75.42% @ 9.82e+01 bp/s elapsed: 00:00:00:36 remain: 00:00:00:11[odgi::extract] adding subpaths 76.06% @ 9.77e+01 bp/s elapsed: 00:00:00:36 remain: 00:00:00:11[odgi::extract] adding subpaths 76.92% @ 9.75e+01 bp/s elapsed: 00:00:00:37 remain: 00:00:00:11[odgi::extract] adding subpaths 77.54% @ 9.70e+01 bp/s elapsed: 00:00:00:37 remain: 00:00:00:10[odgi::extract] adding subpaths 77.94% @ 9.62e+01 bp/s elapsed: 00:00:00:38 remain: 00:00:00:10[odgi::extract] adding subpaths 78.47% @ 9.56e+01 bp/s elapsed: 00:00:00:38 remain: 00:00:00:10[odgi::extract] adding subpaths 79.15% @ 9.52e+01 bp/s elapsed: 00:00:00:39 remain: 00:00:00:10[odgi::extract] adding subpaths 79.76% @ 9.47e+01 bp/s elapsed: 00:00:00:39 remain: 00:00:00:10[odgi::extract] adding subpaths 80.50% @ 9.44e+01 bp/s elapsed: 00:00:00:40 remain: 00:00:00:09[odgi::extract] adding subpaths 81.09% @ 9.39e+01 bp/s elapsed: 00:00:00:40 remain: 00:00:00:09[odgi::extract] adding subpaths 81.77% @ 9.35e+01 bp/s elapsed: 00:00:00:41 remain: 00:00:00:09[odgi::extract] adding subpaths 82.55% @ 9.33e+01 bp/s elapsed: 00:00:00:41 remain: 00:00:00:08[odgi::extract] adding subpaths 83.54% @ 9.33e+01 bp/s elapsed: 00:00:00:42 remain: 00:00:00:08[odgi::extract] adding subpaths 84.20% @ 9.29e+01 bp/s elapsed: 00:00:00:42 remain: 00:00:00:08[odgi::extract] adding subpaths 84.88% @ 9.26e+01 bp/s elapsed: 00:00:00:43 remain: 00:00:00:07[odgi::extract] adding subpaths 85.58% @ 9.23e+01 bp/s elapsed: 00:00:00:43 remain: 00:00:00:07[odgi::extract] adding subpaths 86.19% @ 9.19e+01 bp/s elapsed: 00:00:00:44 remain: 00:00:00:07[odgi::extract] adding subpaths 86.95% @ 9.16e+01 bp/s elapsed: 00:00:00:44 remain: 00:00:00:06[odgi::extract] adding subpaths 87.80% @ 9.15e+01 bp/s elapsed: 00:00:00:45 remain: 00:00:00:06[odgi::extract] adding subpaths 88.37% @ 9.11e+01 bp/s elapsed: 00:00:00:45 remain: 00:00:00:06[odgi::extract] adding subpaths 89.15% @ 9.09e+01 bp/s elapsed: 00:00:00:46 remain: 00:00:00:05[odgi::extract] adding subpaths 89.55% @ 9.03e+01 bp/s elapsed: 00:00:00:46 remain: 00:00:00:05[odgi::extract] adding subpaths 90.40% @ 9.02e+01 bp/s elapsed: 00:00:00:47 remain: 00:00:00:05[odgi::extract] adding subpaths 91.14% @ 9.00e+01 bp/s elapsed: 00:00:00:47 remain: 00:00:00:04[odgi::extract] adding subpaths 91.90% @ 8.98e+01 bp/s elapsed: 00:00:00:48 remain: 00:00:00:04[odgi::extract] adding subpaths 92.28% @ 8.92e+01 bp/s elapsed: 00:00:00:48 remain: 00:00:00:04[odgi::extract] adding subpaths 92.96% @ 8.90e+01 bp/s elapsed: 00:00:00:49 remain: 00:00:00:03[odgi::extract] adding subpaths 93.89% @ 8.89e+01 bp/s elapsed: 00:00:00:49 remain: 00:00:00:03[odgi::extract] adding subpaths 94.82% @ 8.89e+01 bp/s elapsed: 00:00:00:50 remain: 00:00:00:02[odgi::extract] adding subpaths 95.24% @ 8.84e+01 bp/s elapsed: 00:00:00:50 remain: 00:00:00:02[odgi::extract] adding subpaths 95.81% @ 8.81e+01 bp/s elapsed: 00:00:00:51 remain: 00:00:00:02[odgi::extract] adding subpaths 96.59% @ 8.80e+01 bp/s elapsed: 00:00:00:51 remain: 00:00:00:01[odgi::extract] adding subpaths 97.48% @ 8.79e+01 bp/s elapsed: 00:00:00:52 remain: 00:00:00:01[odgi::extract] adding subpaths 98.03% @ 8.76e+01 bp/s elapsed: 00:00:00:52 remain: 00:00:00:01[odgi::extract] adding subpaths 98.65% @ 8.73e+01 bp/s elapsed: 00:00:00:53 remain: 00:00:00:00[odgi::extract] adding subpaths 99.68% @ 8.74e+01 bp/s elapsed: 00:00:00:53 remain: 00:00:00:00[odgi::extract] adding subpaths 99.98% @ 8.68e+01 bp/s elapsed: 00:00:00:54 remain: 00:00:00:00[odgi::extract] adding subpaths 100.00% @ 8.61e+01 bp/s elapsed: 00:00:00:54 remain: 00:00:00:00
+[odgi::extract] checking missing edges and empty subpaths  0.00% @ 0.00e+00 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00[odgi::extract] checking missing edges and empty subpaths 100.00% @ 9.26e+02 bp/s elapsed: 00:00:00:00 remain: 00:00:00:00
+      123.71 real      1368.92 user         5.00 sys
+         26321338368  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1612785  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  76  voluntary context switches
+              359044  involuntary context switches
+       2977531996746  instructions retired
+       5743348634713  cycles elapsed
+         26330746008  peak memory footprint
+--- odgi view (GFA export) ---
+--- odgi stats -S ---
+#length	nodes	edges	paths	steps
+101343	3563	4891	466	1112417
+--- odgi degree -S ---
+#node.count	edge.count	avg.degree	min.degree	max.degree
+3563	4891	2.74544	2	15
+=== done ===
+total 29128
+drwxr-xr-x@  7 kazumichi  staff      224 Sep 18 14:19 .
+drwxr-xr-x@ 34 kazumichi  staff     1088 Sep 18 14:17 ..
+-rw-r--r--@  1 kazumichi  staff  6568234 Sep 18 14:19 cand_chr21_283.gfa
+-rw-r--r--@  1 kazumichi  staff  8298670 Sep 18 14:19 cand_chr21_283.og
+-rw-r--r--@  1 kazumichi  staff    30004 Sep 18 14:19 extract.log
+-rw-r--r--@  1 kazumichi  staff       79 Sep 18 14:19 odgi_degree.tsv
+-rw-r--r--@  1 kazumichi  staff       61 Sep 18 14:19 odgi_stats.tsv
+extract_bp=101343 window_size=100000
+EXTRACT_DONE
+--- stage: index ---
+=== build_giraffe_index.sh ===
+date: 2026-09-18T05:19:08Z
+region_id=cand_chr21_283 gfa=/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/extracted_final/cand_chr21_283/cand_chr21_283.gfa threads=12 target_mem=85G
+vg: vg version v1.77.0-3-g4ee955ca3 "Ruby"
+[vg autoindex] Executing command: /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/bin/vg autoindex --workflow sr-giraffe --gfa /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/extracted_final/cand_chr21_283/cand_chr21_283.gfa --prefix /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/indexes/cand_chr21_283/cand_chr21_283 --target-mem 85G --threads 12 --verbosity 2
+[IndexRegistry] Checking for haplotype lines in GFA.
+[IndexRegistry] GFA has no reference samples tag in the header
+[IndexRegistry] GFA path GRCh38#0#chr21:37134184-37234231 for non-reference sample GRCh38 is a haplotype.
+[IndexRegistry] Provided: Reference GFA w/ Haplotypes
+[IndexRegistry] Constructing a GBZ from GFA input.
+[IndexRegistry] Running 12 jobs in parallel
+Opening GFA file /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/extracted_final/cand_chr21_283/cand_chr21_283.gfa
+Validating GFA file /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/extracted_final/cand_chr21_283/cand_chr21_283.gfa
+Found 3563 segments, 4891 links, 466 paths, 0 walks, and 0 rules in 0.00242805 seconds
+Storing generic paths as sample _gbwt_ref
+GBWT insertion batch size: 6568234 nodes
+Parsing segments
+Breaking segments into 32 bp nodes
+Parsed 6079 nodes in 0.000458956 seconds
+Parsing grammar rules
+Parsed 0 rules in 1.90735e-06 seconds
+Parsing links
+Parsed 7407 edges in 0.000401974 seconds
+Creating jobs
+Created 1 jobs for 1 components in 0.000329018 seconds
+Parsing metadata
+Metadata: 466 paths with names, 234 samples with names, 466 haplotypes, 466 contigs with names
+Parsed metadata in 0.00573897 seconds
+Indexing paths/walks
+Starting job 0 (6079 nodes, 466 paths, 0 walks)
+Finished job 0 in 0.089536 seconds
+Merging partial indexes
+Indexed 466 paths and 0 walks in 0.0903199 seconds
+Parsing GFA header tags
+Parsed header tags in 2.14577e-06 seconds
+Saving GBZ to /var/folders/pz/5tn89wkn7dbgwbpgzxbz726h0000gn/T//vg-KSs2jT/dir-BthQfB/d0cc1cf507d88bdebe898d1ba90127a241a83700.gbz
+[IndexRegistry] Constructing distance index for Giraffe.
+[IndexRegistry] Constructing minimizer index and associated zipcodes.
+[IndexRegistry]     using parameters -k 29 -w 11
+[build_minimizer_index] Building MinimizerIndex with k = 29, w = 11, payload = zipcodes
+Caching payloads
+Cached payloads in 0.00145888 seconds
+[build_minimizer_index] 22654 keys (22351 unique)
+[build_minimizer_index] Minimizer occurrences: 23149
+[build_minimizer_index] Load factor: 0.691345
+[build_minimizer_index] Construction time: 0.0114419 seconds
+Saving MinimizerIndex to /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/indexes/cand_chr21_283/cand_chr21_283.shortread.withzip.min
+        0.25 real         0.24 user         0.02 sys
+            65880064  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                5906  page reclaims
+                  56  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+                1770  involuntary context switches
+          4335740124  instructions retired
+          1152840435  cycles elapsed
+            44401192  peak memory footprint
+INDEX_EXIT_CODE=0
+=== index files ===
+total 2896
+drwxr-xr-x@  7 kazumichi  staff      224 Sep 18 14:19 .
+drwxr-xr-x@ 30 kazumichi  staff      960 Sep 18 14:19 ..
+-rw-r--r--@  1 kazumichi  staff   155400 Sep 18 14:19 cand_chr21_283.dist
+-rw-r--r--@  1 kazumichi  staff   189192 Sep 18 14:19 cand_chr21_283.giraffe.gbz
+-rw-r--r--@  1 kazumichi  staff  1070351 Sep 18 14:19 cand_chr21_283.shortread.withzip.min
+-rw-r--r--@  1 kazumichi  staff    55891 Sep 18 14:19 cand_chr21_283.shortread.zipcodes
+-rw-r--r--@  1 kazumichi  staff     3967 Sep 18 14:19 index.log
+=== done ===
+2026-09-18T05:19:08Z
+INDEX_EXIT_CODE=0
+INDEX_DONE
+--- stage: simulate ---
+=== simulate_region_reads.sh ===
+date: 2026-09-18T05:19:08Z
+region_id=cand_chr21_283 chrom=chr21 start0=37134199 end=37234199 n_pairs=30000 read_len=150 frag=350+-35 seed=42
+[wgsim] seed = 42
+[wgsim_core] calculating the total length of the reference sequence...
+[wgsim_core] 1 sequences, total length: 100000
+Wrote 30000 read-pair truth records for cand_chr21_283 to /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/metadata/truth.tsv
+=== done ===
+-rw-r--r--@ 1 kazumichi  staff  1419399 Sep 18 14:19 /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/reads/cand_chr21_283_R1.fastq.gz
+-rw-r--r--@ 1 kazumichi  staff  1418010 Sep 18 14:19 /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/reads/cand_chr21_283_R2.fastq.gz
+SIM_DONE
+--- stage: map + surject ---
+=== run_giraffe_mapping.sh ===
+date: 2026-09-18T05:19:11Z
+region_id=cand_chr21_283 gbz=/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/indexes/cand_chr21_283/cand_chr21_283.giraffe.gbz r1=/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/reads/cand_chr21_283_R1.fastq.gz r2=/Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/reads/cand_chr21_283_R2.fastq.gz path_prefix=GRCh38#0#chr21 threads=12
+resolved_path_name=GRCh38#0#chr21:37134184-37234231#0
+--- vg giraffe ---
+[vg giraffe] Guessing that /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/indexes/cand_chr21_283/cand_chr21_283.shortread.zipcodes is Short Read Zipcodes
+[vg giraffe] Guessing that /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/indexes/cand_chr21_283/cand_chr21_283.shortread.withzip.min is Short Read Minimizers
+[vg giraffe] Guessing that /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/runs/full_scan_367windows/work/indexes/cand_chr21_283/cand_chr21_283.dist is Giraffe Distance Index
+[vg giraffe] Preparing Indexes
+[vg giraffe] Loading Minimizer Index
+[vg giraffe] Loading Zipcodes
+[vg giraffe] Loading GBZ
+[vg giraffe] Loading Distance Index
+[vg giraffe] Paging in Distance Index
+[vg giraffe] Initializing MinimizerMapper
+[vg giraffe] Loading and initialization: 0.003867 seconds
+[vg giraffe] Of which Distance Index paging: 7e-06 seconds
+[vg giraffe] Mapping reads to "-" (GAM)
+--watchdog-timeout 10
+--batch-size 512
+--match 1
+--mismatch 4
+--gap-open 6
+--gap-extend 1
+--full-l-bonus 5
+--max-multimaps 1
+--hit-cap 10
+--hard-hit-cap 500
+--score-fraction 0.9
+--max-min 500
+--min-coverage-flank 250
+--num-bp-per-min 1000
+--downsample-window-length 18446744073709551615
+--downsample-window-count 0
+--distance-limit 200
+--min-extensions 2
+--max-extensions 800
+--max-alignments 8
+--cluster-score 50
+--pad-cluster-score 20
+--cluster-coverage 0.3
+--max-extension-mismatches 4
+--extension-score 1
+--extension-set 20
+--rescue-attempts 15
+--max-fragment-length 2000
+--paired-distance-limit 2
+--rescue-subgraph-size 4
+--rescue-seed-limit 100
+--mapq-score-window 0
+--mapq-score-scale 1
+--min-mapq0-score 0
+--zipcode-tree-score-threshold 50
+--pad-zipcode-tree-score-threshold 20
+--zipcode-tree-coverage-threshold 0.3
+--zipcode-tree-scale 2
+--gapless-extension-limit 0
+--min-chaining-problems 1
+--max-chaining-problems 2147483647
+--max-graph-lookback-bases 3000
+--max-graph-lookback-bases-per-base 0.3
+--max-read-lookback-bases 18446744073709551615
+--max-read-lookback-bases-per-base 1
+--max-indel-bases 2000
+--max-indel-bases-per-base 0.2
+--item-bonus 0
+--gap-scale 1
+--rec-penalty 0
+--rec-consistency-bonus 0
+--chain-score-threshold 100
+--target-alignment-attempts 4
+--min-chain-score-per-base 0.01
+--max-min-chain-score 200
+--min-indel-avoid-bases 0
+--max-skipped-bases 0
+--max-chains-per-tree 1
+--max-chain-connection 100
+--max-tail-length 100
+--max-dp-cells 18446744073709551615
+--max-tail-gap 18446744073709551615
+--max-middle-gap 18446744073709551615
+--max-tail-dp-length 30000
+--max-middle-dp-length 2147483647
+--wfa-max-mismatches 2
+--wfa-max-mismatches-per-base 0.1
+--wfa-max-max-mismatches 20
+--wfa-distance 10
+--wfa-distance-per-base 0.1
+--wfa-max-distance 200
+--rec-penalty-aln 0
+--softclip-penalty 0
+--min-unique-node-fraction 0
+--rescue-algorithm dozeu
+[vg giraffe] Using fragment length estimate: 349.067 +/- 33.7638
+[vg giraffe] Mapped 60000 reads across 12 threads in 0.401583 seconds with 0.081731 additional single-threaded seconds.
+[vg giraffe] Mapping speed: 12243.1 reads per second per thread
+[vg giraffe] Used 5.2008 CPU-seconds (including output).
+[vg giraffe] Achieved 11536.7 reads per CPU-second (including output)
+[vg giraffe] Memory footprint: 0.106018 GB
+        1.12 real         5.09 user         0.14 sys
+           114016256  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                8335  page reclaims
+                  50  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  11  voluntary context switches
+                2364  involuntary context switches
+         55419825890  instructions retired
+         22425528575  cycles elapsed
+            86688800  peak memory footprint
+GIRAFFE_EXIT_CODE=0
+--- vg surject ---
+warning[vg surject] Running in paired-end mode without -f/--max-frag-len. Reads will be assumed to be properly paired at any distance!
+Direct surjection with Giraffe uses a max fragment length of (mean + 6 * stdv).
+        1.16 real         7.99 user         0.20 sys
+           131923968  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                9499  page reclaims
+                  49  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                5892  involuntary context switches
+        133675197168  instructions retired
+         34894757671  cycles elapsed
+           109888592  peak memory footprint
+SURJECT_EXIT_CODE=0
+=== output files ===
+total 25160
+drwxr-xr-x@  5 kazumichi  staff      160 Sep 18 14:19 .
+drwxr-xr-x@ 31 kazumichi  staff      992 Sep 18 14:19 ..
+-rw-r--r--@  1 kazumichi  staff  9585457 Sep 18 14:19 cand_chr21_283.gam
+-rw-r--r--@  1 kazumichi  staff  3283842 Sep 18 14:19 cand_chr21_283.surjected.bam
+-rw-r--r--@  1 kazumichi  staff     5731 Sep 18 14:19 mapping.log
+=== done ===
+2026-09-18T05:19:13Z
+MAP_EXIT_CODE=0
+MAP_DONE
+STATUS=success

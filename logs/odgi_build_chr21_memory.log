@@ -1,0 +1,7 @@
+=== monitor_resources.sh started 2026-09-16T02:36:48Z ===
+tracking tmux session 'odgi_build', process pattern 'odgi', RSS stop limit 100GB
+2026-09-16T02:36:48Z tracked_rss_gb=4 PhysMem: 117G used (4541M wired, 0B compressor), 10G unused.
+2026-09-16T02:37:19Z tracked_rss_gb=13 PhysMem: 127G used (4790M wired, 0B compressor), 526M unused.
+2026-09-16T02:37:50Z tracked_rss_gb=24 PhysMem: 127G used (4811M wired, 0B compressor), 510M unused.
+2026-09-16T02:38:21Z tracked_rss_gb=33 PhysMem: 121G used (5010M wired, 372M compressor), 6005M unused.
+=== monitor_resources.sh exiting 2026-09-16T02:38:52Z (session odgi_build no longer running) ===

@@ -1,0 +1,183 @@
+vg build summary
+=================
+Status: SUCCESS
+Final binary: /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/bin/vg
+vg version: v1.77.0-3-g4ee955ca3 "Ruby"
+  Compiled with Apple clang version 21.0.0 (clang-2100.3.34.2) on Darwin
+  Linked against libc++ 220106
+  Using HTSlib headers 101990, library 1.19.1-29-g3cfe8769
+
+Wall-clock time: attempts spanned 2026-09-16T02:28:31Z (first `make -j12` launch)
+through 2026-09-16T02:43:54Z (final successful link), ~15m23s of observed
+build-tool time across 6 launches. Because `make`'s dependency tracking
+persisted object files and static libs (obj/*.o, lib/*.a, deps/*/build dirs)
+across attempts, only the objects affected by each fix (or downstream of a
+fixed target) were recompiled on each relaunch — so each individual attempt
+after the first was fast (30s-2.5min) because most of the ~40 vendored C++
+dependencies were already built and cached from earlier attempts. A single
+uninterrupted from-scratch `make -j12` (all fixes pre-applied, empty
+obj//lib/ dirs) would take substantially longer than 15 minutes given the
+size of this dependency tree (protobuf/abseil, htslib, vcflib, libbdsg,
+sdsl-lite, cairo, etc.) — historically 30-90+ minutes on comparable hardware.
+
+Environment used for every attempt:
+  conda env: bh26
+  export HOMEBREW_PREFIX="$CONDA_PREFIX"
+  export PKG_CONFIG_PATH="$CONDA_PREFIX/lib/pkgconfig:$CONDA_PREFIX/share/pkgconfig"
+  cd PROJECT_ROOT/software/vg
+  make -j12   (via detached tmux session "vg_build", per project policy)
+
+Attempt timeline
+----------------
+
+Attempt 1 (logs/vg_build.log) — FAILED, exit 2
+  Command: HOMEBREW_PREFIX + PKG_CONFIG_PATH only, `make -j12`.
+  Error: deps/sparsehash's autotools `configure` aborted:
+    "checking whether we are cross compiling... configure: error:
+     cannot run C++ compiled programs"
+    dyld: Library not loaded: @rpath/libc++.1.dylib
+  Root cause: HOMEBREW_PREFIX=$CONDA_PREFIX added -L$CONDA_PREFIX/lib to
+  LDFLAGS, so the linker picked up conda's own libc++.1.dylib (install name
+  "@rpath/libc++.1.dylib", confirmed via `otool -D`) instead of the system
+  one, but no matching -rpath was added, so freshly linked test binaries
+  (sparsehash's `conftest`, and potentially any other autotools-configured
+  sub-project) could not locate libc++ at runtime and aborted immediately.
+  Fix #1: export LDFLAGS="-Wl,-rpath,$CONDA_PREFIX/lib $LDFLAGS"
+  Cleanup: `cd deps/sparsehash && git clean -xfd` (removed corrupted
+  autotools state: compile, config.log, configure~, src/config.h.in~,
+  test-driver).
+
+Attempt 2 (logs/vg_build_2.log) — FAILED, exit 2
+  Command: + LDFLAGS rpath fix.
+  Progress: got past sparsehash, xg, mmmultimap, etc.
+  Error: many errors in boost/functional.hpp:
+    "no template named 'binary_function'/'unary_function' in namespace
+     boost::functional::detail" / "no member named 'unary_function' in
+     namespace std"
+    make[1]: *** [bdsg/obj/ch.o] Error 1
+    make[1]: *** [bdsg/obj/snarl_distance_index.o] Error 1
+    make: *** [lib/libbdsg.a] Error 2
+    make: *** [lib/libvcflib.a] Error 1 (cascading, see attempt 3)
+  Root cause: std::unary_function/std::binary_function were removed from
+  libc++ in C++17+ mode; vg forces -std=c++20 on Darwin, and conda-forge
+  Boost 1.82 (our installed version) still references them in
+  boost/functional.hpp. Classic recent-libc++ + old-Boost + C++17/20
+  incompatibility, fixable via libc++'s compatibility escape-hatch macro.
+  Fix #2: export CXXFLAGS="-D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION $CXXFLAGS"
+  Cleanup: rm -f lib/libbdsg.a lib/libvcflib.a
+           rm -f deps/libbdsg/bdsg/obj/ch.o deps/libbdsg/bdsg/obj/snarl_distance_index.o
+
+Attempt 3 (logs/vg_build_3.log) — FAILED, exit 2
+  Command: + CXXFLAGS libc++ compat macro.
+  Progress: libbdsg, libhandlegraph, cairo, xg, libvgio all built fine this
+  time (unary_function fix confirmed working across all Boost users).
+  Error: deps/vcflib's nested CMake sub-build (which also builds vendored
+  contrib/WFA2-lib) failed:
+    CMake Error at contrib/WFA2-lib/CMakeLists.txt:159/160/181/182/238
+    (target_link_libraries): Target "wfa2"/"wfa2cpp"/"align_benchmark"
+    links to OpenMP::OpenMP_CXX but the target was not found.
+    make: *** [lib/libvcflib.a] Error 1
+  Root cause: CMake's FindOpenMP module did not produce the
+  OpenMP::OpenMP_CXX imported target for Apple Clang via autodetection
+  through CMAKE_PREFIX_PATH alone (a known rough edge with newer CMake,
+  4.4.3 here, and AppleClang's non-standard OpenMP flag/library layout).
+  Fix #3: edited software/vg/Makefile's vcflib build recipe (line ~815,
+  target $(LIB_DIR)/libvcflib%a $(LIB_DIR)/libwfa2%a) to add explicit
+  OpenMP hint cache variables to the vcflib cmake configure invocation:
+    -DOpenMP_C_FLAGS="-Xpreprocessor -fopenmp -I$(HOMEBREW_PREFIX)/include"
+    -DOpenMP_C_LIB_NAMES="omp"
+    -DOpenMP_CXX_FLAGS="-Xpreprocessor -fopenmp -I$(HOMEBREW_PREFIX)/include"
+    -DOpenMP_CXX_LIB_NAMES="omp"
+    -DOpenMP_omp_LIBRARY="$(HOMEBREW_PREFIX)/lib/libomp.dylib"
+  Cleanup: rm -rf deps/vcflib/build; rm -f lib/libvcflib.a lib/libwfa2.a
+
+Attempt 4 (logs/vg_build_4.log) — FAILED, exit 2
+  Command: + Makefile vcflib OpenMP cache-var edit.
+  Progress: confirmed "-- Found OpenMP_CXX: -Xclang -fopenmp", "-- Found
+  OpenMP: TRUE" in log; vcflib/WFA2-lib built successfully this time.
+  Error: deps/libvgio's CMake configure failed:
+    -- Checking for module 'htslib'
+    --   Package 'zlib', required by 'htslib', not found
+    make: *** [lib/libvgio.a] Error 1
+  Root cause: vendored htslib's htslib.pc declares "Requires: zlib", but
+  the bh26 conda env had no zlib.pc for pkg-config to resolve (only the
+  Apple SDK's libz.tbd, which pkg-config cannot see).
+  Fix #4: `conda install -c conda-forge -y zlib` in bh26, providing
+  $CONDA_PREFIX/lib/pkgconfig/zlib.pc (verified `pkg-config --exists zlib`
+  succeeds afterward, PKG_CONFIG_PATH already covers it).
+  No Makefile edit needed — libvgio's recipe already does
+  `rm -Rf CMakeCache.txt CMakeFiles ... && rm -rf build-vg && mkdir build-vg`
+  itself, so no manual cache cleanup was required beyond the missing
+  lib/libvgio.a triggering a re-run.
+
+Attempt 5 (logs/vg_build_5.log) — FAILED, exit 2
+  Command: + zlib conda package (no new build flags).
+  Progress: ALL ~150 unittest/subcommand object files compiled
+  successfully; libvgio, htslib, everything else in the dependency chain
+  built; reached the very final link step for bin/vg itself.
+  Error: `ld: library 'boost_program_options' not found`
+    clang++: error: linker command failed with exit code 1
+    make: *** [bin/vg] Error 1
+  Root cause: the previously-installed `boost=1.82.0` conda-forge
+  metapackage only pulled in `libboost-headers` and `libboost-python*` —
+  conda-forge splits Boost into per-component packages, and the compiled
+  `libboost_program_options`/`libboost_filesystem`/`libboost_system`
+  libraries vg's CLI option parsing needs were never actually installed.
+  Fix #5: `conda install -c conda-forge -y "libboost=1.82.0" "libboost-devel=1.82.0"`
+  in bh26 — resolved cleanly at the same 1.82.0 version already linked
+  elsewhere (no ABI conflict), and provided
+  $CONDA_PREFIX/lib/libboost_program_options.dylib (confirmed present).
+  Side effects: this dependency resolution also downgraded cairo
+  (1.18.4->1.18.0), icu (78.3->73.2), libcurl, libpsl, and matplotlib
+  slightly to satisfy the new Boost package constraints. Not expected to
+  affect vg or the rest of the pipeline (odgi/samtools/seqkit versions
+  in results/software_versions.txt are unaffected; matplotlib downgrade is
+  a minor patch version, still usable for later plotting steps).
+  Cleanup: rm -f bin/vg (stale broken link target)
+
+Attempt 6 (logs/vg_build_6.log) — SUCCESS, exit 0
+  Command: all 3 environment-variable fixes (LDFLAGS rpath, CXXFLAGS
+  libc++ macro) + the Makefile vcflib OpenMP edit, run against the fully
+  populated build tree with zlib and libboost-devel now installed.
+  Result: final `c++ ... -o bin/vg ...` link completed in ~4 seconds (only
+  the final link needed re-running; every object and static lib was
+  already up to date from prior attempts). EXIT_CODE=0.
+
+Verification (post-build)
+--------------------------
+$ ./bin/vg version
+vg version v1.77.0-3-g4ee955ca3 "Ruby"
+Compiled with Apple clang version 21.0.0 (clang-2100.3.34.2) on Darwin
+Linked against libc++ 220106
+Using HTSlib headers 101990, library 1.19.1-29-g3cfe8769
+
+$ ./bin/vg autoindex --help   -> responds with full usage (workflows: map,
+  mpmap, rpvg, sr-giraffe, lr-giraffe, sampling)
+$ ./bin/vg giraffe --help    -> responds with full usage (GBZ/minimizer/
+  distance-index mapping options)
+$ ./bin/vg surject --help    -> responds with full usage (GAM/GAF -> BAM/
+  SAM/CRAM surjection options)
+
+All three subcommands needed for the pangenome short-read-mapping pipeline
+(autoindex, giraffe, surject) are present and functional.
+
+Permanent changes made to reach this state (all within PROJECT_ROOT /
+the bh26 conda env, per project constraints):
+  1. software/vg/Makefile line ~815 (vcflib build recipe): added 5
+     -DOpenMP_* cache-hint flags to the cmake configure invocation.
+     This is a source change inside the vg checkout (PROJECT_ROOT), not
+     a system-wide change, and is required for every future rebuild of
+     vcflib/WFA2-lib on this Mac with this toolchain.
+  2. bh26 conda env: installed zlib, libboost, libboost-devel (matching
+     existing 1.82.0 Boost version). No other env was touched, no
+     brew/system changes, no sudo used.
+
+Build invocation to reproduce (for future full rebuilds, e.g. `make clean && make -j12`):
+  source "/opt/homebrew/Caskroom/miniforge/base/etc/profile.d/conda.sh"
+  conda activate bh26
+  cd PROJECT_ROOT/software/vg
+  export HOMEBREW_PREFIX="$CONDA_PREFIX"
+  export PKG_CONFIG_PATH="$CONDA_PREFIX/lib/pkgconfig:$CONDA_PREFIX/share/pkgconfig"
+  export LDFLAGS="-Wl,-rpath,$CONDA_PREFIX/lib $LDFLAGS"
+  export CXXFLAGS="-D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION $CXXFLAGS"
+  make -j12

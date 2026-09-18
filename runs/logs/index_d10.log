@@ -1,0 +1,44 @@
+=== build_giraffe_index.sh ===
+date: 2026-09-17T11:01:52Z
+region_id=cand_chr21_010 gfa=runs/full_scan_367windows/work/extracted_final/cand_chr21_010/cand_chr21_010.gfa threads=12 target_mem=85G
+vg: vg version v1.77.0-3-g4ee955ca3 "Ruby"
+[vg autoindex] Executing command: /Users/kazumichi/Downloads/BioHack26/PGGB_short_reads_mapping/software/vg/bin/vg autoindex --workflow sr-giraffe --gfa runs/full_scan_367windows/work/extracted_final/cand_chr21_010/cand_chr21_010.gfa --prefix runs/full_scan_367windows/work/indexes/cand_chr21_010/cand_chr21_010 --target-mem 85G --threads 12 --verbosity 2
+[IndexRegistry] Checking for haplotype lines in GFA.
+[IndexRegistry] GFA has no reference samples tag in the header
+[IndexRegistry] GFA path GRCh38#0#chr21:8334197-8434199 for non-reference sample GRCh38 is a haplotype.
+[IndexRegistry] Provided: Reference GFA w/ Haplotypes
+[IndexRegistry] Constructing a GBZ from GFA input.
+[IndexRegistry] Running 12 jobs in parallel
+Opening GFA file runs/full_scan_367windows/work/extracted_final/cand_chr21_010/cand_chr21_010.gfa
+Validating GFA file runs/full_scan_367windows/work/extracted_final/cand_chr21_010/cand_chr21_010.gfa
+Found 24108 segments, 30394 links, 2719131 paths, 0 walks, and 0 rules in 0.534742 seconds
+Storing generic paths as sample _gbwt_ref
+GBWT insertion batch size: 100000000 nodes
+Parsing segments
+Breaking segments into 32 bp nodes
+Parsed 24983 nodes in 0.00167203 seconds
+Parsing grammar rules
+Parsed 0 rules in 2.14577e-06 seconds
+Parsing links
+Parsed 31269 edges in 0.00219703 seconds
+Creating jobs
+Created 1 jobs for 1 components in 0.112938 seconds
+Parsing metadata
+Metadata: 2719131 paths with names, 229 samples with names, 432 haplotypes, 2719131 contigs with names
+Parsed metadata in 30.6419 seconds
+Indexing paths/walks
+Starting job 0 (24983 nodes, 2719131 paths, 0 walks)
+Finished job 0 in 36.8846 seconds
+Merging partial indexes
+Indexed 2719131 paths and 0 walks in 36.9853 seconds
+Parsing GFA header tags
+Parsed header tags in 5.96046e-06 seconds
+Saving GBZ to /var/folders/pz/5tn89wkn7dbgwbpgzxbz726h0000gn/T//vg-sUUeLR/dir-G0DwZo/d0cc1cf507d88bdebe898d1ba90127a241a83700.gbz
+[IndexRegistry] Constructing distance index for Giraffe.
+[IndexRegistry] Constructing minimizer index and associated zipcodes.
+[IndexRegistry]     using parameters -k 29 -w 11
+[build_minimizer_index] Building MinimizerIndex with k = 29, w = 11, payload = zipcodes
+Caching payloads
+  Cached 10014 nodes in 0.00837088s
+  Cached 20009 nodes in 0.0150869s
+Cached payloads in 0.0183468 seconds
