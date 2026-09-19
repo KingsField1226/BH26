@@ -52,7 +52,7 @@ a graph with hundreds of haplotypes tractable at all [@Siren2021Giraffe];
 long-read mapping was added subsequently [@Chang2025Giraffe].
 
 Whether that combination scales past a single locus is still an open
-question. Chang and colleagues, describing the current state of Giraffe,
+question. Chang et al., describing the current state of Giraffe,
 report that they "have not been able to construct indexes for Giraffe" for
 PGGB graphs at genome scale, and attribute this directly to PGGB's
 reference-free topology [@Chang2025Giraffe]. That is a statement about
@@ -64,9 +64,9 @@ same failure mode or two different ones.
 Existing work on pangenome region difficulty answers adjacent questions.
 Li defines sample-agnostic "easy" regions for short-read variant calling by
 k-mer uniqueness across hundreds of assemblies, entirely independent of any
-graph [@Li2025EasyRegions]. Andreace and colleagues, and Dubois and
-colleagues, compare graphs built from the same genomes by different
-construction methods, and both find that the resulting structural
+graph [@Li2025EasyRegions]. Andreace et al. and Dubois et al. compare
+graphs built from the same genomes by different construction methods,
+and both find that the resulting structural
 disagreement concentrates in tandem repeats and other low-complexity
 sequence [@Andreace2023Comparing; @Dubois2025EditDistance]. None of these
 studies asks whether a single graph's own local topology predicts what
@@ -306,7 +306,7 @@ the point estimates: the direction of each effect is clearer than its
 exact magnitude, which is consistent with the non-significant test results
 reported above.
 
-Chang and colleagues report that Giraffe indexing has not been made to
+Chang et al. report that Giraffe indexing has not been made to
 work at genome scale for PGGB graphs [@Chang2025Giraffe]. We do not
 resolve that problem, but these results sharpen what it looks like below
 genome scale. Tractability failure at 100 kb is not confined to the single
