@@ -9,14 +9,19 @@ tags:
   - graph complexity
 authors:
   - name: Kazumichi Fujiwara
+    orcid: 0000-0002-7840-4676
     affiliation: 1
     role: Conceptualization, Investigation, Software, Writing – original draft
   - name: Yosuke Kawai
+    orcid: 0000-0003-0666-1224
     affiliation: 1
+    affiliation: 2
     role: Writing – review & editing
 affiliations:
   - name: National Institute of Genetics
     index: 1
+  - name: Japan Insititute for Health Security
+    index: 2
 date: 19 September 2026
 cito-bibliography: paper.bib
 event: BH26

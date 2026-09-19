@@ -70,10 +70,15 @@ def main():
     stats = stats.reindex([False, True])
     x = range(len(stats))
     width = 0.35
-    ax.bar([i - width / 2 for i in x], stats["mean"] * 100, width, label="Mean",
-            color="#4a7fb5")
-    ax.bar([i + width / 2 for i in x], stats["min"] * 100, width, label="Minimum",
-            color="#c0392b")
+    bars_mean = ax.bar([i - width / 2 for i in x], stats["mean"] * 100, width,
+                        label="Mean", color="#4a7fb5")
+    bars_min = ax.bar([i + width / 2 for i in x], stats["min"] * 100, width,
+                       label="Minimum", color="#c0392b")
+    for bars in (bars_mean, bars_min):
+        for b in bars:
+            v = b.get_height()
+            ax.text(b.get_x() + b.get_width() / 2, v + 0.05, f"{v:.2f}%",
+                     ha="center", fontsize=9)
     ax.set_xticks(list(x))
     ax.set_xticklabels(["No known hazard", "Hazard-flagged"])
     ax.set_ylabel("Mapping accuracy (%)")
