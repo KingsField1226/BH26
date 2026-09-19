@@ -14,8 +14,7 @@ authors:
     role: Conceptualization, Investigation, Software, Writing – original draft
   - name: Yosuke Kawai
     orcid: 0000-0003-0666-1224
-    affiliation: 1
-    affiliation: 2
+    affiliation: 1, 2
     role: Writing – review & editing
 affiliations:
   - name: National Institute of Genetics
